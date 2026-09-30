@@ -1,0 +1,1174 @@
+{
+  "version": 1,
+  "tier": 2,
+  "reason": "chapter_dag: sections=10 >= 2; 6 scene(s) with an unknown script_section_id joined the chapter of the scene before them (g02-sc01, g02-sc02, g02-sc03, g02-sc04, g02-sc05); edit/compose chapter: 10 chapters > 4 asset slots",
+  "pipeline": "animated-explainer",
+  "created_at": "2026-09-30T02:06:32.902967+00:00",
+  "estimates": {
+    "scenes": 57,
+    "scenes_source": "scene_plan",
+    "sections": 10,
+    "sections_source": "script",
+    "stage_calls": {
+      "research": 3,
+      "proposal": 1,
+      "script": 0,
+      "narration": 8,
+      "scene_plan": 0,
+      "assets": 49,
+      "edit": 0,
+      "compose": 3,
+      "publish": 1
+    },
+    "total_calls": 65,
+    "pipeline_resolved": true
+  },
+  "stages": {
+    "research": {
+      "execution": "worker",
+      "est_calls": 3,
+      "concurrency": 6,
+      "units": [
+        {
+          "id": "research-u01",
+          "section_ids": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "s10"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06",
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06",
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06",
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05",
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06",
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05",
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05",
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08",
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 3,
+          "status": "pending",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        }
+      ]
+    },
+    "proposal": {
+      "execution": "inline",
+      "est_calls": 1,
+      "concurrency": 6,
+      "units": []
+    },
+    "script": {
+      "execution": "worker",
+      "est_calls": 0,
+      "concurrency": 6,
+      "units": [
+        {
+          "id": "script-u01",
+          "section_ids": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "s10"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06",
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06",
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06",
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05",
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06",
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05",
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05",
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08",
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        }
+      ]
+    },
+    "narration": {
+      "execution": "worker",
+      "est_calls": 8,
+      "concurrency": 6,
+      "units": [
+        {
+          "id": "narration-u01",
+          "section_ids": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "s10"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06",
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06",
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06",
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05",
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06",
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05",
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05",
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08",
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 8,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:21:40.723747+00:00",
+          "started_at": "2026-09-30T02:12:56.672912+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:narration:narration-u01:sess-7c3e91a4:2026-09-30T02:12:36.728721+00:00:4d285207",
+          "unit_token_spent": true
+        }
+      ]
+    },
+    "scene_plan": {
+      "execution": "chapter",
+      "est_calls": 0,
+      "concurrency": 6,
+      "units": [
+        {
+          "id": "g01",
+          "section_ids": [
+            "s1"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:26:04.921183+00:00",
+          "started_at": "2026-09-30T02:22:58.717126+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g01:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:2ad52728",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g02",
+          "section_ids": [
+            "s2"
+          ],
+          "scene_ids": [],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:24:27.037704+00:00",
+          "started_at": "2026-09-30T02:22:59.296314+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g02:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:7d73d25f",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g03",
+          "section_ids": [
+            "s3"
+          ],
+          "scene_ids": [
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:25:41.816404+00:00",
+          "started_at": "2026-09-30T02:22:59.763604+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g03:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:00e13cd1",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g04",
+          "section_ids": [
+            "s4"
+          ],
+          "scene_ids": [
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:25:46.646623+00:00",
+          "started_at": "2026-09-30T02:22:59.612479+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g04:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:0859357b",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g05",
+          "section_ids": [
+            "s5"
+          ],
+          "scene_ids": [
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:25:58.424462+00:00",
+          "started_at": "2026-09-30T02:22:59.550315+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g05:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:f29f511f",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g06",
+          "section_ids": [
+            "s6"
+          ],
+          "scene_ids": [
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:25:34.352520+00:00",
+          "started_at": "2026-09-30T02:22:59.697569+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g06:sess-7c3e91a4:2026-09-30T02:22:02.480957+00:00:79cde424",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g07",
+          "section_ids": [
+            "s7"
+          ],
+          "scene_ids": [
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:28:57.318184+00:00",
+          "started_at": "2026-09-30T02:26:36.531950+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g07:sess-7c3e91a4:2026-09-30T02:26:06.108502+00:00:f028ad07",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g08",
+          "section_ids": [
+            "s8"
+          ],
+          "scene_ids": [
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:29:03.618185+00:00",
+          "started_at": "2026-09-30T02:26:36.228818+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g08:sess-7c3e91a4:2026-09-30T02:26:06.108502+00:00:b6962797",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g09",
+          "section_ids": [
+            "s9"
+          ],
+          "scene_ids": [
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:28:51.715228+00:00",
+          "started_at": "2026-09-30T02:26:36.326336+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g09:sess-7c3e91a4:2026-09-30T02:26:06.108502+00:00:fbf7c398",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g10",
+          "section_ids": [
+            "s10"
+          ],
+          "scene_ids": [
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:29:25.845280+00:00",
+          "started_at": "2026-09-30T02:26:35.899718+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:scene_plan:g10:sess-7c3e91a4:2026-09-30T02:26:06.108502+00:00:ebe36add",
+          "unit_token_spent": true
+        }
+      ]
+    },
+    "assets": {
+      "execution": "chapter",
+      "est_calls": 49,
+      "concurrency": 4,
+      "units": [
+        {
+          "id": "g01",
+          "section_ids": [
+            "s1"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06"
+          ],
+          "est_calls": 12,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:53:15.068702+00:00",
+          "started_at": "2026-09-30T02:40:48.444326+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g01:sess-7c3e91a4:2026-09-30T02:40:21.423234+00:00:fa8c57f7",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g02",
+          "section_ids": [
+            "s2"
+          ],
+          "scene_ids": [],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:31:29.273842+00:00",
+          "started_at": "2026-09-30T02:30:43.020438+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g02:sess-7c3e91a4:2026-09-30T02:30:08.079882+00:00:7ad3e842",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g03",
+          "section_ids": [
+            "s3"
+          ],
+          "scene_ids": [
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06"
+          ],
+          "est_calls": 10,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:45:19.523230+00:00",
+          "started_at": "2026-09-30T02:30:42.360763+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g03:sess-7c3e91a4:2026-09-30T02:30:08.079882+00:00:eb3289a1",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g04",
+          "section_ids": [
+            "s4"
+          ],
+          "scene_ids": [
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06"
+          ],
+          "est_calls": 10,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:52:16.106897+00:00",
+          "started_at": "2026-09-30T02:47:37.161355+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g04:sess-7c3e91a4:2026-09-30T02:47:05.563312+00:00:c139e040",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g05",
+          "section_ids": [
+            "s5"
+          ],
+          "scene_ids": [
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05"
+          ],
+          "est_calls": 10,
+          "status": "failed",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:41:38.134034+00:00",
+          "started_at": "2026-09-30T02:32:24.693029+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g05:sess-7c3e91a4:2026-09-30T02:31:49.234593+00:00:f5cb7328",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g06",
+          "section_ids": [
+            "s6"
+          ],
+          "scene_ids": [
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06"
+          ],
+          "est_calls": 10,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:59:59.656417+00:00",
+          "started_at": "2026-09-30T02:47:35.761036+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g06:sess-7c3e91a4:2026-09-30T02:47:05.563312+00:00:92051597",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g07",
+          "section_ids": [
+            "s7"
+          ],
+          "scene_ids": [
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05"
+          ],
+          "est_calls": 10,
+          "status": "done",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:57:19.569292+00:00",
+          "started_at": "2026-09-30T02:47:36.197873+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g07:sess-7c3e91a4:2026-09-30T02:47:05.563312+00:00:ab808938",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g08",
+          "section_ids": [
+            "s8"
+          ],
+          "scene_ids": [
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05"
+          ],
+          "est_calls": 10,
+          "status": "running",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:53:06.456899+00:00",
+          "started_at": "2026-09-30T02:53:06.456899+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g08:sess-7c3e91a4:2026-09-30T02:52:31.539519+00:00:2398b874",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g09",
+          "section_ids": [
+            "s9"
+          ],
+          "scene_ids": [
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08"
+          ],
+          "est_calls": 11,
+          "status": "running",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:54:41.852998+00:00",
+          "started_at": "2026-09-30T02:54:41.852998+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:assets:g09:sess-7c3e91a4:2026-09-30T02:54:12.588754+00:00:f2b0b5e3",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g10",
+          "section_ids": [
+            "s10"
+          ],
+          "scene_ids": [
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 10,
+          "status": "running",
+          "runner": "worker",
+          "updated_at": "2026-09-30T02:58:13.022912+00:00",
+          "unit_token": "ancient-free-time:assets:g10:sess-7c3e91a4:2026-09-30T02:57:34.323758+00:00:550de71e",
+          "unit_token_spent": true,
+          "started_at": "2026-09-30T02:58:13.022912+00:00",
+          "started_by": "sess-7c3e91a4"
+        }
+      ]
+    },
+    "edit": {
+      "execution": "chapter",
+      "est_calls": 0,
+      "concurrency": 6,
+      "units": [
+        {
+          "id": "g01",
+          "section_ids": [
+            "s1"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:54:25.186913+00:00",
+          "started_at": "2026-09-30T02:54:24.222781+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:edit:g01:sess-7c3e91a4:2026-09-30T02:54:12.588754+00:00:13b506ba",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g02",
+          "section_ids": [
+            "s2"
+          ],
+          "scene_ids": [],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:32:31.156747+00:00",
+          "started_at": "2026-09-30T02:32:30.212436+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:edit:g02:sess-7c3e91a4:2026-09-30T02:31:49.234593+00:00:38eecca3",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g03",
+          "section_ids": [
+            "s3"
+          ],
+          "scene_ids": [
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:48:02.220514+00:00",
+          "started_at": "2026-09-30T02:47:45.085853+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:edit:g03:sess-7c3e91a4:2026-09-30T02:47:05.563312+00:00:a8d95ceb",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g04",
+          "section_ids": [
+            "s4"
+          ],
+          "scene_ids": [
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:52:40.261138+00:00",
+          "started_at": "2026-09-30T02:52:39.008205+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:edit:g04:sess-7c3e91a4:2026-09-30T02:52:31.540521+00:00:91ccc577",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g05",
+          "section_ids": [
+            "s5"
+          ],
+          "scene_ids": [
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        },
+        {
+          "id": "g06",
+          "section_ids": [
+            "s6"
+          ],
+          "scene_ids": [
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        },
+        {
+          "id": "g07",
+          "section_ids": [
+            "s7"
+          ],
+          "scene_ids": [
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05"
+          ],
+          "est_calls": 0,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:47.569780+00:00",
+          "unit_token": "ancient-free-time:edit:g07:sess-7c3e91a4:2026-09-30T02:57:34.323758+00:00:5ffcf0d2",
+          "unit_token_spent": true,
+          "started_at": "2026-09-30T02:57:46.076152+00:00",
+          "started_by": "sess-7c3e91a4"
+        },
+        {
+          "id": "g08",
+          "section_ids": [
+            "s8"
+          ],
+          "scene_ids": [
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        },
+        {
+          "id": "g09",
+          "section_ids": [
+            "s9"
+          ],
+          "scene_ids": [
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        },
+        {
+          "id": "g10",
+          "section_ids": [
+            "s10"
+          ],
+          "scene_ids": [
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 0,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.785122+00:00"
+        }
+      ]
+    },
+    "compose": {
+      "execution": "chapter",
+      "est_calls": 3,
+      "concurrency": 1,
+      "units": [
+        {
+          "id": "g01",
+          "section_ids": [
+            "s1"
+          ],
+          "scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06"
+          ],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:19.383701+00:00",
+          "started_at": "2026-09-30T02:54:39.657675+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:compose:g01:sess-7c3e91a4:2026-09-30T02:54:39.657675+00:00:644e01ad",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g02",
+          "section_ids": [
+            "s2"
+          ],
+          "scene_ids": [],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:48:03.045511+00:00",
+          "started_at": "2026-09-30T02:48:02.652772+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:compose:g02:sess-7c3e91a4:2026-09-30T02:47:05.563312+00:00:8dfddb24",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g03",
+          "section_ids": [
+            "s3"
+          ],
+          "scene_ids": [
+            "g03-sc01",
+            "g03-sc02",
+            "g03-sc03",
+            "g03-sc04",
+            "g03-sc05",
+            "g03-sc06"
+          ],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:52:14.984785+00:00",
+          "started_at": "2026-09-30T02:48:55.726308+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:compose:g03:sess-7c3e91a4:2026-09-30T02:48:48.366045+00:00:07775730",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g04",
+          "section_ids": [
+            "s4"
+          ],
+          "scene_ids": [
+            "g04-sc01",
+            "g04-sc02",
+            "g04-sc03",
+            "g04-sc04",
+            "g04-sc05",
+            "g04-sc06"
+          ],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:54:01.678669+00:00",
+          "started_at": "2026-09-30T02:53:00.121847+00:00",
+          "started_by": "sess-7c3e91a4",
+          "unit_token": "ancient-free-time:compose:g04:sess-7c3e91a4:2026-09-30T02:53:00.121847+00:00:19575f75",
+          "unit_token_spent": true
+        },
+        {
+          "id": "g05",
+          "section_ids": [
+            "s5"
+          ],
+          "scene_ids": [
+            "g05-sc01",
+            "g05-sc02",
+            "g05-sc03",
+            "g05-sc04",
+            "g05-sc05"
+          ],
+          "est_calls": 1,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.786121+00:00"
+        },
+        {
+          "id": "g06",
+          "section_ids": [
+            "s6"
+          ],
+          "scene_ids": [
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06"
+          ],
+          "est_calls": 1,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.786121+00:00"
+        },
+        {
+          "id": "g07",
+          "section_ids": [
+            "s7"
+          ],
+          "scene_ids": [
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05"
+          ],
+          "est_calls": 1,
+          "status": "done",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:59:46.129183+00:00",
+          "unit_token": "ancient-free-time:compose:g07:sess-7c3e91a4:2026-09-30T02:58:11.046760+00:00:8c227a10",
+          "unit_token_spent": true,
+          "started_at": "2026-09-30T02:58:11.046760+00:00",
+          "started_by": "sess-7c3e91a4"
+        },
+        {
+          "id": "g08",
+          "section_ids": [
+            "s8"
+          ],
+          "scene_ids": [
+            "g08-sc01",
+            "g08-sc02",
+            "g08-sc03",
+            "g08-sc04",
+            "g08-sc05"
+          ],
+          "est_calls": 1,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.786121+00:00"
+        },
+        {
+          "id": "g09",
+          "section_ids": [
+            "s9"
+          ],
+          "scene_ids": [
+            "g09-sc01",
+            "g09-sc02",
+            "g09-sc03",
+            "g09-sc04",
+            "g09-sc05",
+            "g09-sc06",
+            "g09-sc07",
+            "g09-sc08"
+          ],
+          "est_calls": 1,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.786121+00:00"
+        },
+        {
+          "id": "g10",
+          "section_ids": [
+            "s10"
+          ],
+          "scene_ids": [
+            "g10-sc01",
+            "g10-sc02",
+            "g10-sc03",
+            "g10-sc04",
+            "g10-sc05",
+            "g10-sc06"
+          ],
+          "est_calls": 1,
+          "status": "pending",
+          "runner": "controller",
+          "updated_at": "2026-09-30T02:57:33.786121+00:00"
+        }
+      ]
+    },
+    "publish": {
+      "execution": "inline",
+      "est_calls": 1,
+      "concurrency": 6,
+      "units": []
+    }
+  },
+  "budget_profile": {
+    "name": "pro",
+    "controller_soft": 120000,
+    "controller_hard": 180000,
+    "worker_soft": 70000,
+    "worker_hard": 100000,
+    "tool_output_chars": 4000,
+    "max_block_seconds": 240
+  },
+  "constants": {
+    "BATCH_ITEMS": 15,
+    "QC_BATCH": 12,
+    "CALLS_PER_WORKER": 50,
+    "MIN_UNIT_CALLS": 15,
+    "INLINE_MAX_SCENES": 40,
+    "INLINE_MAX_CALLS": 60,
+    "STAGE_WORKER_MIN_CALLS": 15,
+    "CHAPTER_MIN_SCENES": 150,
+    "CHAPTER_MIN_SECTIONS": 12,
+    "AVG_SCENE_SECONDS": 4.0,
+    "DEFAULT_CONCURRENCY": 6,
+    "ASSETS_CONCURRENCY": 4
+  }
+}

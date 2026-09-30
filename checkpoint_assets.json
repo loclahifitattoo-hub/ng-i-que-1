@@ -1,0 +1,1137 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "assets",
+  "status": "completed",
+  "timestamp": "2026-09-30T03:02:30.569639+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "g01-sc01",
+          "type": "image",
+          "path": "assets/images/g01-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g01-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings. C\u1ea3nh m\u1edf \u0111\u1ea7u (hero, clip Veo i2v): ph\u00f2ng ng\u1ee7 hi\u1ec7n \u0111\u1ea1i l\u00fac t\u1edd m\u1edd s\u00e1ng, ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng ng\u01b0\u1eddi que ng\u1ee7 say d\u01b0\u1edbi ch\u0103n; c\u00e1i \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c \u0111\u1ecf cam c\u00f3 khu\u00f4n m\u1eb7t gi\u1eadn d\u1eef n\u1ea3y t\u01b0ng t\u01b0ng tr\u00ean t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng v\u00e0 h\u00e9t, v\u1ea1ch rung quanh chu\u00f4ng; ng\u01b0\u1eddi b\u1eadt d\u1eady ho\u1ea3ng h\u1ed1t, m\u1eaft tr\u1ee3n, t\u00f3c d\u1ef1ng \u0111\u1ee9ng. Kh\u1edbp c\u00e2u 'm\u1ed9t c\u00e1i m\u00e1y h\u00e9t v\u00e0o m\u1eb7t b\u1ea1n cho t\u1edbi khi b\u1ea1n m\u1edf m\u1eaft'. N\u1ec1n: c\u1eeda s\u1ed5 nh\u00ecn ra m\u00e1i nh\u00e0 th\u00e0nh ph\u1ed1 nh\u1ea1t m\u00e0u v\u1ebd c\u00f9ng n\u00e9t m\u1ef1c. C\u1eaft th\u1eb3ng. Shot on a normal-wide lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, cool blue-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted fills, cool pale dawn blue. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g01-sc02",
+          "type": "image",
+          "path": "assets/images/g01-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g01-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, smooth pan to the right. \u1ea2nh t\u0129nh lia ph\u1ea3i ch\u1eadm (pan-right): \u1ea9n d\u1ee5 con r\u1ed1i. C\u00e1i \u0111\u1ed3ng h\u1ed3 gi\u1eadn d\u1eef ph\u00f3ng to l\u01a1 l\u1eedng ph\u00eda tr\u00ean nh\u01b0 ng\u01b0\u1eddi \u0111i\u1ec1u khi\u1ec3n r\u1ed1i, d\u00e2y r\u1ed1i th\u1ea3 t\u1eeb hai qu\u1ea3 chu\u00f4ng xu\u1ed1ng tay ch\u00e2n ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng (gi\u1edd m\u1eb7c s\u01a1 mi tr\u1eafng, c\u00e0 v\u1ea1t xanh, c\u1ea7m c\u1eb7p) \u0111ang l\u00ea b\u01b0\u1edbc v\u1ec1 ph\u00eda to\u00e0 v\u0103n ph\u00f2ng x\u00e1m. Kh\u1edbp 'c\u1ea3 ng\u00e0y c\u1ee7a b\u1ea1n \u0111\u00e3 c\u00f3 ng\u01b0\u1eddi kh\u00e1c quy\u1ebft \u0111\u1ecbnh'. Kh\u00f4ng ch\u1eef, kh\u00f4ng s\u1ed1. C\u1eaft th\u1eb3ng. Shot on a 24mm lens, deep focus with everything sharp. Lit by natural ambient lighting, neutral balanced colors. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted fills, puppet strings. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g01-sc03",
+          "type": "image",
+          "path": "assets/images/g01-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g01-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up. Clip Veo i2v, ban \u0111\u00eam: ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng m\u1eb7c \u0111\u1ed3 ng\u1ee7, m\u1eaft th\u00e2m qu\u1ea7ng, m\u1eb7t ch\u00e1n n\u1ea3n, t\u1ef1 tay v\u1eb7n n\u00fam \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c \u0111\u1ec3 \u0111\u1eb7t l\u1ea1i gi\u1edd; \u0111\u1ed3ng h\u1ed3 \u0111ang ng\u1ee7 th\u00ec he h\u00e9 m\u1ed9t m\u1eaft c\u01b0\u1eddi \u0111\u1eafc \u00fd. Ng\u01b0\u1eddi th\u1edf d\u00e0i r\u1ed3i \u0111\u1ed5 v\u1eadt xu\u1ed1ng g\u1ed1i. Nh\u1ea5n 't\u1ef1 tay'. C\u1eaft th\u1eb3ng. Shot on a 50mm lens, medium depth of field. Lit by dramatic low-key lighting with deep shadows, cool blue-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted night blue, tired eyes. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g01-sc04",
+          "type": "image",
+          "path": "assets/images/g01-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g01-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Extreme wide shot showing vast environment, slow zoom in. Chuy\u1ec3n c\u1ea3nh 'tua ng\u01b0\u1ee3c n\u0103m m\u01b0\u01a1i ngh\u00ecn n\u0103m' b\u1eb1ng k\u00fd hi\u1ec7u, kh\u00f4ng ch\u1eef, kh\u00f4ng s\u1ed1: \u1ea3nh t\u0129nh zoom-in ch\u1eadm. Tr\u00e1i: c\u0103n ph\u00f2ng v\u00e0 th\u00e0nh ph\u1ed1 hi\u1ec7n \u0111\u1ea1i nh\u1ea1t d\u1ea7n; gi\u1eefa: v\u00f2ng xo\u00e1y l\u1edbn g\u1ed3m c\u00e1c m\u0169i t\u00ean cong quay ng\u01b0\u1ee3c chi\u1ec1u kim \u0111\u1ed3ng h\u1ed3 quanh m\u1ed9t m\u1eb7t \u0111\u1ed3ng h\u1ed3 kh\u00f4ng kim; ph\u1ea3i: \u0111\u1ed3ng c\u1ecf savan ti\u1ec1n s\u1eed, ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n (@narrator) \u0111\u1ee9ng nh\u00ecn ra. Zoom d\u1ea7n v\u00e0o n\u1eeda savan \u0111\u1ec3 n\u1ed1i sang s2. C\u1eaft th\u1eb3ng. Shot on a 24mm lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, backward arrows swirl, savanna ochre. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g02-sc02",
+          "type": "image",
+          "path": "assets/images/g02-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g02-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Insert shot of specific detail, smooth pan to the right. Still, slow pan-right. Subject: symbol pair - a hand-drawn ticking clock and a page-grid calendar, each struck by a big red X, floating beside the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) who shrugs contentedly. Motion: pan-right reveals clock then calendar. Scene: plain pale savanna backdrop (#F6E7C8), morning; no text, symbols only (red X allowed). Framing: insert-style, symbols center-right MG, narrator half-body at left edge. Camera: N/A still - ken-burns pan_right. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted fills, pale savanna background. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g02-sc04",
+          "type": "image",
+          "path": "assets/images/g02-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g02-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow zoom out. Still, slow zoom-out. Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) turns toward the viewer, one finger raised thoughtfully to his chin, the other arm hanging down; spear and campfire behind him. Motion: ken-burns zoom_out from face to half-body, setting up the question. Scene: savanna morning, empty open sky (room above head); no overlays. Framing: medium, narrator right-of-center, campfire BG-left. Camera: N/A still - slow zoom_out. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted fills, pale savanna background. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g02-sc06",
+          "type": "image",
+          "path": "assets/images/g02-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g02-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up, slow zoom in. Still, slow ken-burns zoom-in. Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) freezes mid-thought, one eyebrow raised, side-eyeing a harsh stretch of savanna: cracked dry ground and a distant bleached skull under a glaring sun. Motion: zoom_in onto his doubtful face - the 'wasn't prehistoric life hard?' doubt beat. Scene: same savanna, now slightly harsher and drier, late-morning; no overlays. Framing: medium-close, narrator left third FG/MG, harsh ground BG-right. Camera: N/A still - slow zoom_in. Shot on a normal-wide lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, neutral balanced colors. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink, flat muted fills, pale savanna background. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc01",
+          "type": "image",
+          "path": "assets/images/g03-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene. Veo i2v: hai nh\u00e0 kh\u1ea3o c\u1ed5 ng\u01b0\u1eddi que \u0111\u1ed9i m\u0169 r\u1ed9ng v\u00e0nh \u0111ang \u0111\u00e0o h\u1ed1 tr\u00ean \u0111\u1ed3ng c\u1ecf kh\u00f4, g\u1ea1t l\u1edbp \u0111\u1ea5t v\u00e0 l\u1ed9 ra hai b\u1ed9 x\u01b0\u01a1ng n\u1eb1m c\u1ea1nh nhau (m\u1ed9t cao x\u01b0\u01a1ng d\u00e0y, m\u1ed9t th\u1ea5p c\u1ed9t s\u1ed1ng cong). Kh\u1edbp c\u00e2u \"\u0111\u00e0o l\u00ean hai b\u1ed9 x\u01b0\u01a1ng c\u00f9ng m\u1ed9t v\u00f9ng\". Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, dusty ochre. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc02",
+          "type": "image",
+          "path": "assets/images/g03-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail, slow zoom in. \u1ea2nh t\u0129nh zoom ch\u1eadm v\u00e0o b\u1ed9 x\u01b0\u01a1ng cao: x\u01b0\u01a1ng \u0111\u00f9i d\u00e0y, l\u1ed3ng ng\u1ef1c r\u1ed9ng, h\u00e0m r\u0103ng \u0111\u1ec1u v\u00e0 ch\u1eafc. Kh\u1edbp \"M\u1ed9t b\u1ed9 cao, x\u01b0\u01a1ng d\u00e0y, r\u0103ng ch\u1eafc\". Shot on a 50mm lens, medium depth of field. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, bone white, ochre soil. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc03",
+          "type": "image",
+          "path": "assets/images/g03-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up, smooth pan to the right. \u1ea2nh t\u0129nh lia ngang sang b\u1ed9 x\u01b0\u01a1ng th\u1ea5p: c\u1ed9t s\u1ed1ng cong m\u00f2n, r\u0103ng s\u00e2u s\u1ee9t, x\u01b0\u01a1ng m\u1ea3nh y\u1ebfu. Kh\u1edbp \"B\u1ed9 kia r\u0103ng s\u00e2u, c\u1ed9t s\u1ed1ng m\u00f2n, ch\u1ebft s\u1edbm\". Shot on a 50mm lens, medium depth of field. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, bone white, ochre soil. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc04",
+          "type": "image",
+          "path": "assets/images/g03-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings. Veo i2v: m\u1ed9t nh\u00e0 kh\u1ea3o c\u1ed5 ng\u01b0\u1eddi que \u0111\u1ee9ng gi\u1eefa hai b\u1ed9 x\u01b0\u01a1ng, nh\u00ecn tr\u00e1i r\u1ed3i ph\u1ea3i r\u1ed3i g\u00e3i \u0111\u1ea7u; d\u1ea5u ? v\u1ebd tay l\u01a1 l\u1eedng tr\u00ean \u0111\u1ea7u. Nh\u1ecbp \"\u0110o\u00e1n xem ai l\u00e0 ng\u01b0\u1eddi ti\u1ec1n s\u1eed?\" \u2014 h\u01b0\u1edbng c\u00e2u h\u1ecfi ra kh\u00e1n gi\u1ea3. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc05",
+          "type": "image",
+          "path": "assets/images/g03-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up. HERO \u2014 Veo i2v: \u0111\u00e1p \u00e1n. D\u1ea5u tick xanh l\u00e1 v\u1ebd tay b\u1eadt l\u00ean tr\u00ean b\u1ed9 x\u01b0\u01a1ng cao kh\u1ecfe (ng\u01b0\u1eddi s\u0103n b\u1eaft), r\u1ed3i d\u1ea5u X \u0111\u1ecf v\u1ebd tay b\u1eadt l\u00ean tr\u00ean b\u1ed9 x\u01b0\u01a1ng th\u1ea5p c\u00f2ng (ng\u01b0\u1eddi n\u00f4ng d\u00e2n). Kh\u1edbp \"B\u1ed9 x\u01b0\u01a1ng kh\u1ecfe l\u00e0 ng\u01b0\u1eddi s\u0103n b\u1eaft. B\u1ed9 x\u01b0\u01a1ng t\u00e0n t\u1ea1 l\u00e0 ng\u01b0\u1eddi n\u00f4ng d\u00e2n,\" \u2014 tick r\u01a1i v\u00e0o \"s\u0103n b\u1eaft\", X r\u01a1i v\u00e0o \"n\u00f4ng d\u00e2n\". Shot on a normal-wide lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, bold green tick, bold red cross. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc06",
+          "type": "image",
+          "path": "assets/images/g03-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g03-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, slow zoom out. \u1ea2nh t\u0129nh zoom-out, m\u1ec9a mai: ng\u01b0\u1eddi n\u00f4ng d\u00e2n ti\u1ec1n s\u1eed c\u00f2ng l\u01b0ng cu\u1ed1c \u0111\u1ea5t kh\u00f4 d\u01b0\u1edbi n\u1eafng, m\u1ed3 h\u00f4i v\u0103ng, m\u1eb7t tr\u1eddi tr\u00f2n tr\u01a1n kh\u00f4ng m\u1eb7t chi\u1ebfu g\u1eaft \u1edf g\u00f3c tr\u00ean. Kh\u1edbp \"th\u1eddi \u0111\u1ea1i ta g\u1ecdi l\u00e0 ti\u1ebfn b\u1ed9\" \u2014 nh\u1ea5n \"ti\u1ebfn b\u1ed9\". Shot on a 24mm lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, dry cracked field, harsh sun. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc01",
+          "type": "image",
+          "path": "assets/images/g04-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up, slow zoom in. Still, slow zoom-in (ken-burns-slow-zoom). A San tribesman sits cross-legged under a lone acacia tree on pale Kalahari sand, shrugging with both palms up; a single hand-drawn black question mark floats above his head. Subject: one San man, off-centre left. Scene: midday desert, sparse dry grass, pale dunes behind. Framing: medium close, eye level, FG man, BG acacia and dunes. Camera: static lens, slow push-in 5%. Shot on a 50mm lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc02",
+          "type": "image",
+          "path": "assets/images/g04-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up. Veo i2v. Anthropologist Richard Lee (new character) strides into frame from the right on a sandy track and lifts his safari hat in greeting with his right hand while the left hand holds his notebook down at his side; the stopwatch swings on his chest. A boxy vintage safari jeep parked behind him hints at the 1960s. Framing: medium, subject on right third, eye level. Camera: static. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc03",
+          "type": "image",
+          "path": "assets/images/g04-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, tracking shot moving right alongside subject. HERO. Veo i2v, wide Kalahari desert. Three San tribe members walk left-to-right across red dunes carrying digging sticks and a hide bag; Richard Lee trails close behind them, stopwatch raised in one hand, scribbling in his notebook with the other, hurrying to keep up. Framing: wide, figures in lower third moving right, eye level, FG sand ridge, MG procession, BG dunes and big pale sky. Camera: slow tracking right. Shot on a 24mm lens, deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc04",
+          "type": "image",
+          "path": "assets/images/g04-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Over-the-shoulder perspective, smooth pan to the right. Still, slow pan right. Over Richard Lee's shoulder: his open notebook in the foreground filled with hand-drawn tally marks, while in the background a San woman digs up a tuber with a stick and a San man gathers nuts from a bush. Framing: over-shoulder, notebook FG left, workers MG right. Camera: static lens, lateral pan right ~8%. Shot on a normal-wide lens, medium depth of field. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc05",
+          "type": "image",
+          "path": "assets/images/g04-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail, slow zoom in. Veo i2v. Close-up reaction: Richard Lee stares at the stopwatch held up in his left hand (plain blank face, one hand), eyebrows shoot up, jaw drops, glasses slide down his nose, the pencil falls from his right hand. Framing: close-up, face off-centre right, eye level, pale dune background. Camera: static, tiny push-in. Shot on a 85mm lens, shallow depth of field with bokeh. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc06",
+          "type": "image",
+          "path": "assets/images/g04-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g04-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Insert shot of specific detail, slow zoom out. Still, slow zoom-out. Result beat: a hand-drawn row of seven sun symbols representing a week, laid out left to right on a plain paper-coloured background; only the first two and a half suns are filled yellow, the remaining four and a half are empty ink outlines. No digits, no day labels. Framing: insert, row centred. Camera: static lens, slow zoom out ~6%. Shot on a 50mm lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, neutral balanced colors. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, clean. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc01",
+          "type": "image",
+          "path": "assets/images/g05-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g05-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail, slow dolly in toward subject. Veo i2v. Nh\u1ecbp nghi ng\u1edd 'Ch\u1ec9 l\u00e0 m\u1ed9t nh\u00f3m may m\u1eafn?': c\u1eadn m\u1eb7t ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n (@narrator) nheo m\u1ed9t m\u1eaft, nh\u01b0\u1edbng m\u1ed9t b\u00ean m\u00e0y, tay ph\u1ea3i \u0111\u01b0a l\u00ean g\u00e3i c\u1eb1m, tay tr\u00e1i bu\u00f4ng xu\u1ed1ng; m\u1ed9t d\u1ea5u ? v\u1ebd tay b\u1eadt ra c\u1ea1nh \u0111\u1ea7u. Subject: ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n t\u00f3c n\u00e2u b\u00f9 x\u00f9, m\u1eb7t tr\u00f2n tr\u1eafng ph\u1eb3ng, \u00e1o da th\u00fa n\u00e2u r\u00e1ch m\u00e9p r\u0103ng c\u01b0a. Scene: n\u1ec1n savan kh\u00f4 nh\u1ea1t, tr\u01b0a n\u1eafng. Framing: close_up, m\u1eb7t l\u1ec7ch tr\u00e1i 1/3, d\u1ea5u ? \u1edf 1/3 ph\u1ea3i; FG nh\u00e2n v\u1eadt, BG \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 50 mm ngang t\u1ea7m m\u1eaft, t\u0129nh tr\u00ean ch\u00e2n m\u00e1y, \u0111\u1ea9y v\u00e0o r\u1ea5t nh\u1eb9. Shot on a 50mm lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink outline, flat muted fills, hand-drawn, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc02",
+          "type": "image",
+          "path": "assets/images/g05-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g05-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings, slow zoom in. \u1ea2nh t\u0129nh ken-burns-slow-zoom v\u00e0o. 'C\u00e1c nh\u00e0 khoa h\u1ecdc \u0111\u1ebfm l\u1ea1i \u1edf Tanzania': m\u1ed9t nh\u00e0 khoa h\u1ecdc ng\u01b0\u1eddi que (\u0111\u1ed9i m\u0169 v\u00e0nh, c\u1ea7m s\u1ed5 v\u00e0 b\u00fat ch\u00ec) ng\u1ed3i x\u1ed5m b\u00ean ph\u1ea3i, \u0111\u00e1nh d\u1ea5u tick xanh v\u00e0o s\u1ed5, nh\u00ecn sang m\u1ed9t nh\u00f3m ng\u01b0\u1eddi b\u1ed9 t\u1ed9c (@tribe) n\u1eb1m ngh\u1ec9 d\u01b0\u1edbi b\u00f3ng c\u00e2y keo; savan \u0110\u00f4ng Phi kh\u00f4, c\u1ecf v\u00e0ng. Framing: medium_wide, nh\u00e0 khoa h\u1ecdc 1/3 ph\u1ea3i \u1edf MG, nh\u00f3m n\u1eb1m ngh\u1ec9 1/3 tr\u00e1i d\u01b0\u1edbi t\u00e1n c\u00e2y, BG \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: \u1ea3nh t\u0129nh, zoom ch\u1eadm v\u00e0o nh\u00e0 khoa h\u1ecdc. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink outline, flat muted fills, hand-drawn, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc03",
+          "type": "image",
+          "path": "assets/images/g05-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g05-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Extreme wide shot showing vast environment, slow zoom out. HERO. \u1ea2nh t\u0129nh zoom-out. 'Paraguay, r\u1ed3i n\u01b0\u1edbc \u00dac': b\u1ea3n \u0111\u1ed3 th\u1ebf gi\u1edbi v\u1ebd tay tr\u00ean n\u1ec1n be tr\u01a1n (#F6E7C8), l\u1ee5c \u0111\u1ecba t\u00f4 nh\u1ea1t; ba \u0111i\u1ec3m s\u00e1ng v\u00e0ng (#FFE600) \u1edf Tanzania (\u0110\u00f4ng Phi), Paraguay (Nam M\u1ef9) v\u00e0 \u00dac; c\u1ea1nh m\u1ed7i \u0111i\u1ec3m m\u1ed9t vignette nh\u1ecf ng\u01b0\u1eddi que n\u1eb1m th\u01b0 gi\u00e3n d\u01b0\u1edbi b\u00f3ng c\u00e2y (c\u00e2y keo \u1edf Phi, c\u00e2y r\u1eebng \u1edf Nam M\u1ef9, c\u00e2y b\u1ea1ch \u0111\u00e0n \u1edf \u00dac), tay g\u1ed1i \u0111\u1ea7u. Camera zoom-out t\u1eeb Nam M\u1ef9 \u0111\u1ec3 l\u1ed9 c\u1ea3 ba \u0111i\u1ec3m. B\u1ea3n \u0111\u1ed3 \u0111\u01b0\u1ee3c ph\u00e9p n\u1ec1n tr\u01a1n; kh\u00f4ng ch\u1eef, kh\u00f4ng nh\u00e3n. Deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink outline, flat muted fills, hand-drawn map, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc04",
+          "type": "image",
+          "path": "assets/images/g05-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g05-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, smooth pan to the right. Veo i2v. 'L\u1ea7n n\u00e0o c\u0169ng ra m\u01b0\u1eddi l\u0103m \u0111\u1ebfn hai m\u01b0\u01a1i gi\u1edd m\u1ed9t tu\u1ea7n' (nh\u1ea5n 'l\u1ea7n n\u00e0o c\u0169ng'): m\u1ed9t ng\u01b0\u1eddi b\u1ed9 t\u1ed9c (@tribe) x\u00e1ch gi\u1ecf nh\u1ecf v\u00e0i c\u1ee7 v\u00e0 qu\u1ea3 v\u00e0o tr\u1ea1i, \u0111\u1eb7t xu\u1ed1ng, r\u1ed3i ng\u1ea3 l\u01b0ng n\u1eb1m d\u01b0\u1edbi b\u00f3ng c\u00e2y, hai tay g\u1ed1i \u0111\u1ea7u; d\u1ea5u tick xanh b\u1eadt ra tr\u00ean \u0111\u1ea7u. \u00dd: l\u00e0m \u00edt, ngh\u1ec9 nhi\u1ec1u; con s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u. Scene: tr\u1ea1i c\u1ea1nh c\u00e2y keo, savan \u0111\u1ea7u gi\u1edd chi\u1ec1u. Framing: medium, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i, c\u00e2y \u1edf ph\u1ea3i, \u0111\u1ed3i \u1edf BG. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, 35 mm ngang t\u1ea7m m\u1eaft, t\u0129nh, lia nh\u1eb9 theo nh\u00e2n v\u1eadt. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink outline, flat muted fills, hand-drawn, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc05",
+          "type": "image",
+          "path": "assets/images/g05-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g05-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, gentle tilt upward. Veo i2v. C\u00e2u h\u1ecfi 'V\u1eady th\u1eddi gian c\u00f2n l\u1ea1i \u0111i \u0111\u00e2u?': to\u00e0n c\u1ea3nh savan r\u1ed9ng d\u01b0\u1edbi b\u1ea7u tr\u1eddi bao la; nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n (@narrator) n\u1eb1m b\u1eaft ch\u00e9o ch\u00e2n d\u01b0\u1edbi b\u00f3ng c\u00e2y nh\u1ecf \u1edf g\u00f3c tr\u00e1i d\u01b0\u1edbi, ng\u1ea9ng nh\u00ecn tr\u1eddi, m\u1ed9t d\u1ea5u ? v\u1ebd tay hi\u1ec7n l\u00ean ph\u00eda tr\u00ean \u0111\u1ea7u. Kho\u1ea3ng tr\u1eddi tr\u1ed1ng g\u1ee3i th\u1eddi gian d\u01b0; m\u1edf c\u00e2u h\u1ecfi d\u1eabn sang s6. Shot on a 24mm lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly black ink outline, flat muted fills, hand-drawn, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc01",
+          "type": "image",
+          "path": "assets/images/g06-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, smooth pan to the right. \u1ea2nh lia ch\u1eadm sang ph\u1ea3i: bu\u1ed5i chi\u1ec1u l\u01b0\u1eddi tr\u00ean savan, c\u1ea3 b\u1ed9 t\u1ed9c ng\u01b0\u1eddi que (4-5 ng\u01b0\u1eddi) ng\u1ed3i t\u00fam t\u1ee5m d\u01b0\u1edbi b\u00f3ng m\u1ed9t c\u00e2y keo l\u1edbn, d\u00e1ng th\u1ea3 l\u1ecfng, c\u00f3 ng\u01b0\u1eddi n\u1eb1m d\u1ef1a g\u1ed1c c\u00e2y. Ch\u1ee7 th\u1ec3: nh\u00f3m b\u1ed9 t\u1ed9c l\u1ec7ch tr\u00e1i; ti\u1ec1n c\u1ea3nh c\u1ecf kh\u00f4, trung c\u1ea3nh g\u1ed1c c\u00e2y v\u00e0 nh\u00f3m ng\u01b0\u1eddi, h\u1eadu c\u1ea3nh \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: ngang t\u1ea7m m\u1eaft, pan-right ch\u1eadm, kh\u00f4ng rung. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc02",
+          "type": "image",
+          "path": "assets/images/g06-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow dolly in toward subject. Clip Veo: c\u1eadn trung hai ng\u01b0\u1eddi b\u1ed9 t\u1ed9c ng\u1ed3i d\u01b0\u1edbi b\u00f3ng c\u00e2y; ng\u01b0\u1eddi sau d\u00f9ng ng\u00f3n tay r\u1ebd t\u00f3c xo\u0103n ng\u01b0\u1eddi tr\u01b0\u1edbc, nh\u00f3n b\u1eaft ch\u1ea5y, b\u00fang \u0111i; ng\u01b0\u1eddi tr\u01b0\u1edbc c\u01b0\u1eddi n\u00f3i, tay khua nh\u1eb9 k\u1ec3 chuy\u1ec7n. Ti\u1ec1n c\u1ea3nh hai nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i, h\u1eadu c\u1ea3nh g\u1ed1c c\u00e2y v\u00e0 savan nh\u1ea1t. Camera: ngang t\u1ea7m m\u1eaft, g\u1ea7n nh\u01b0 t\u0129nh, \u0111\u1ea9y v\u00e0o r\u1ea5t nh\u1eb9; l\u1ea5y \u0111o\u1ea1n s\u1ea1ch sau 0.5 s. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc03",
+          "type": "image",
+          "path": "assets/images/g06-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail. Clip Veo: c\u1eadn c\u1ea3nh \u0111\u00f4i tay ng\u01b0\u1eddi b\u1ed9 t\u1ed9c c\u1ea7m m\u0169i \u0111\u00e1 nh\u1ecdn xoay khoan l\u1ed7 tr\u00ean m\u1ed9t v\u1ecf \u1ed1c bi\u1ec3n nh\u1ecf, b\u00ean c\u1ea1nh l\u00e0 v\u00e0i v\u1ecf \u1ed1c \u0111\u00e3 khoan l\u1ed7 x\u00e2u tr\u00ean s\u1ee3i d\u00e2y th\u1edb c\u00e2y. Ch\u1ee7 th\u1ec3 tay + v\u1ecf \u1ed1c gi\u1eefa khung; n\u1ec1n \u0111\u1ea5t v\u00e0 \u0111\u1ea7u g\u1ed1i nh\u00e2n v\u1eadt nh\u1ea1t ph\u00eda sau. Camera: g\u00f3c cao nh\u1eb9 nh\u00ecn xu\u1ed1ng, t\u0129nh. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc04",
+          "type": "image",
+          "path": "assets/images/g06-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Extreme close-up on fine detail, slow zoom in. \u1ea2nh zoom ch\u1eadm v\u00e0o (ken-burns-slow-zoom): c\u1eadn c\u1ea3nh chu\u1ed7i v\u00f2ng c\u1ed5 h\u1ea1t v\u1ecf \u1ed1c n\u00e2u nh\u1ea1t x\u00e2u d\u00e2y th\u1edb, \u0111\u1eb7t tr\u00ean t\u1ea3ng \u0111\u00e1 ven bi\u1ec3n c\u1ea1nh mi\u1ec7ng hang v\u00e1ch \u0111\u00e1 (g\u1ee3i hang ven bi\u1ec3n Nam Phi), bi\u1ec3n xanh nh\u1ea1t ph\u00eda sau. Ch\u1ee7 th\u1ec3 v\u00f2ng c\u1ed5 gi\u1eefa khung h\u01a1i l\u1ec7ch tr\u00e1i; ti\u1ec1n c\u1ea3nh \u0111\u00e1, h\u1eadu c\u1ea3nh bi\u1ec3n v\u00e0 v\u00e1ch \u0111\u00e1 nh\u1ea1t. Kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef: \u0111\u1ed9 c\u1ed5 g\u1ee3i b\u1eb1ng l\u1edbp b\u1ee5i \u0111\u1ea5t v\u00e0 v\u1ebft m\u00f2n tr\u00ean h\u1ea1t. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc05",
+          "type": "image",
+          "path": "assets/images/g06-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings, smooth pan to the left. \u1ea2nh lia ch\u1eadm sang tr\u00e1i: v\u00f9ng \u0111\u1ed3i tuy\u1ebft th\u1eddi b\u0103ng h\u00e0 (g\u1ee3i n\u01b0\u1edbc \u0110\u1ee9c), m\u1ed9t con k\u1ec1n k\u1ec1n to \u0111\u1eadu tr\u00ean t\u1ea3ng \u0111\u00e1 c\u1ea1nh mi\u1ec7ng hang, ti\u1ec1n c\u1ea3nh l\u00e0 c\u00e2y s\u00e1o x\u01b0\u01a1ng m\u1ea3nh c\u00f3 m\u1ea5y l\u1ed7 \u0111\u1eb7t tr\u00ean phi\u1ebfn \u0111\u00e1 ph\u1eb3ng. Ti\u1ec1n c\u1ea3nh s\u00e1o, trung c\u1ea3nh k\u1ec1n k\u1ec1n v\u00e0 mi\u1ec7ng hang, h\u1eadu c\u1ea3nh \u0111\u1ed3i tuy\u1ebft nh\u1ea1t. Camera ngang t\u1ea7m, pan-left. G\u1ed9p 2 beat (b034 ch\u1ec9 1.2 s). Deep focus with everything sharp. Lit by soft overcast diffused light, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc06",
+          "type": "image",
+          "path": "assets/images/g06-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g06-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow dolly in toward subject. HERO \u2013 Clip Veo: m\u1ed9t ng\u01b0\u1eddi b\u1ed9 t\u1ed9c ng\u1ed3i tr\u00ean t\u1ea3ng \u0111\u00e1 tr\u01b0\u1edbc mi\u1ec7ng hang tuy\u1ebft, ph\u1ed3ng m\u00e1 th\u1ed5i c\u00e2y s\u00e1o x\u01b0\u01a1ng r\u1ea5t nghi\u00eam t\u00fac nh\u01b0ng ng\u00f3n tay l\u00f3ng ng\u00f3ng; b\u00ean c\u1ea1nh m\u1ed9t ng\u01b0\u1eddi kh\u00e1c b\u1ecbt tai nh\u0103n m\u1eb7t, m\u1ed9t con chim nh\u1ecf v\u1ed7 c\u00e1nh bay \u0111i. Ch\u1ee7 th\u1ec3 l\u1ec7ch ph\u1ea3i, ng\u01b0\u1eddi b\u1ecbt tai l\u1ec7ch tr\u00e1i trung c\u1ea3nh, h\u1eadu c\u1ea3nh \u0111\u1ed3i tuy\u1ebft nh\u1ea1t. Camera: ngang t\u1ea7m, \u0111\u1ea9y v\u00e0o nh\u1eb9 v\u00e0o m\u1eb7t ng\u01b0\u1eddi th\u1ed5i s\u00e1o \u1edf cu\u1ed1i. Deep focus with everything sharp. Lit by soft overcast diffused light, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fills, hand-drawn. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc01",
+          "type": "image",
+          "path": "assets/images/g07-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g07-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings. Veo i2v. Gi\u1edd r\u1ea3nh kh\u00f4ng ph\u00ed: @narrator ng\u1ed3i quanh \u0111\u1ed1ng l\u1eeda tr\u1ea1i v\u1edbi 3 ng\u01b0\u1eddi @tribe d\u01b0\u1edbi b\u00f3ng c\u00e2y keo, anh vung m\u1ed9t tay k\u1ec3 chuy\u1ec7n (tay kia \u0111\u1eb7t tr\u00ean g\u1ed1i), c\u1ea3 nh\u00f3m c\u01b0\u1eddi ng\u1ea3 nghi\u00eang. Khung trung-r\u1ed9ng, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i, \u0111\u1ed1ng l\u1eeda ti\u1ec1n c\u1ea3nh gi\u1eefa, savan nh\u1ea1t ph\u00eda sau, chi\u1ec1u mu\u1ed9n. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fill. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc02",
+          "type": "image",
+          "path": "assets/images/g07-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g07-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up, slow zoom out. \u1ea2nh lia/zoom. Th\u1ebf gi\u1edbi kh\u00f4ng ti\u1ec1n, kh\u00f4ng b\u1ea3o hi\u1ec3m: c\u1eadn trung @narrator \u0111\u1ee9ng tr\u00ean savan tr\u1ed1ng, hai tay l\u1ed9n ng\u01b0\u1ee3c chi\u1ebfc t\u00fai da th\u00fa r\u1ed7ng, nh\u00fan vai ng\u01a1 ng\u00e1c; d\u1ea5u X \u0111\u1ecf v\u1ebd tay l\u01a1 l\u1eedng c\u1ea1nh t\u00fai. Kh\u00f4ng v\u1ebd ti\u1ec1n hay gi\u1ea5y t\u1edd. Deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fill. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc03",
+          "type": "image",
+          "path": "assets/images/g07-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g07-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, slow dolly in toward subject. Veo i2v, C\u1ea2NH \u0110\u1ec8NH. @narrator g\u00e3y ch\u00e2n n\u1eb1m c\u1ea1nh \u0111\u1ed1ng l\u1eeda, c\u1eb3ng ch\u00e2n n\u1eb9p que g\u1ed7 bu\u1ed9c d\u00e2y da; ba ng\u01b0\u1eddi @tribe qu\u1ef3 quanh, m\u1ed9t ng\u01b0\u1eddi \u0111\u01b0a xi\u00ean th\u1ecbt n\u01b0\u1edbng t\u1edbi mi\u1ec7ng anh, ng\u01b0\u1eddi kh\u00e1c \u0111\u1eb7t th\u00eam mi\u1ebfng th\u1ecbt b\u00ean c\u1ea1nh; anh nhai, m\u1eb7t r\u01b0ng r\u01b0ng c\u1ea3m \u0111\u1ed9ng. Khung r\u1ed9ng th\u1ea5p, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fill, warm. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc04",
+          "type": "image",
+          "path": "assets/images/g07-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g07-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, smooth pan to the right. \u1ea2nh chia \u0111\u00f4i, lia ph\u1ea3i. Tr\u00e1i (c\u00e2u '\u0110\u01b0\u1ee3c qu\u00fd th\u00ec c\u00f3 \u0103n'): m\u1ed9t ng\u01b0\u1eddi @tribe c\u01b0\u1eddi t\u01b0\u01a1i ng\u1ed3i gi\u1eefa v\u00f2ng b\u1ea1n b\u00e8, \u00f4m \u0111\u00f9i th\u1ecbt l\u1edbn, d\u1ea5u tick xanh b\u00ean c\u1ea1nh. Ph\u1ea3i (c\u00e2u 'B\u1ecb gh\u00e9t th\u00ec nh\u1ecbn', m\u00e1y lia sang \u0111\u00fang m\u1ed1c 79.10 s): m\u1ed9t ng\u01b0\u1eddi @tribe kh\u00e1c ng\u1ed3i m\u1ed9t m\u00ecnh tr\u00ean t\u1ea3ng \u0111\u00e1 gi\u1eefa b\u00e3i tr\u1ed1ng l\u1ed9ng gi\u00f3, b\u1ee5ng l\u00e9p, nh\u00ecn b\u00e0n tay r\u1ed7ng, d\u1ea5u X \u0111\u1ecf. V\u1ea1ch m\u1ef1c d\u1ecdc chia \u0111\u00f4i khung. Deep focus with everything sharp. Lit by natural ambient lighting, mixed color temperatures for contrast. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fill, split frame. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc05",
+          "type": "image",
+          "path": "assets/images/g07-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g07-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail. Veo i2v. C\u00e2u ch\u1ed1t 'T\u00e1n g\u1eabu ch\u00ednh l\u00e0 qu\u1ef9 l\u01b0\u01a1ng h\u01b0u': c\u1eadn @narrator v\u00e0 m\u1ed9t ph\u1ee5 n\u1eef @tribe ch\u1ee5m \u0111\u1ea7u b\u00ean \u0111\u1ed1ng l\u1eeda; ch\u1ecb khum m\u1ed9t tay c\u1ea1nh mi\u1ec7ng th\u00ec th\u1ea7m v\u00e0o tai anh (tay kia bu\u00f4ng tr\u00ean g\u1ed1i), anh tr\u00f2n m\u1eaft r\u1ed3i c\u01b0\u1eddi kho\u00e1i ch\u00ed, ti\u1ec7n tay nh\u1eadn th\u00eam mi\u1ebfng th\u1ecbt. H\u00e0i kh\u00f4. Deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink, flat muted fill. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc01",
+          "type": "image",
+          "path": "assets/images/g08-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g08-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Extreme wide shot showing vast environment, slow zoom out. M\u1eb7t tr\u1eddi l\u1eb7n tr\u00ean savan: m\u1eb7t tr\u1eddi tr\u00f2n cam tr\u01a1n (kh\u00f4ng m\u1eb7t, kh\u00f4ng ph\u1ea3i nh\u00e2n v\u1eadt) ch\u00ecm sau \u0111\u1ed3i th\u1ea5p, tr\u1eddi cam nh\u1ea1t chuy\u1ec3n t\u00edm, b\u00f3ng c\u00e2y keo \u0111en; \u1ea3nh t\u0129nh zoom-out ch\u1eadm. Shot on a 24mm lens, deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink outline, flat muted fills, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc02",
+          "type": "image",
+          "path": "assets/images/g08-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g08-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up. Ban ng\u00e0y: @narrator ng\u1ed3i x\u1ed5m ch\u1ec9 v\u00e0o d\u1ea5u ch\u00e2n th\u00fa tr\u00ean \u0111\u1ea5t, hai ng\u01b0\u1eddi @tribe ph\u00eda sau gh\u00e9 tai th\u00ec th\u1ea7m n\u00f3i x\u1ea5u, li\u1ebfc nhau c\u01b0\u1eddi ranh m\u00e3nh; clip Veo i2v. Shot on a normal-wide lens, medium depth of field. Lit by natural ambient lighting, neutral balanced colors. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink outline, flat muted fills, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc03",
+          "type": "image",
+          "path": "assets/images/g08-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g08-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, slow dolly in toward subject. C\u1ea2NH \u0110\u1ec8NH: \u0111\u00eam b\u00ean \u0111\u1ed1ng l\u1eeda, b\u1ed9 t\u1ed9c ng\u1ed3i v\u00f2ng tr\u00f2n, @narrator \u0111\u1ee9ng k\u1ec3 chuy\u1ec7n vung tay; trong c\u1ed9t kh\u00f3i hi\u1ec7n h\u00ecnh th\u1ea7n tho\u1ea1i n\u00e9t m\u1ef1c (linh d\u01b0\u01a1ng kh\u1ed5ng l\u1ed3, b\u00f3ng t\u1ed5 ti\u00ean) r\u1ed3i tan; ng\u01b0\u1eddi nghe h\u00e1 mi\u1ec7ng r\u1ed3i ph\u00e1 l\u00ean c\u01b0\u1eddi. Ph\u1ee7 2 beat 't\u00e1m m\u01b0\u01a1i m\u1ed1t ph\u1ea7n tr\u0103m l\u00e0 k\u1ec3 chuy\u1ec7n: th\u1ea7n linh, t\u1ed5 ti\u00ean, chuy\u1ec7n c\u01b0\u1eddi'. Shot on a normal-wide lens, deep focus with everything sharp. Lit by dramatic low-key lighting with deep shadows, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink outline, flat muted fills, warm firelight on faces, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc04",
+          "type": "image",
+          "path": "assets/images/g08-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g08-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings, smooth pan to the right. Ng\u1ee7 hai gi\u1ea5c: n\u1eeda \u0111\u00eam, b\u1ed9 t\u1ed9c ng\u1ee7 quanh than h\u1ed3ng, @narrator ng\u1ed3i d\u1eady thong th\u1ea3 \u00f4m g\u1ed1i, ng\u01b0\u1edbc nh\u00ecn tr\u1eddi \u0111\u1ea7y sao, c\u01b0\u1eddi m\u00e3n nguy\u1ec7n; \u1ea3nh t\u0129nh lia ph\u1ea3i ch\u1eadm. Shot on a normal-wide lens, deep focus with everything sharp. Lit by cool blue hour twilight, cool blue-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink outline, flat muted fills, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc05",
+          "type": "image",
+          "path": "assets/images/g08-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g08-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail. @worker n\u1eb1m ng\u1eeda tr\u00ean gi\u01b0\u1eddng trong ph\u00f2ng t\u1ed1i, m\u1eaft tr\u1ee3n tr\u00f2n nh\u00ecn tr\u1ea7n, \u0111\u1ed3ng h\u1ed3 \u0111\u1ea7u gi\u01b0\u1eddng m\u1eb7t tr\u1ed1ng kim ch\u1ec9 g\u1ea7n hai gi\u1edd; tr\u1edf m\u00ecnh, tr\u00f9m ch\u0103n r\u1ed3i l\u00f3 ra tr\u1ee3n m\u1eaft; clip Veo i2v. Nh\u1ea5n 'm\u1ea5t ng\u1ee7'. Shot on a 50mm lens, shallow depth of field with bokeh. Lit by dramatic low-key lighting with deep shadows, cool blue-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink outline, flat muted fills, no gradients. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g09-sc03",
+          "type": "image",
+          "path": "assets/images/g09-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g09-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow zoom in. V\u00f2ng xo\u00e1y v\u1ebd tay ch\u1ec9 b\u1eb1ng k\u00fd hi\u1ec7u: b\u00f3 l\u00faa -> em b\u00e9 -> \u0111\u00e1m \u0111\u00f4ng ng\u01b0\u1eddi que -> ru\u1ed9ng -> ng\u01b0\u1eddi que c\u1ea7m cu\u1ed1c \u0111\u1ed5 m\u1ed3 h\u00f4i -> quay v\u1ec1 b\u00f3 l\u00faa; m\u0169i t\u00ean v\u1ebd tay n\u1ed1i th\u00e0nh v\u00f2ng, kh\u1edbp 'nhi\u1ec1u ng\u01b0\u1eddi... nhi\u1ec1u ru\u1ed9ng... nhi\u1ec1u vi\u1ec7c'. \u1ea2nh t\u0129nh zoom ch\u1eadm v\u00e0o t\u00e2m v\u00f2ng. S\u01a1 \u0111\u1ed3 \u0111\u01b0\u1ee3c ph\u00e9p n\u1ec1n tr\u01a1n. Deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, hand-drawn savanna. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g09-sc06",
+          "type": "image",
+          "path": "assets/images/g09-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g09-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail, smooth pan to the right. G\u1ecdi l\u1ea1i b\u1ed9 x\u01b0\u01a1ng n\u00f4ng d\u00e2n h\u01b0 h\u1ea1i \u1edf ph\u1ea7n tr\u01b0\u1edbc: x\u01b0\u01a1ng s\u1ed1ng cong, r\u0103ng s\u00e2u \u0111en, kh\u1edbp g\u1ed1i m\u00f2n, n\u1eb1m trong l\u1edbp \u0111\u1ea5t c\u1ea1nh chi\u1ebfc cu\u1ed1c \u0111\u00e1. \u1ea2nh t\u0129nh, lia ph\u1ea3i ch\u1eadm. Deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, hand-drawn savanna. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g09-sc07",
+          "type": "image",
+          "path": "assets/images/g09-sc07.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g09-sc07",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow zoom out. 'Kh\u00f4ng b\u1ecb c\u01b0\u1edbp': t\u00ean tr\u1ed9m ng\u01b0\u1eddi que \u0111eo m\u1eb7t n\u1ea1 \u00f4m chi\u1ebfc \u0111\u1ed3ng h\u1ed3 c\u00e1t l\u00e9n ch\u1ea1y \u0111i, b\u1ecb g\u1ea1ch b\u1eb1ng d\u1ea5u X \u0111\u1ecf v\u1ebd tay. \u1ea2nh t\u0129nh, zoom ra ch\u1eadm. Deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. Wobbly ink line, flat muted fill, hand-drawn savanna. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc01",
+          "type": "image",
+          "path": "assets/images/g10-sc01.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc01",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Extreme wide shot showing vast environment, slow zoom out. \u1ea2nh t\u0129nh zoom-out ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng nh\u1ecf x\u00edu c\u00fai g\u1eadp \u1edf b\u00e0n l\u00e0m vi\u1ec7c d\u01b0\u1edbi ch\u00e2n m\u1ed9t N\u00daI gi\u1ea5y t\u1edd v\u00e0 b\u00eca h\u1ed3 s\u01a1 ch\u1ed3ng ch\u1ea5t cao ch\u1ea1m m\u00e9p tr\u00ean khung, gi\u1eefa \u0111\u1ed3ng c\u1ecf kh\u00f4 nh\u1ea1t \u2014 n\u00fai vi\u1ec7c c\u1ea3 \u0111\u1eddi. Ch\u1ee7 th\u1ec3: @worker + n\u00fai vi\u1ec7c. Chuy\u1ec3n \u0111\u1ed9ng: zoom-out l\u1ed9 d\u1ea7n chi\u1ec1u cao n\u00fai. B\u1ed1i c\u1ea3nh: \u0111\u1ed3ng c\u1ecf kh\u00f4, ban ng\u00e0y, POV ngang t\u1ea7m m\u1eaft. Khung: extreme wide, ng\u01b0\u1eddi g\u00f3c d\u01b0\u1edbi tr\u00e1i (FG), n\u00fai gi\u1ea5y gi\u1eefa-ph\u1ea3i (MG), \u0111\u1ed3i th\u1ea5p nh\u1ea1t (BG). Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-out ch\u1eadm. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, neutral balanced colors. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc02",
+          "type": "image",
+          "path": "assets/images/g10-sc02.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc02",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium close-up from chest up, smooth pan to the right. \u1ea2nh t\u0129nh lia ph\u1ea3i ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng \u0111\u00e3 gi\u00e0 (t\u00f3c b\u1ea1c, l\u01b0ng c\u00f2ng, ch\u1ed1ng g\u1eady) ng\u1ed3i tr\u00ean gh\u1ebf c\u00f4ng vi\u00ean, hai tay n\u00e2ng \u0111\u1ed3ng h\u1ed3 c\u00e1t g\u1ea7n c\u1ea1n, nh\u00ecn n\u00f3 mong m\u1ecfi \u2014 ngh\u1ec9 h\u01b0u m\u1edbi mong c\u00f3 l\u1ea1i th\u1eddi gian. Khung: medium close, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i (MG), \u0111\u1ed3ng h\u1ed3 c\u00e1t FG tr\u00e1i, \u0111\u1ed3i th\u1ea5p BG. B\u1ed1i c\u1ea3nh: b\u00e3i c\u1ecf chi\u1ec1u mu\u1ed9n. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, pan-right ch\u1eadm t\u1eeb \u0111\u1ed3ng h\u1ed3 c\u00e1t sang g\u01b0\u01a1ng m\u1eb7t. Shot on a normal-wide lens, deep focus with everything sharp. Lit by warm golden hour sunlight, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc03",
+          "type": "image",
+          "path": "assets/images/g10-sc03.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc03",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Wide shot capturing full scene, slow dolly in toward subject. HERO \u2014 clip Veo i2v (~7 h\u00ecnh/gi\u00e2y, c\u1eaft 6% m\u00e9p): nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n n\u1eb1m th\u01b0 th\u00e1i tr\u00ean c\u1ecf ngay sau m\u1ed9t v\u1ea1ch \u0111\u00edch v\u1ebd tay (d\u1ea3i b\u0103ng c\u0103ng gi\u1eefa hai c\u1ecdc g\u1ed7), tay g\u1ed1i \u0111\u1ea7u, ng\u1eadm c\u1ecdng c\u1ecf, nh\u00ecn ng\u01b0\u1eddi v\u0103n ph\u00f2ng m\u1ed3 h\u00f4i nh\u1ec5 nh\u1ea1i, c\u00e0 v\u1ea1t bay, \u00f4m c\u1eb7p, ch\u1ea1y l\u1ea3o \u0111\u1ea3o t\u1eeb xa v\u1ec1 ph\u00eda v\u1ea1ch. Nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n \u0111\u1ea1i di\u1ec7n cho 'h\u1ecd' \u2014 ng\u01b0\u1eddi ti\u1ec1n s\u1eed sinh ra \u0111\u00e3 \u1edf v\u1ea1ch \u0111\u00edch. B\u1ed1i c\u1ea3nh: savan v\u00e0ng nh\u1ea1t, c\u00e2y keo, ban ng\u00e0y. Khung: wide; narrator FG ph\u1ea3i, v\u1ea1ch \u0111\u00edch MG, ng\u01b0\u1eddi ch\u1ea1y BG tr\u00e1i ti\u1ebfn d\u1ea7n l\u1ea1i. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 35mm, th\u1ea5p ngang c\u1ecf, v\u1eefng, dolly-in r\u1ea5t nh\u1eb9. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc04",
+          "type": "image",
+          "path": "assets/images/g10-sc04.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc04",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Close-up focusing on face or detail, handheld camera with natural movement. Clip Veo i2v callback b\u00e1o th\u1ee9c: c\u1eadn c\u1ea3nh \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c hai chu\u00f4ng m\u1eb7t tr\u01a1n (kh\u00f4ng s\u1ed1) tr\u00ean t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng rung b\u1ea7n b\u1eadt, n\u1ea3y kh\u1ecfi m\u1eb7t t\u1ee7, \u0111\u01b0\u1eddng rung v\u1ebd tay t\u1ecfa ra \u2014 'c\u00e1i m\u00e1y l\u1ea1i h\u00e9t' nh\u01b0 c\u1ea3nh m\u1edf \u0111\u1ea7u. B\u1ed1i c\u1ea3nh: ph\u00f2ng ng\u1ee7 s\u00e1ng s\u1edbm, c\u1eeda s\u1ed5 nh\u00ecn ra \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Khung: close up, \u0111\u1ed3ng h\u1ed3 gi\u1eefa-tr\u00e1i (FG), c\u1eeda s\u1ed5 BG ph\u1ea3i. Camera: \u1ed1ng 50mm, ngang m\u1eb7t t\u1ee7, rung nh\u1eb9 theo chu\u00f4ng. Shot on a 50mm lens, deep focus with everything sharp. Lit by bright high-key lighting, minimal shadows, cool blue-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc05",
+          "type": "image",
+          "path": "assets/images/g10-sc05.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc05",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium shot from waist up, slow zoom in. \u1ea2nh t\u0129nh zoom-in ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng ng\u1ed3i d\u1eady ch\u1eadm r\u00e3i tr\u00ean gi\u01b0\u1eddng, t\u00f3c r\u1ed1i, quay nh\u00ecn ra c\u1eeda s\u1ed5 \u00e1nh b\u00ecnh minh; m\u1ed9t d\u1ea5u ? v\u1ebd tay l\u01a1 l\u1eedng tr\u00ean \u0111\u1ea7u \u2014 'b\u1ea1n s\u1ebd h\u1ecfi m\u00ecnh c\u00e2u g\u00ec?'. Khung: medium, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i (MG), c\u1eeda s\u1ed5 BG ph\u1ea3i v\u1edbi \u0111\u1ed3i th\u1ea5p. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-in ch\u1eadm. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc06",
+          "type": "image",
+          "path": "assets/images/g10-sc06.png",
+          "source_tool": "glabs_image",
+          "scene_id": "g10-sc06",
+          "prompt": "Hand-drawn stick-figure cartoon with slightly wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients and no shading, with a simple hand-drawn landscape background in the same ink, muted and a little paler than the characters. Medium-wide shot framing subject with surroundings, slow zoom out. Clip Veo i2v ch\u1ea1y su\u1ed1t c\u00e2u CTA (kh\u00f4ng end card): tr\u00ean savan bu\u1ed5i s\u00e1ng, nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n v\u00e0 ng\u01b0\u1eddi v\u0103n ph\u00f2ng \u0111\u1ee9ng c\u1ea1nh nhau, c\u00f9ng v\u01b0\u01a1n vai y h\u1ec7t m\u1ed9t \u0111\u1ed9ng t\u00e1c \u2014 c\u01a1 th\u1ec3 hi\u1ec7n \u0111\u1ea1i v\u1eabn gi\u1eef c\u00e1i c\u1ee7a t\u1ed5 ti\u00ean; r\u1ed3i nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n quay ra c\u01b0\u1eddi v\u00e0 v\u1eaby tay v\u1edbi ng\u01b0\u1eddi xem. Khung: medium wide, hai nh\u00e2n v\u1eadt gi\u1eefa-l\u1ec7ch tr\u00e1i (MG), c\u00e2y keo v\u00e0 \u0111\u1ed3i th\u1ea5p BG. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-out r\u1ea5t ch\u1eadm. Shot on a normal-wide lens, deep focus with everything sharp. Lit by natural ambient lighting, warm amber-toned color palette. Style: h\u00e0i h\u01b0\u1edbc, kh\u00f4, \u1ea5m; so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i. N\u00e9t m\u1ef1c run, m\u00e0u ph\u1eb3ng tr\u1ea7m, kh\u00f4ng gradient. Avoid: photorealistic, 3D render, gradients, watercolor, text, letters, watermark, letterbox bars. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame.",
+          "provider": "glabs",
+          "model": "nano_banana_2",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g01-sc01-video",
+          "type": "video",
+          "path": "assets/video/g01-sc01.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g01-sc01",
+          "prompt": "Veo image-to-video from the start frame, 8 s, keep the clean section after ~0.5 s. Static camera. The alarm clock's eyes snap open into a furious frown, its mouth opens wide in a shout and it bounces and shakes violently on the table with little shake lines around its bells. The sleeping man's eyes pop open and he jolts upright in panic, hair standing on end, both hands resting down on the blanket. Hand-drawn stick-figure cartoon style, wobbly ink outlines, flat colours.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g01-sc03-video",
+          "type": "video",
+          "path": "assets/video/g01-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g01-sc03",
+          "prompt": "Veo image-to-video from the start frame, 8 s, keep the clean section after ~0.5 s. Static camera. The man twists the knob on the clock with one hand while his other arm stays down on the blanket; the clock opens one eye and gives a smug little grin. The man lets out a heavy sigh, lets go and flops back onto his pillow. Hand-drawn stick-figure cartoon style, wobbly ink outlines, flat colours.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc01-video",
+          "type": "video",
+          "path": "assets/video/g03-sc01.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g03-sc01",
+          "prompt": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the kneeling archaeologist sweeps a small brush across the soil and loose earth slides aside, revealing more of the two skeletons; the standing archaeologist leans in with one hand on a knee and the other arm hanging down. Camera static. Keep the flat hand-drawn ink style; nothing written.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc04-video",
+          "type": "video",
+          "path": "assets/video/g03-sc04.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g03-sc04",
+          "prompt": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the archaeologist looks at the left skeleton, then at the right skeleton, then scratches the top of the head with one hand while the other arm hangs down; the question mark wobbles gently. Camera static. Keep the flat hand-drawn ink style; nothing written.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g03-sc05-video",
+          "type": "video",
+          "path": "assets/video/g03-sc05.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g03-sc05",
+          "prompt": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the green tick above the left skeleton draws itself in one stroke and bounces once; a beat later the red X above the right skeleton draws itself in two strokes and shakes. The skeletons stay still. Camera static. Keep the flat hand-drawn ink style; nothing written.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc02-video",
+          "type": "video",
+          "path": "assets/video/g04-sc02.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g04-sc02",
+          "prompt": "Veo i2v from the still: the man walks two steps forward and raises his hat once in greeting with his right hand while his left arm with the notebook stays down at his side; the stopwatch on his chest swings gently; background stays still. Hand-drawn stick-figure cartoon style kept, no camera move.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc03-video",
+          "type": "video",
+          "path": "assets/video/g04-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g04-sc03",
+          "prompt": "Veo i2v: the three tribespeople walk steadily to the right; the man in the safari hat hurries behind, glancing between the stopwatch in his raised hand and the notebook he writes in; sand puffs at their feet; camera tracks slowly right with them. Hand-drawn stick-figure cartoon style kept.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g04-sc05-video",
+          "type": "video",
+          "path": "assets/video/g04-sc05.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g04-sc05",
+          "prompt": "Veo i2v: the man looks at the stopwatch in his raised left hand, his eyebrows shoot up and his mouth drops open in surprise, his glasses slide down his nose, and the pencil slips from his right hand and falls out of frame; the right arm then hangs down. Hand-drawn stick-figure cartoon style kept, very slight push-in.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc01-video",
+          "type": "video",
+          "path": "assets/video/g05-sc01.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g05-sc01",
+          "prompt": "Veo i2v from the start frame: he squints one eye harder and scratches his chin with his right hand while his left arm stays hanging down; the hand-drawn question mark pops beside his head with a small wobble; very slight camera push-in. Use the clean ~1.3 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc04-video",
+          "type": "video",
+          "path": "assets/video/g05-sc04.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g05-sc04",
+          "prompt": "Veo i2v: he sets the small basket down, then lies back in the tree's shade with both hands behind his head, content; a green tick mark pops above him; the camera pans gently to follow him. Use the clean ~2.3 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g05-sc05-video",
+          "type": "video",
+          "path": "assets/video/g05-sc05.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g05-sc05",
+          "prompt": "Veo i2v: the hand-drawn question mark above the resting man wobbles gently, the man blinks and keeps lying still with crossed legs; clouds drift slowly; the camera tilts up slightly toward the empty sky. Use the clean ~1.8 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc02-video",
+          "type": "video",
+          "path": "assets/video/g06-sc02.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g06-sc02",
+          "prompt": "Veo i2v from the still: the figure behind picks through the curly hair, pinches something tiny and flicks it away with a satisfied nod; the front figure keeps chatting, head bobbing, one hand gesturing while the other stays down on the knee. Static eye-level camera with a very slight push-in. No text.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc03-video",
+          "type": "video",
+          "path": "assets/video/g06-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g06-sc03",
+          "prompt": "Veo i2v from the still: the hands twist the pointed stone back and forth, tiny flakes fall, a small hole opens in the shell; the hands then slide the shell onto the cord next to the others. Static slightly high camera. No text.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g06-sc06-video",
+          "type": "video",
+          "path": "assets/video/g06-sc06.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g06-sc06",
+          "prompt": "Veo i2v from the still: the flute player blows hard, cheeks puffing in and out, fingers fumbling over the holes; the listener winces and hunches lower with both hands over the ears; the small bird startles and flaps away out of frame; slow gentle push-in toward the flute player's face. No text.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc01-video",
+          "type": "video",
+          "path": "assets/video/g07-sc01.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g07-sc01",
+          "prompt": "Veo 3.1 fast i2v 8 s from the first frame: the storyteller keeps one hand raised and gestures while his other hand stays on his knee, the three listeners burst out laughing and rock back, one slaps his knee, flames flicker; locked-off camera. Use the clean ~1.5 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc03-video",
+          "type": "video",
+          "path": "assets/video/g07-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g07-sc03",
+          "prompt": "Veo 3.1 fast i2v 8 s: the kneeling hunter feeds the lying man a bite from the skewer, he chews with watery grateful eyes, a second hunter sets another piece of roasted meat next to him, the third gently pats his shoulder; the splinted leg stays still; slow push-in. Use ~2.8 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g07-sc05-video",
+          "type": "video",
+          "path": "assets/video/g07-sc05.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g07-sc05",
+          "prompt": "Veo 3.1 fast i2v 8 s: the woman whispers into his ear with one cupped hand while her other hand stays down on her knee, his eyes go wide then he grins slyly, she hands him a small piece of roasted meat and he takes it; locked-off camera. Use ~2.1 s after the first 0.5 s.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc02-video",
+          "type": "video",
+          "path": "assets/video/g08-sc02.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g08-sc02",
+          "prompt": "Veo i2v from the still, keep the drawing style: the crouching man taps the hoof prints with one finger while his other hand stays on his knee; behind him the two men whisper, one cups a hand to the other's ear, both glance sideways and snicker. Locked camera.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc03-video",
+          "type": "video",
+          "path": "assets/video/g08-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g08-sc03",
+          "prompt": "Veo i2v from the still, keep the drawing style: the storyteller sweeps his raised arm across the sky while his other arm stays down; the smoke swirls, the ink antelope gallops then melts into the tall ancestor shape; the listeners lean in with mouths open, then burst out laughing; flames flicker. Very slow push-in.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g08-sc05-video",
+          "type": "video",
+          "path": "assets/video/g08-sc05.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g08-sc05",
+          "prompt": "Veo i2v from the still, keep the drawing style: the man stares wide-eyed at the ceiling, blinks slowly, rolls onto his side, pulls the blanket over his head, then peeks out again with the same wide stare. Locked camera.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc03-video",
+          "type": "video",
+          "path": "assets/video/g10-sc03.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g10-sc03",
+          "prompt": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: the stick-figure office worker runs wobbly and exhausted toward the ribbon, tie flapping, briefcase swinging; the lounging brown-haired man in the foreground calmly chews his grass stalk and gives a slow lazy wave with one hand while his other hand stays behind his head. Very gentle push-in, steady camera, hand-drawn cartoon look kept, no new objects appear.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc04-video",
+          "type": "video",
+          "path": "assets/video/g10-sc04.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g10-sc04",
+          "prompt": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: the alarm clock rings furiously, shaking and hopping on the table, hand-drawn vibration lines bursting around its bells; slight handheld jitter, hand-drawn cartoon look kept, no new objects appear.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        },
+        {
+          "id": "g10-sc06-video",
+          "type": "video",
+          "path": "assets/video/g10-sc06.mp4",
+          "source_tool": "glabs_video",
+          "scene_id": "g10-sc06",
+          "prompt": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: both stick figures finish the same big stretch in unison, then the brown-haired man in the hide tunic turns to the viewer, smiles and waves with one hand while his other arm hangs down at his side; the office worker lowers his arms and glances at him. Very slow pull-back, steady camera, hand-drawn cartoon look kept, no new objects appear.",
+          "provider": "glabs",
+          "model": "veo_31_fast",
+          "qc": {
+            "verdict": "pass",
+            "method": "measured"
+          }
+        }
+      ]
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "qc_summary": {
+      "qc_mode": "basic",
+      "qc_eligible": 72,
+      "qc_present": 72,
+      "failed_first_pass": 0,
+      "batches": 0,
+      "aborted": false
+    },
+    "partial_progress": {
+      "units": {
+        "g07": {
+          "status": "done",
+          "completed_scene_ids": [
+            "g07-sc01",
+            "g07-sc02",
+            "g07-sc03",
+            "g07-sc04",
+            "g07-sc05"
+          ],
+          "artifact": "artifacts/groups/g07/asset_manifest.json",
+          "qc_summary": {
+            "qc_mode": "basic",
+            "qc_eligible": 8,
+            "qc_present": 8,
+            "failed_first_pass": 0,
+            "failure_rate": 0.0,
+            "aborted": false,
+            "batches": 0,
+            "qc_skipped_reason": null
+          },
+          "notes": "Clip Veo 8 s: ch\u1ec9 d\u00f9ng \u0111o\u1ea1n s\u1ea1ch sau ~0.5 s \u0111\u1ea7u (sc01 ~1.55 s, sc03 ~2.8 s, sc05 ~2.1 s)."
+        },
+        "g06": {
+          "status": "done",
+          "completed_scene_ids": [
+            "g06-sc01",
+            "g06-sc02",
+            "g06-sc03",
+            "g06-sc04",
+            "g06-sc05",
+            "g06-sc06"
+          ],
+          "artifact": "projects/ancient-free-time/artifacts/groups/g06/asset_manifest.json",
+          "qc_summary": {
+            "qc_mode": "basic",
+            "batches": 0,
+            "assets_checked": 9,
+            "pass": 9,
+            "fail": 0,
+            "regenerated": 0
+          }
+        },
+        "g01": {
+          "status": "done",
+          "artifact": "artifacts/groups/g01/asset_manifest.json",
+          "completed_scene_ids": [
+            "g01-sc01",
+            "g01-sc02",
+            "g01-sc03",
+            "g01-sc04",
+            "g02-sc01",
+            "g02-sc02",
+            "g02-sc03",
+            "g02-sc04",
+            "g02-sc05",
+            "g02-sc06"
+          ],
+          "shots": [
+            "assets/shots/g01-sc01.mp4",
+            "assets/shots/g01-sc03.mp4",
+            "assets/shots/g02-sc01.mp4",
+            "assets/shots/g02-sc03.mp4",
+            "assets/shots/g02-sc05.mp4"
+          ],
+          "notes": "\u1ea2nh c\u0169 c\u1ee7a runner (kh\u00f4ng c\u00f3 tham chi\u1ebfu) \u0111\u00e3 b\u1ecb producer c\u00e1ch ly; to\u00e0n b\u1ed9 \u1ea3nh v\u00e0 clip \u0111\u01b0\u1ee3c t\u1ea1o l\u1ea1i. Shot Veo: c\u1eaft \u0111o\u1ea1n tr\u00e1nh khung \u0111\u1ee9ng h\u00ecnh (freezedetect), fps 7\u219230, c\u1eaft 6% m\u1ed7i m\u00e9p, 1920x1080 yuv420p; kh\u00f4ng \u0111\u01b0a v\u00e0o asset_manifest."
+        },
+        "g08": {
+          "status": "done",
+          "completed_scene_ids": [],
+          "note": "g08: \u0111\u00e3 l\u1eadp 8 y\u00eau c\u1ea7u (5 \u1ea3nh, 3 clip), \u0111ang t\u1ea1o \u1ea3nh"
+        },
+        "g09": {
+          "status": "done",
+          "completed_scene_ids": [],
+          "note": "\u0111ang t\u1ea1o 8 \u1ea3nh t\u0129nh"
+        }
+      }
+    },
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 118,
+      "single_calls_on_batchable": 78,
+      "batches": 40,
+      "batchable_tools_seen": [
+        "ai33_music",
+        "glabs_image",
+        "glabs_video",
+        "media_basic_qc",
+        "video_compose"
+      ],
+      "window": {
+        "since": "2026-09-30T02:30:07.420374+00:00",
+        "until": "2026-09-30T03:02:30.491463+00:00"
+      },
+      "warnings": [
+        "78 of 118 calls on batchable tools were single calls (66% > 20%); call them once with requests[] instead."
+      ]
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "approval_policy",
+      "subject": "Tự duyệt toàn bộ các cổng",
+      "options_considered": [
+        {
+          "option_id": "auto_all",
+          "label": "Tự duyệt mọi cổng",
+          "score": 1.0,
+          "reason": "Người dùng viết: 'tự động duyệt mọi thứ, không cần hỏi lại tôi'"
+        },
+        {
+          "option_id": "per_gate",
+          "label": "Hỏi từng cổng",
+          "score": 0.1,
+          "reason": "Mặc định",
+          "rejected_because": "Người dùng đã uỷ quyền toàn bộ trong chat"
+        }
+      ],
+      "selected": "auto_all",
+      "reason": "Người dùng uỷ quyền trước toàn bộ quy trình trong chat ngày 2026-09-30",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "playbook_selection",
+      "subject": "Playbook",
+      "options_considered": [
+        {
+          "option_id": "nguoi-que",
+          "label": "người que (stick-savanna)",
+          "score": 1.0,
+          "reason": "Người dùng chỉ định"
+        }
+      ],
+      "selected": "nguoi-que",
+      "reason": "Người dùng chỉ định playbook người que; nhóm khóa: pipeline, render_runtime, voice, pacing, music, image, video, look, motion, recipe, narrative",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Ý tưởng video",
+      "options_considered": [
+        {
+          "option_id": "c1",
+          "label": "Vì Sao Người Tiền Sử Rảnh Hơn Bạn?",
+          "score": 0.95,
+          "reason": "Giống video tham khảo nhất"
+        },
+        {
+          "option_id": "c2",
+          "label": "Hạt Giống Nào Đã Lấy Mất Thời Gian Của Bạn?",
+          "score": 0.6,
+          "reason": "Chỉ một phần nội dung",
+          "rejected_because": "Người dùng muốn giống bản gốc nhất có thể"
+        },
+        {
+          "option_id": "c3",
+          "label": "81% Chuyện Bên Lửa Là Gì?",
+          "score": 0.5,
+          "reason": "Hẹp",
+          "rejected_because": "Lệch chủ đề chính"
+        }
+      ],
+      "selected": "c1",
+      "reason": "Người dùng muốn giống như cùng tác giả làm, theo chủ đề video tham khảo",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Render runtime",
+      "options_considered": [
+        {
+          "option_id": "remotion",
+          "label": "Remotion",
+          "score": 1.0,
+          "reason": "Khóa trong playbook"
+        },
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames",
+          "score": 0.3,
+          "reason": "Có trên máy",
+          "rejected_because": "Playbook khóa render_runtime=remotion"
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg",
+          "score": 0.2,
+          "reason": "Có trên máy",
+          "rejected_because": "Playbook khóa render_runtime=remotion"
+        }
+      ],
+      "selected": "remotion",
+      "reason": "Khóa từ playbook người que",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "proposal",
+      "category": "composition_mode",
+      "subject": "Cách dựng",
+      "options_considered": [
+        {
+          "option_id": "templated",
+          "label": "Templated",
+          "score": 0.9,
+          "reason": "Playbook dùng cắt thẳng giữa shot dựng sẵn"
+        },
+        {
+          "option_id": "atelier",
+          "label": "Atelier",
+          "score": 0.2,
+          "reason": "Tốn công",
+          "rejected_because": "Không cần cho video toàn clip/ảnh"
+        }
+      ],
+      "selected": "templated",
+      "reason": "Theo công thức playbook",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "d-006",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "options_considered": [
+        {
+          "option_id": "ai33_minhquan",
+          "label": "ai33 Vbee Minh Quân",
+          "score": 1.0,
+          "reason": "Khóa trong playbook"
+        },
+        {
+          "option_id": "manual_tts",
+          "label": "Tự thu giọng qua SRT",
+          "score": 0.3,
+          "reason": "Người dùng tự làm",
+          "rejected_because": "Người dùng muốn tự động hoàn toàn"
+        }
+      ],
+      "selected": "ai33_minhquan",
+      "reason": "Khóa từ playbook; người dùng muốn tự động",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-007",
+      "stage": "proposal",
+      "category": "music_source",
+      "subject": "Nhạc nền",
+      "options_considered": [
+        {
+          "option_id": "ai33_music",
+          "label": "ai33_music",
+          "score": 0.9,
+          "reason": "Khóa trong playbook"
+        },
+        {
+          "option_id": "none",
+          "label": "Không nhạc",
+          "score": 0.1,
+          "reason": "",
+          "rejected_because": "Playbook có nhạc"
+        }
+      ],
+      "selected": "ai33_music",
+      "reason": "Khóa từ playbook",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    },
+    {
+      "decision_id": "d-008",
+      "stage": "narration",
+      "category": "downgrade_approval",
+      "subject": "Chấp nhận audio_qc fail về tốc độ đọc (pace) cho s1-s10",
+      "options_considered": [
+        {
+          "option_id": "accept",
+          "label": "Chấp nhận fail pace, giữ giọng đã khóa",
+          "score": 0.95,
+          "reason": "Ngưỡng 2.0-3.2 từ/giây chỉnh cho tiếng Anh; tiếng Việt đơn âm tiết đo 3.89-4.68 từ/giây là bình thường. WER 0-0.02, ngôn ngữ vi, không lỗi khác"
+        },
+        {
+          "option_id": "rewrite_script",
+          "label": "Trả kịch bản về để cắt chữ",
+          "score": 0.1,
+          "reason": "Tổng thời lượng 123.2 s đã khớp mục tiêu 120 s (+2.7%)",
+          "rejected_because": "Cắt chữ làm video ngắn hơn mục tiêu mà không sửa được đặc tính ngôn ngữ"
+        }
+      ],
+      "selected": "accept",
+      "reason": "Playbook người que (stage_decisions.narration) quy định chấp nhận fail pace/WER tiếng Anh bằng downgrade_approval; người dùng đã uỷ quyền duyệt toàn bộ (d-001)",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 0.9
+    }
+  ]
+}

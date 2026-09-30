@@ -1,0 +1,370 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "script",
+  "status": "completed",
+  "timestamp": "2026-09-30T02:12:36.199438+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "script": {
+      "version": "1.0",
+      "title": "V\u00ec Sao Ng\u01b0\u1eddi Ti\u1ec1n S\u1eed R\u1ea3nh H\u01a1n B\u1ea1n?",
+      "total_duration_seconds": 120,
+      "voice_performance": {
+        "pacing_profile": "conversational",
+        "performance_intent": "Ng\u01b0\u1eddi k\u1ec3 chuy\u1ec7n mi\u1ec1n B\u1eafc, h\u00e0i kh\u00f4, \u1ea5m, h\u01a1i nhanh",
+        "energy_curve": "M\u1edf nhanh v\u00e0 ch\u00e2m bi\u1ebfm, gi\u1eefa t\u00f2 m\u00f2, \u0111o\u1ea1n b\u1eaby n\u00f4ng nghi\u1ec7p d\u1ed3n d\u1eadp, k\u1ebft ch\u1eadm l\u1ea1i",
+        "pause_policy": "Ngh\u1ec9 0.35 s gi\u1eefa c\u00e1c ph\u1ea7n; ng\u1eaft ng\u1eafn tr\u01b0\u1edbc c\u00e2u h\u1ecfi",
+        "sample_section_id": "s1",
+        "provider_notes": {
+          "ai33": "vbee_hn_male_minhquan_yt_24k-pre, speed 1.15"
+        }
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "label": "M\u1edf \u0111\u1ea7u: c\u00e1i m\u00e1y h\u00e9t",
+          "text": "S\u00e1ng nay, m\u1ed9t c\u00e1i m\u00e1y h\u00e9t v\u00e0o m\u1eb7t b\u1ea1n cho t\u1edbi khi b\u1ea1n m\u1edf m\u1eaft. T\u1eeb gi\u00e2y \u0111\u00f3, c\u1ea3 ng\u00e0y c\u1ee7a b\u1ea1n \u0111\u00e3 c\u00f3 ng\u01b0\u1eddi kh\u00e1c quy\u1ebft \u0111\u1ecbnh. T\u1ed1i nay, b\u1ea1n l\u1ea1i t\u1ef1 tay h\u1eb9n n\u00f3 h\u00e9t ti\u1ebfp. Gi\u1edd, tua ng\u01b0\u1ee3c n\u0103m m\u01b0\u01a1i ngh\u00ecn n\u0103m.",
+          "start_seconds": 0.0,
+          "end_seconds": 10.19,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp fast; nh\u1ea5n: h\u00e9t, t\u1ef1 tay.",
+          "delivery_cues": {
+            "pace": "fast",
+            "energy": "dry",
+            "emphasis_words": [
+              "h\u00e9t",
+              "t\u1ef1 tay"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Ng\u01b0\u1eddi hi\u1ec7n \u0111\u1ea1i n\u1eb1m gi\u01b0\u1eddng, \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c rung l\u1eafc c\u00f3 m\u1eb7t gi\u1eadn d\u1eef, ng\u01b0\u1eddi b\u1eadt d\u1eady ho\u1ea3ng h\u1ed1t",
+              "timestamp_seconds": 0.0
+            },
+            {
+              "type": "broll",
+              "description": "Ng\u01b0\u1eddi que t\u1ef1 h\u1eb9n b\u00e1o th\u1ee9c bu\u1ed5i t\u1ed1i, m\u1eb7t ch\u00e1n n\u1ea3n",
+              "timestamp_seconds": 5.09
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s2",
+          "label": "Ng\u01b0\u1eddi ti\u1ec1n s\u1eed th\u1ee9c d\u1eady",
+          "text": "M\u1ed9t ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng t\u1ef1 th\u1ee9c d\u1eady trong n\u1eafng s\u1edbm. Kh\u00f4ng b\u00e1o th\u1ee9c, kh\u00f4ng l\u1ecbch h\u1ecdp. Anh ta v\u01b0\u01a1n vai, r\u1ed3i h\u1ecfi m\u1ed9t c\u00e2u b\u1ea1n ch\u01b0a bao gi\u1edd \u0111\u1ee7 r\u1ea3nh \u0111\u1ec3 h\u1ecfi: h\u00f4m nay m\u00ecnh l\u00e0m g\u00ec nh\u1ec9? Nh\u01b0ng khoan, \u0111\u1eddi ti\u1ec1n s\u1eed ch\u1eb3ng ph\u1ea3i kh\u1ed5 l\u1eafm sao?",
+          "start_seconds": 10.19,
+          "end_seconds": 21.06,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp conversational; nh\u1ea5n: h\u00f4m nay m\u00ecnh l\u00e0m g\u00ec nh\u1ec9.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "warm",
+            "emphasis_words": [
+              "h\u00f4m nay m\u00ecnh l\u00e0m g\u00ec nh\u1ec9"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n t\u00f3c n\u00e2u b\u00f9 x\u00f9 th\u1ee9c d\u1eady tr\u00ean th\u1ea3o nguy\u00ean bu\u1ed5i s\u00e1ng, v\u01b0\u01a1n vai b\u00ean \u0111\u1ed1ng l\u1eeda, c\u00e2y gi\u00e1o c\u1eafm \u0111\u1ea5t",
+              "timestamp_seconds": 10.19
+            },
+            {
+              "type": "overlay",
+              "description": "D\u1ea5u ? v\u1ebd tay n\u1ed5i tr\u00ean \u0111\u1ea7u nh\u00e2n v\u1eadt",
+              "timestamp_seconds": 15.62
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s3",
+          "label": "Hai b\u1ed9 x\u01b0\u01a1ng",
+          "text": "C\u00e1c nh\u00e0 kh\u1ea3o c\u1ed5 \u0111\u00e0o l\u00ean hai b\u1ed9 x\u01b0\u01a1ng c\u00f9ng m\u1ed9t v\u00f9ng. M\u1ed9t b\u1ed9 cao, x\u01b0\u01a1ng d\u00e0y, r\u0103ng ch\u1eafc. B\u1ed9 kia r\u0103ng s\u00e2u, c\u1ed9t s\u1ed1ng m\u00f2n, ch\u1ebft s\u1edbm. \u0110o\u00e1n xem ai l\u00e0 ng\u01b0\u1eddi ti\u1ec1n s\u1eed? B\u1ed9 x\u01b0\u01a1ng kh\u1ecfe l\u00e0 ng\u01b0\u1eddi s\u0103n b\u1eaft. B\u1ed9 x\u01b0\u01a1ng t\u00e0n t\u1ea1 l\u00e0 ng\u01b0\u1eddi n\u00f4ng d\u00e2n, th\u1eddi \u0111\u1ea1i ta g\u1ecdi l\u00e0 ti\u1ebfn b\u1ed9.",
+          "start_seconds": 21.06,
+          "end_seconds": 33.97,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp brisk; nh\u1ea5n: \u0111o\u00e1n xem, ti\u1ebfn b\u1ed9.",
+          "delivery_cues": {
+            "pace": "brisk",
+            "energy": "curious",
+            "emphasis_words": [
+              "\u0111o\u00e1n xem",
+              "ti\u1ebfn b\u1ed9"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Hai nh\u00e0 kh\u1ea3o c\u1ed5 ng\u01b0\u1eddi que \u0111\u00e0o \u0111\u1ea5t, l\u1ed9 hai b\u1ed9 x\u01b0\u01a1ng c\u1ea1nh nhau: m\u1ed9t cao kh\u1ecfe, m\u1ed9t th\u1ea5p c\u00f2ng",
+              "timestamp_seconds": 21.06
+            },
+            {
+              "type": "stat_card",
+              "description": "D\u1ea5u tick xanh tr\u00ean b\u1ed9 x\u01b0\u01a1ng s\u0103n b\u1eaft, d\u1ea5u X \u0111\u1ecf tr\u00ean b\u1ed9 x\u01b0\u01a1ng n\u00f4ng d\u00e2n",
+              "timestamp_seconds": 27.52
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s4",
+          "label": "Richard Lee \u0111\u1ebfm gi\u1edd",
+          "text": "V\u1eady h\u1ecd l\u00e0m g\u00ec c\u1ea3 ng\u00e0y? Nh\u1eefng n\u0103m s\u00e1u m\u01b0\u01a1i, nh\u00e0 nh\u00e2n h\u1ecdc Richard Lee v\u00e0o sa m\u1ea1c Kalahari v\u1edbi s\u1ed5 tay v\u00e0 \u0111\u1ed3ng h\u1ed3 b\u1ea5m gi\u1edd, \u0111\u1ebfm t\u1eebng gi\u1edd l\u00e0m vi\u1ec7c c\u1ee7a ng\u01b0\u1eddi San. K\u1ebft qu\u1ea3: kho\u1ea3ng m\u01b0\u1eddi b\u1ea3y gi\u1edd ki\u1ebfm \u0103n. Kh\u00f4ng ph\u1ea3i m\u1ed7i ng\u00e0y, m\u00e0 c\u1ea3 tu\u1ea7n.",
+          "start_seconds": 33.97,
+          "end_seconds": 45.29,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp brisk; nh\u1ea5n: m\u01b0\u1eddi b\u1ea3y gi\u1edd, c\u1ea3 tu\u1ea7n.",
+          "delivery_cues": {
+            "pace": "brisk",
+            "energy": "surprised",
+            "emphasis_words": [
+              "m\u01b0\u1eddi b\u1ea3y gi\u1edd",
+              "c\u1ea3 tu\u1ea7n"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Nh\u00e0 nh\u00e2n h\u1ecdc ng\u01b0\u1eddi que \u0111\u1ed9i m\u0169, c\u1ea7m s\u1ed5 v\u00e0 \u0111\u1ed3ng h\u1ed3, l\u1ebdo \u0111\u1ebdo theo ng\u01b0\u1eddi b\u1ed9 t\u1ed9c tr\u00ean sa m\u1ea1c",
+              "timestamp_seconds": 33.97
+            },
+            {
+              "type": "stat_card",
+              "description": "Tu\u1ea7n l\u1ec5 v\u1ebd tay: ch\u1ec9 hai ng\u00e0y r\u01b0\u1ee1i \u0111\u01b0\u1ee3c t\u00f4 m\u00e0u, ph\u1ea7n c\u00f2n l\u1ea1i tr\u1ed1ng",
+              "timestamp_seconds": 39.63
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "Kalahari",
+              "phonetic": "Ca-la-ha-ri"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "label": "Kh\u00f4ng ph\u1ea3i may m\u1eafn",
+          "text": "Ch\u1ec9 l\u00e0 m\u1ed9t nh\u00f3m may m\u1eafn? C\u00e1c nh\u00e0 khoa h\u1ecdc \u0111\u1ebfm l\u1ea1i \u1edf Tanzania, Paraguay, r\u1ed3i n\u01b0\u1edbc \u00dac. L\u1ea7n n\u00e0o c\u0169ng ra m\u01b0\u1eddi l\u0103m \u0111\u1ebfn hai m\u01b0\u01a1i gi\u1edd m\u1ed9t tu\u1ea7n. V\u1eady th\u1eddi gian c\u00f2n l\u1ea1i \u0111i \u0111\u00e2u?",
+          "start_seconds": 45.29,
+          "end_seconds": 53.67,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp fast; nh\u1ea5n: l\u1ea7n n\u00e0o c\u0169ng.",
+          "delivery_cues": {
+            "pace": "fast",
+            "energy": "confident",
+            "emphasis_words": [
+              "l\u1ea7n n\u00e0o c\u0169ng"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "diagram",
+              "description": "B\u1ea3n \u0111\u1ed3 th\u1ebf gi\u1edbi v\u1ebd tay v\u1edbi ba \u0111i\u1ec3m s\u00e1ng \u1edf ch\u00e2u Phi, Nam M\u1ef9 v\u00e0 \u00dac, m\u1ed7i \u0111i\u1ec3m c\u00f3 ng\u01b0\u1eddi que n\u1eb1m ngh\u1ec9",
+              "timestamp_seconds": 45.29
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s6",
+          "label": "Bu\u1ed5i chi\u1ec1u l\u00e0m \u0111\u1eb9p",
+          "text": "Bu\u1ed5i chi\u1ec1u, ng\u01b0\u1eddi ta ng\u1ed3i d\u01b0\u1edbi b\u00f3ng c\u00e2y, t\u00e1n chuy\u1ec7n, b\u1eaft ch\u1ea5y cho nhau. C\u00f3 ng\u01b0\u1eddi khoan v\u1ecf \u1ed1c x\u00e2u v\u00f2ng c\u1ed5, lo\u1ea1i h\u1ea1t t\u00ecm th\u1ea5y \u1edf Nam Phi, b\u1ea3y m\u01b0\u01a1i l\u0103m ngh\u00ecn n\u0103m tu\u1ed5i. \u1ede \u0110\u1ee9c, m\u1ed9t c\u00e2y s\u00e1o x\u01b0\u01a1ng k\u1ec1n k\u1ec1n, b\u1ed1n m\u01b0\u01a1i ngh\u00ecn n\u0103m tu\u1ed5i. Ngh\u0129a l\u00e0 c\u00f3 ng\u01b0\u1eddi \u0111\u1ee7 r\u1ea3nh \u0111\u1ec3 t\u1eadp th\u1ed5i s\u00e1o.",
+          "start_seconds": 53.67,
+          "end_seconds": 66.8,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp conversational; nh\u1ea5n: b\u1ea3y m\u01b0\u01a1i l\u0103m ngh\u00ecn n\u0103m, t\u1eadp th\u1ed5i s\u00e1o.",
+          "delivery_cues": {
+            "pace": "conversational",
+            "energy": "amused",
+            "emphasis_words": [
+              "b\u1ea3y m\u01b0\u01a1i l\u0103m ngh\u00ecn n\u0103m",
+              "t\u1eadp th\u1ed5i s\u00e1o"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Ng\u01b0\u1eddi b\u1ed9 t\u1ed9c ng\u1ed3i d\u01b0\u1edbi b\u00f3ng c\u00e2y, m\u1ed9t ng\u01b0\u1eddi khoan v\u1ecf \u1ed1c, m\u1ed9t ng\u01b0\u1eddi th\u1ed5i s\u00e1o x\u01b0\u01a1ng",
+              "timestamp_seconds": 53.67
+            },
+            {
+              "type": "broll",
+              "description": "C\u1eadn c\u1ea3nh chu\u1ed7i h\u1ea1t v\u1ecf \u1ed1c v\u00e0 c\u00e2y s\u00e1o x\u01b0\u01a1ng v\u1ebd tay",
+              "timestamp_seconds": 60.23
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s7",
+          "label": "B\u1ea3o hi\u1ec3m l\u00e0 b\u1ea1n b\u00e8",
+          "text": "Nh\u01b0ng gi\u1edd r\u1ea3nh \u0111\u00f3 kh\u00f4ng ph\u00ed. \u1ede th\u1ebf gi\u1edbi kh\u00f4ng ti\u1ec1n, kh\u00f4ng b\u1ea3o hi\u1ec3m, khi b\u1ea1n g\u00e3y ch\u00e2n, th\u1ee9 duy nh\u1ea5t nu\u00f4i b\u1ea1n l\u00e0 ng\u01b0\u1eddi kh\u00e1c. \u0110\u01b0\u1ee3c qu\u00fd th\u00ec c\u00f3 \u0103n. B\u1ecb gh\u00e9t th\u00ec nh\u1ecbn. T\u00e1n g\u1eabu ch\u00ednh l\u00e0 qu\u1ef9 l\u01b0\u01a1ng h\u01b0u.",
+          "start_seconds": 66.8,
+          "end_seconds": 76.31,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp brisk; nh\u1ea5n: \u0111\u01b0\u1ee3c qu\u00fd, b\u1ecb gh\u00e9t, qu\u1ef9 l\u01b0\u01a1ng h\u01b0u.",
+          "delivery_cues": {
+            "pace": "brisk",
+            "energy": "dry",
+            "emphasis_words": [
+              "\u0111\u01b0\u1ee3c qu\u00fd",
+              "b\u1ecb gh\u00e9t",
+              "qu\u1ef9 l\u01b0\u01a1ng h\u01b0u"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Ng\u01b0\u1eddi que g\u00e3y ch\u00e2n n\u1eb1m, c\u1ea3 b\u1ed9 t\u1ed9c mang th\u1ecbt t\u1edbi \u0111\u00fat cho \u0103n",
+              "timestamp_seconds": 66.8
+            },
+            {
+              "type": "overlay",
+              "description": "C\u1ea3nh chia \u0111\u00f4i: ng\u01b0\u1eddi \u0111\u01b0\u1ee3c qu\u00fd \u0103n no, ng\u01b0\u1eddi b\u1ecb gh\u00e9t ng\u1ed3i m\u1ed9t m\u00ecnh \u0111\u00f3i",
+              "timestamp_seconds": 71.55
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s8",
+          "label": "\u0110\u00eam b\u00ean l\u1eeda v\u00e0 hai gi\u1ea5c ng\u1ee7",
+          "text": "R\u1ed3i m\u1eb7t tr\u1eddi l\u1eb7n. Ban ng\u00e0y ng\u01b0\u1eddi San b\u00e0n chuy\u1ec7n s\u0103n b\u1eafn v\u00e0 n\u00f3i x\u1ea5u nhau. Nh\u01b0ng \u0111\u00eam b\u00ean \u0111\u1ed1ng l\u1eeda, t\u00e1m m\u01b0\u01a1i m\u1ed1t ph\u1ea7n tr\u0103m l\u00e0 k\u1ec3 chuy\u1ec7n: th\u1ea7n linh, t\u1ed5 ti\u00ean, chuy\u1ec7n c\u01b0\u1eddi. R\u1ed3i h\u1ecd ng\u1ee7 hai gi\u1ea5c, th\u1ee9c gi\u1eefa \u0111\u00eam m\u1ed9t l\u00fac. B\u1ea1n t\u1ec9nh l\u00fac hai gi\u1edd s\u00e1ng v\u00e0 g\u1ecdi \u0111\u00f3 l\u00e0 m\u1ea5t ng\u1ee7.",
+          "start_seconds": 76.31,
+          "end_seconds": 89.22,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp measured; nh\u1ea5n: t\u00e1m m\u01b0\u01a1i m\u1ed1t ph\u1ea7n tr\u0103m, m\u1ea5t ng\u1ee7.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "warm",
+            "emphasis_words": [
+              "t\u00e1m m\u01b0\u01a1i m\u1ed1t ph\u1ea7n tr\u0103m",
+              "m\u1ea5t ng\u1ee7"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "B\u1ed9 t\u1ed9c qu\u00e2y qu\u1ea7n b\u00ean l\u1eeda \u0111\u00eam, m\u1ed9t ng\u01b0\u1eddi k\u1ec3 chuy\u1ec7n vung tay, b\u00f3ng h\u00ecnh th\u1ea7n tho\u1ea1i trong kh\u00f3i",
+              "timestamp_seconds": 76.31
+            },
+            {
+              "type": "broll",
+              "description": "Ng\u01b0\u1eddi hi\u1ec7n \u0111\u1ea1i tr\u1ee3n m\u1eaft tr\u00ean gi\u01b0\u1eddng l\u00fac n\u1eeda \u0111\u00eam, c\u1ea1nh \u0111\u00f3 ng\u01b0\u1eddi ti\u1ec1n s\u1eed th\u1ee9c d\u1eady th\u01b0 th\u00e1i nh\u00ecn sao",
+              "timestamp_seconds": 82.77
+            }
+          ],
+          "pronunciation_guides": [
+            {
+              "word": "Wiessner",
+              "phonetic": "U\u00fdt-n\u01a1"
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "label": "C\u00e1i b\u1eaby n\u00f4ng nghi\u1ec7p",
+          "text": "Nh\u01b0ng m\u01b0\u1eddi ngh\u00ecn n\u0103m tr\u01b0\u1edbc, ai \u0111\u00f3 gieo m\u1ed9t h\u1ea1t gi\u1ed1ng. Nhi\u1ec1u l\u01b0\u01a1ng th\u1ef1c th\u00ec nhi\u1ec1u em b\u00e9 s\u1ed1ng s\u00f3t. Nhi\u1ec1u ng\u01b0\u1eddi th\u00ec c\u1ea7n nhi\u1ec1u ru\u1ed9ng. Nhi\u1ec1u ru\u1ed9ng th\u00ec nhi\u1ec1u vi\u1ec7c. Khi b\u1ed9 t\u1ed9c qu\u00e1 \u0111\u00f4ng \u0111\u1ec3 s\u0103n b\u1eaft nu\u00f4i n\u1ed5i, c\u00e1nh c\u1eeda \u0111\u00f3ng s\u1eadp. C\u00e0y, gieo, g\u1eb7t, n\u0103m n\u00e0y qua n\u0103m kh\u00e1c. B\u1ed9 x\u01b0\u01a1ng r\u0103ng s\u00e2u l\u00fac n\u00e3y ch\u00ednh l\u00e0 c\u00e1i gi\u00e1 \u0111\u00f3. V\u00ec th\u1ebf th\u1eddi gian c\u1ee7a b\u1ea1n kh\u00f4ng b\u1ecb c\u01b0\u1edbp, n\u00f3 b\u1ecb \u0111\u1ed5i d\u1ea7n, t\u1eebng th\u1ebf h\u1ec7 m\u1ed9t.",
+          "start_seconds": 89.22,
+          "end_seconds": 107.56,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp fast; nh\u1ea5n: h\u1ea1t gi\u1ed1ng, \u0111\u00f3ng s\u1eadp, t\u1eebng th\u1ebf h\u1ec7 m\u1ed9t.",
+          "delivery_cues": {
+            "pace": "fast",
+            "energy": "building",
+            "emphasis_words": [
+              "h\u1ea1t gi\u1ed1ng",
+              "\u0111\u00f3ng s\u1eadp",
+              "t\u1eebng th\u1ebf h\u1ec7 m\u1ed9t"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "B\u00e0n tay gieo h\u1ea1t, c\u00e2y l\u00faa m\u1ecdc, d\u00e2n s\u1ed1 ng\u01b0\u1eddi que t\u0103ng d\u1ea7n th\u00e0nh \u0111\u00e1m \u0111\u00f4ng",
+              "timestamp_seconds": 89.22
+            },
+            {
+              "type": "diagram",
+              "description": "V\u00f2ng xo\u00e1y v\u1ebd tay: l\u01b0\u01a1ng th\u1ef1c, em b\u00e9, ru\u1ed9ng, vi\u1ec7c, quay m\u00e3i",
+              "timestamp_seconds": 95.33
+            },
+            {
+              "type": "animation",
+              "description": "N\u00f4ng d\u00e2n ng\u01b0\u1eddi que c\u00f2ng l\u01b0ng c\u00e0y ru\u1ed9ng d\u01b0\u1edbi n\u1eafng",
+              "timestamp_seconds": 101.45
+            }
+          ],
+          "pronunciation_guides": []
+        },
+        {
+          "id": "s10",
+          "label": "K\u1ebft: c\u00e2u h\u1ecfi",
+          "text": "C\u1ea3 \u0111\u1eddi b\u1ea1n l\u00e0m vi\u1ec7c ch\u00edn m\u01b0\u01a1i ngh\u00ecn gi\u1edd, mong ngh\u1ec9 h\u01b0u \u0111\u1ec3 c\u00f3 l\u1ea1i th\u1eddi gian. C\u00f2n h\u1ecd, sinh ra \u0111\u00e3 \u0111\u1ee9ng \u1edf v\u1ea1ch \u0111\u00edch. V\u1eady s\u00e1ng mai, khi c\u00e1i m\u00e1y l\u1ea1i h\u00e9t, b\u1ea1n s\u1ebd h\u1ecfi m\u00ecnh c\u00e2u g\u00ec? \u0110\u0103ng k\u00fd k\u00eanh \u0111\u1ec3 xem c\u01a1 th\u1ec3 b\u1ea1n c\u00f2n gi\u1eef g\u00ec t\u1eeb t\u1ed5 ti\u00ean nh\u00e9.",
+          "start_seconds": 107.56,
+          "end_seconds": 120.01,
+          "speaker_directions": "Gi\u1ecdng Minh Qu\u00e2n h\u00e0i kh\u00f4, nh\u1ecbp measured; nh\u1ea5n: v\u1ea1ch \u0111\u00edch, c\u00e2u g\u00ec. CTA: ending, n\u00f3i li\u1ec1n m\u1ea1ch kh\u00f4ng \u0111\u1ed5i gi\u1ecdng.",
+          "delivery_cues": {
+            "pace": "measured",
+            "energy": "reflective",
+            "emphasis_words": [
+              "v\u1ea1ch \u0111\u00edch",
+              "c\u00e2u g\u00ec"
+            ],
+            "pause_after_seconds": 0.35,
+            "delivery_note": "\u0110\u1ecdc t\u1ef1 nhi\u00ean nh\u01b0 k\u1ec3 chuy\u1ec7n v\u1edbi b\u1ea1n b\u00e8, kh\u00f4ng \u0111\u1ecdc ki\u1ec3u tin t\u1ee9c."
+          },
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n \u0111\u1ee9ng \u1edf v\u1ea1ch \u0111\u00edch v\u1ebd tay, nh\u00ecn ng\u01b0\u1eddi v\u0103n ph\u00f2ng ch\u1ea1y m\u1ec7t v\u1ec1 ph\u00eda m\u00ecnh",
+              "timestamp_seconds": 107.56
+            },
+            {
+              "type": "broll",
+              "description": "\u0110\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c s\u00e1ng h\u00f4m sau, ng\u01b0\u1eddi hi\u1ec7n \u0111\u1ea1i ng\u1ed3i d\u1eady ch\u1eadm r\u00e3i nh\u00ecn ra c\u1eeda s\u1ed5",
+              "timestamp_seconds": 113.78
+            }
+          ],
+          "pronunciation_guides": []
+        }
+      ],
+      "metadata": {
+        "word_count": 530,
+        "word_budget": 505,
+        "reference_url": "https://www.youtube.com/watch?v=49_Ph2q6uIM",
+        "sources": "research_brief.data_points"
+      }
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 0,
+      "single_calls_on_batchable": 0,
+      "batches": 0,
+      "batchable_tools_seen": [],
+      "window": {
+        "since": "2026-09-30T02:10:03.126201+00:00",
+        "until": "2026-09-30T02:12:36.009912+00:00"
+      }
+    }
+  }
+}

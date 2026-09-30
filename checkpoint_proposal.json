@@ -1,0 +1,482 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "proposal",
+  "status": "completed",
+  "timestamp": "2026-09-30T02:10:03.126201+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "c1",
+          "title": "V\u00ec Sao Ng\u01b0\u1eddi Ti\u1ec1n S\u1eed R\u1ea3nh H\u01a1n B\u1ea1n?",
+          "hook": "S\u00e1ng nay, m\u1ed9t c\u00e1i m\u00e1y h\u00e9t v\u00e0o m\u1eb7t b\u1ea1n cho t\u1edbi khi b\u1ea1n d\u1eady. T\u1ed5 ti\u00ean b\u1ea1n th\u00ec t\u1ef1 d\u1eady, v\u01b0\u01a1n vai, v\u00e0 h\u1ecfi: h\u00f4m nay l\u00e0m g\u00ec nh\u1ec9?",
+          "narrative_structure": "myth_busting",
+          "visual_approach": "Playbook ng\u01b0\u1eddi que (stick-savanna): n\u00e9t m\u1ef1c \u0111en h\u01a1i rung, \u0111\u1ea7u tr\u00f2n ph\u1eb3ng, n\u1ec1n phong c\u1ea3nh v\u1ebd tay nh\u1ea1t; nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n c\u1ee7a ng\u01b0\u1eddi d\u00f9ng (t\u00f3c n\u00e2u b\u00f9 x\u00f9, \u00e1o da th\u00fa) xuy\u00ean su\u1ed1t; c\u1ea3nh chia \u0111\u00f4i ng\u01b0\u1eddi v\u0103n ph\u00f2ng kh\u1ed5 s\u1edf v\u1edbi ng\u01b0\u1eddi ti\u1ec1n s\u1eed ung dung; kho\u1ea3ng m\u1ed9t n\u1eeda c\u1ea3nh l\u00e0 clip Veo.",
+          "suggested_playbook": "ng\u01b0\u1eddi que",
+          "target_audience": "Kh\u00e1n gi\u1ea3 ph\u1ed5 th\u00f4ng Vi\u1ec7t Nam th\u00edch l\u1ecbch s\u1eed lo\u00e0i ng\u01b0\u1eddi, c\u01a1 th\u1ec3, \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i",
+          "target_platform": "youtube",
+          "target_duration_seconds": 120,
+          "key_points": [
+            "Hai b\u1ed9 x\u01b0\u01a1ng: ng\u01b0\u1eddi s\u0103n b\u1eaft cao kh\u1ecfe, n\u00f4ng d\u00e2n \u0111\u1ea7u ti\u00ean th\u1ea5p h\u01a1n kho\u1ea3ng 4 cm v\u00e0 s\u00e2u r\u0103ng",
+            "Richard Lee \u0111o: ng\u01b0\u1eddi Ju/'hoansi ch\u1ec9 c\u1ea7n 12-19 gi\u1edd m\u1ed7i tu\u1ea7n \u0111\u1ec3 ki\u1ebfm \u0103n",
+            "Bu\u1ed5i chi\u1ec1u r\u1ea3nh l\u00e0m \u0111\u1ed3 \u0111\u1eb9p: h\u1ea1t v\u1ecf \u1ed1c 75.000 n\u0103m, s\u00e1o x\u01b0\u01a1ng k\u1ec1n k\u1ec1n 40.000 n\u0103m",
+            "Ban \u0111\u00eam b\u00ean l\u1eeda 81% l\u00e0 k\u1ec3 chuy\u1ec7n (Wiessner 2014), ng\u1ee7 hai gi\u1ea5c",
+            "N\u00f4ng nghi\u1ec7p l\u00e0 c\u00e1i b\u1eaby: nhi\u1ec1u l\u01b0\u01a1ng th\u1ef1c, nhi\u1ec1u ng\u01b0\u1eddi, nhi\u1ec1u vi\u1ec7c, kh\u00f4ng quay l\u1ea1i \u0111\u01b0\u1ee3c"
+          ],
+          "core_message": "Th\u1eddi gian r\u1ea3nh kh\u00f4ng b\u1ecb ai c\u01b0\u1edbp trong m\u1ed9t \u0111\u00eam; n\u00f3 b\u1ecb \u0111\u1ed5i d\u1ea7n l\u1ea5y h\u1ea1t gi\u1ed1ng, qua t\u1eebng th\u1ebf h\u1ec7.",
+          "cta": "\u0110\u0103ng k\u00fd \u0111\u1ec3 xem ti\u1ebfp c\u01a1 th\u1ec3 b\u1ea1n c\u00f2n gi\u1eef g\u00ec t\u1eeb t\u1ed5 ti\u00ean.",
+          "tone": "h\u00e0i kh\u00f4, \u1ea5m, so s\u00e1nh ti\u1ec1n s\u1eed v\u1edbi \u0111\u1eddi s\u1ed1ng hi\u1ec7n \u0111\u1ea1i",
+          "grounded_in": [
+            "Lee 1966",
+            "Wiessner 2014",
+            "Discover skeletal data",
+            "Blombos",
+            "Hohle Fels",
+            "Ekirch"
+          ],
+          "why_this_works": "B\u00e1m \u0111\u00fang x\u01b0\u01a1ng s\u1ed1ng n\u1ed9i dung c\u1ee7a video tham kh\u1ea3o (ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n gi\u1ed1ng nh\u1ea5t c\u00f3 th\u1ec3, nh\u01b0 c\u00f9ng t\u00e1c gi\u1ea3), \u0111\u1ea3o ng\u01b0\u1ee3c hi\u1ec3u l\u1ea7m '\u0111\u1eddi ti\u1ec1n s\u1eed kh\u1ed5 c\u1ef1c' b\u1eb1ng s\u1ed1 \u0111o c\u1ee7a Lee v\u00e0 b\u1eb1ng ch\u1ee9ng x\u01b0\u01a1ng."
+        },
+        {
+          "id": "c2",
+          "title": "H\u1ea1t Gi\u1ed1ng N\u00e0o \u0110\u00e3 L\u1ea5y M\u1ea5t Th\u1eddi Gian C\u1ee7a B\u1ea1n?",
+          "hook": "M\u01b0\u1eddi ngh\u00ecn n\u0103m tr\u01b0\u1edbc, ai \u0111\u00f3 gieo m\u1ed9t h\u1ea1t gi\u1ed1ng. V\u00e0 v\u00ec th\u1ebf s\u00e1ng nay b\u1ea1n ph\u1ea3i d\u1eady l\u00fac 6 gi\u1edd.",
+          "narrative_structure": "story",
+          "visual_approach": "C\u00f9ng playbook ng\u01b0\u1eddi que; k\u1ec3 ng\u01b0\u1ee3c t\u1eeb b\u00e1o th\u1ee9c v\u1ec1 h\u1ea1t gi\u1ed1ng \u0111\u1ea7u ti\u00ean.",
+          "suggested_playbook": "ng\u01b0\u1eddi que",
+          "target_platform": "youtube",
+          "target_duration_seconds": 120,
+          "core_message": "N\u00f4ng nghi\u1ec7p l\u00e0 c\u00e1i b\u1eaby d\u00e2n s\u1ed1.",
+          "why_this_works": "T\u1eadp trung m\u1ed9t c\u01a1 ch\u1ebf duy nh\u1ea5t (b\u1eaby n\u00f4ng nghi\u1ec7p), d\u1ef1a tr\u00ean b\u1eb1ng ch\u1ee9ng x\u01b0\u01a1ng."
+        },
+        {
+          "id": "c3",
+          "title": "81% Chuy\u1ec7n B\u00ean L\u1eeda L\u00e0 G\u00ec?",
+          "hook": "Ban ng\u00e0y t\u1ed5 ti\u00ean b\u1ea1n n\u00f3i chuy\u1ec7n s\u0103n b\u1eafn. Ban \u0111\u00eam, 81% l\u00e0 chuy\u1ec7n k\u1ec3.",
+          "narrative_structure": "data_narrative",
+          "visual_approach": "C\u00f9ng playbook ng\u01b0\u1eddi que, t\u1eadp trung c\u1ea3nh \u0111\u00eam b\u00ean l\u1eeda.",
+          "suggested_playbook": "ng\u01b0\u1eddi que",
+          "target_platform": "youtube",
+          "target_duration_seconds": 120,
+          "core_message": "V\u0103n h\u00f3a sinh ra trong gi\u1edd r\u1ea3nh.",
+          "why_this_works": "D\u1eef li\u1ec7u Wiessner 2014 b\u1ea5t ng\u1edd, \u00edt video ti\u1ebfng Vi\u1ec7t n\u00f3i t\u1edbi."
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "c1",
+        "rationale": "Ng\u01b0\u1eddi d\u00f9ng y\u00eau c\u1ea7u gi\u1ed1ng video tham kh\u1ea3o nh\u1ea5t c\u00f3 th\u1ec3, nh\u01b0 c\u00f9ng m\u1ed9t t\u00e1c gi\u1ea3; c1 gi\u1eef c\u00f9ng ch\u1ee7 \u0111\u1ec1, c\u00f9ng m\u00f3c m\u1edf \u0111\u1ea7u v\u00e0 c\u00f9ng m\u1ea1ch n\u1ed9i dung, n\u00e9n v\u00e0o 2 ph\u00fat theo c\u00f4ng th\u1ee9c playbook.",
+        "modifications": [
+          "R\u00fat t\u1eeb 11 ph\u00fat xu\u1ed1ng 2 ph\u00fat: b\u1ecf \u0111o\u1ea1n s\u0103n \u0111u\u1ed5i d\u00e0i, g\u1ed9p Hadza/Ache/Martu th\u00e0nh m\u1ed9t c\u00e2u"
+        ]
+      },
+      "production_plan": {
+        "pipeline": "animated-explainer",
+        "playbook": "ng\u01b0\u1eddi que",
+        "stages": [
+          {
+            "stage": "research",
+            "tools": [
+              {
+                "tool_name": "transcript_fetcher",
+                "role": "L\u1ea5y l\u1eddi video tham kh\u1ea3o",
+                "provider": "youtube-transcript-api",
+                "available": true,
+                "estimated_cost_usd": 0
+              }
+            ],
+            "approach": "Ch\u1ec9 \u0111\u1ecdc n\u1ed9i dung (playbook kh\u00f3a look + motion), ki\u1ec3m ch\u1ee9ng s\u1ed1 li\u1ec7u b\u1eb1ng web search"
+          },
+          {
+            "stage": "script",
+            "tools": [],
+            "approach": "Kho\u1ea3ng 505 t\u1eeb, 10 ph\u1ea7n, theo narrative c\u1ee7a playbook"
+          },
+          {
+            "stage": "narration",
+            "tools": [
+              {
+                "tool_name": "ai33_tts",
+                "role": "Gi\u1ecdng \u0111\u1ecdc",
+                "provider": "ai33",
+                "available": true,
+                "estimated_cost_usd": 0.1,
+                "why_this_provider": "Kh\u00f3a t\u1eeb playbook: Vbee Minh Qu\u00e2n, speed 1.15"
+              },
+              {
+                "tool_name": "audio_qc",
+                "role": "\u0110o nh\u1ecbp",
+                "provider": "ffmpeg",
+                "available": true,
+                "estimated_cost_usd": 0
+              }
+            ],
+            "approach": "TTS t\u1eebng ph\u1ea7n, \u0111o th\u1eddi l\u01b0\u1ee3ng"
+          },
+          {
+            "stage": "scene_plan",
+            "tools": [],
+            "approach": "Kho\u1ea3ng 45 c\u1ea3nh theo m\u1ed1c t\u1eeb, 23 Veo + 22 \u1ea3nh lia/zoom"
+          },
+          {
+            "stage": "assets",
+            "tools": [
+              {
+                "tool_name": "glabs_image",
+                "role": "\u1ea2nh tham chi\u1ebfu + \u1ea3nh c\u1ea3nh",
+                "provider": "glabs",
+                "available": true,
+                "estimated_cost_usd": 0,
+                "why_this_provider": "Kh\u00f3a t\u1eeb playbook: nano_banana_2"
+              },
+              {
+                "tool_name": "glabs_video",
+                "role": "Clip image-to-video",
+                "provider": "glabs",
+                "available": true,
+                "estimated_cost_usd": 0,
+                "why_this_provider": "Kh\u00f3a t\u1eeb playbook: veo_31_fast"
+              },
+              {
+                "tool_name": "ai33_music",
+                "role": "Nh\u1ea1c n\u1ec1n acoustic nh\u1eb9",
+                "provider": "ai33",
+                "available": true,
+                "estimated_cost_usd": 0.05,
+                "why_this_provider": "Kh\u00f3a t\u1eeb playbook (music)"
+              },
+              {
+                "tool_name": "media_basic_qc",
+                "role": "QC c\u01a1 b\u1ea3n",
+                "provider": "ffmpeg",
+                "available": true,
+                "estimated_cost_usd": 0
+              }
+            ],
+            "approach": "\u1ea2nh tham chi\u1ebfu tr\u01b0\u1edbc (narrator t\u1eeb \u1ea3nh ng\u01b0\u1eddi d\u00f9ng, tribe, sun, style_frame), r\u1ed3i \u1ea3nh c\u1ea3nh, r\u1ed3i Veo t\u1eeb \u1ea3nh c\u1ea3nh",
+            "fallback_if_unavailable": "D\u1eebng v\u00e0 h\u1ecfi ng\u01b0\u1eddi d\u00f9ng"
+          },
+          {
+            "stage": "edit",
+            "tools": [],
+            "approach": "C\u1eaft th\u1eb3ng, shot Veo d\u1ef1ng s\u1eb5n fps 7\u219230, crop 6%"
+          },
+          {
+            "stage": "compose",
+            "tools": [
+              {
+                "tool_name": "video_compose",
+                "role": "Render",
+                "provider": "remotion",
+                "available": true,
+                "estimated_cost_usd": 0
+              }
+            ],
+            "approach": "Remotion, nh\u1ea1c 0.07, loudnorm -14 LUFS"
+          }
+        ],
+        "quality_tradeoffs": [
+          {
+            "tradeoff": "ai33 TTS t\u1ef1 \u0111\u1ed9ng vs t\u1ef1 thu gi\u1ecdng qua SRT (manual_tts)",
+            "recommendation": "ai33 TTS (ng\u01b0\u1eddi d\u00f9ng y\u00eau c\u1ea7u t\u1ef1 \u0111\u1ed9ng ho\u00e0n to\u00e0n)",
+            "quality_impact": "Kh\u00f4ng ph\u1ea3i ch\u1edd ng\u01b0\u1eddi d\u00f9ng thu \u00e2m"
+          }
+        ],
+        "alternative_paths": [
+          {
+            "description": "Playbook \u0111\u1ea7y \u0111\u1ee7: 50% Veo + 50% \u1ea3nh lia/zoom",
+            "total_cost_usd": 0.15,
+            "quality_level": "standard",
+            "what_changes": "M\u1eb7c \u0111\u1ecbnh"
+          },
+          {
+            "description": "Ch\u1ec9 \u1ea3nh lia/zoom, kh\u00f4ng Veo",
+            "total_cost_usd": 0.15,
+            "quality_level": "budget",
+            "what_changes": "\u00cdt chuy\u1ec3n \u0111\u1ed9ng, nhanh h\u01a1n"
+          }
+        ],
+        "delivery_promise": {
+          "promise_type": "motion_led",
+          "motion_required": true,
+          "source_required": false,
+          "tone_mode": "playful",
+          "quality_floor": "presentable",
+          "approved_fallback": null
+        },
+        "renderer_family": "animation-first",
+        "render_runtime": "remotion",
+        "composition_mode": "templated",
+        "consistency": {
+          "mode": "image_refs",
+          "reason": "Nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n c\u1ee7a ng\u01b0\u1eddi d\u00f9ng, ng\u01b0\u1eddi b\u1ed9 t\u1ed9c v\u00e0 m\u1eb7t tr\u1eddi l\u1eb7p l\u1ea1i qua nhi\u1ec1u c\u1ea3nh; \u1ea3nh ng\u01b0\u1eddi d\u00f9ng g\u1eedi l\u00e0 g\u1ed1c cho @narrator",
+          "asked_user": false
+        },
+        "music_source": {
+          "source_type": "ai_generated",
+          "provider": "ai33",
+          "mood_direction": "nh\u1ea1c n\u1ec1n acoustic nh\u1eb9, vui, kh\u00f4ng l\u1eddi",
+          "estimated_cost_usd": 0.05
+        },
+        "voice_selection": {
+          "provider": "ai33",
+          "voice_id": "vbee_hn_male_minhquan_yt_24k-pre",
+          "rationale": "Kh\u00f3a t\u1eeb playbook ng\u01b0\u1eddi que",
+          "estimated_cost_usd": 0.1,
+          "delivery_style": "Nam mi\u1ec1n B\u1eafc, k\u1ec3 chuy\u1ec7n t\u1ef1 nhi\u00ean, h\u01a1i nhanh, gi\u1ecdng h\u00e0i kh\u00f4",
+          "pacing_policy": "speed 1.15, ngh\u1ec9 0.35 s gi\u1eefa ph\u1ea7n",
+          "sample_approval_required": false
+        },
+        "decision_log_ref": "D:\\OM\\projects\\ancient-free-time\\decision_log.json"
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0.15,
+        "line_items": [
+          {
+            "tool": "ai33_tts",
+            "operation": "Gi\u1ecdng \u0111\u1ecdc 10 ph\u1ea7n",
+            "quantity": 1,
+            "estimated_usd": 0.1
+          },
+          {
+            "tool": "glabs_image",
+            "operation": "4 \u1ea3nh tham chi\u1ebfu + 45 \u1ea3nh c\u1ea3nh",
+            "quantity": 49,
+            "estimated_usd": 0,
+            "notes": "Theo g\u00f3i glabs"
+          },
+          {
+            "tool": "glabs_video",
+            "operation": "23 clip Veo 3.1 fast",
+            "quantity": 23,
+            "estimated_usd": 0,
+            "notes": "Theo g\u00f3i glabs"
+          },
+          {
+            "tool": "ai33_music",
+            "operation": "1 b\u1ea3n nh\u1ea1c n\u1ec1n",
+            "quantity": 1,
+            "estimated_usd": 0.05
+          }
+        ],
+        "budget_verdict": "no_budget_set"
+      },
+      "approval": {
+        "status": "approved",
+        "user_notes": "Ng\u01b0\u1eddi d\u00f9ng: t\u1ef1 \u0111\u1ed9ng duy\u1ec7t m\u1ecdi th\u1ee9, kh\u00f4ng c\u1ea7n h\u1ecfi l\u1ea1i (2026-09-30)."
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "ancient-free-time",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "proposal",
+          "category": "approval_policy",
+          "subject": "T\u1ef1 duy\u1ec7t to\u00e0n b\u1ed9 c\u00e1c c\u1ed5ng",
+          "options_considered": [
+            {
+              "option_id": "auto_all",
+              "label": "T\u1ef1 duy\u1ec7t m\u1ecdi c\u1ed5ng",
+              "score": 1.0,
+              "reason": "Ng\u01b0\u1eddi d\u00f9ng vi\u1ebft: 't\u1ef1 \u0111\u1ed9ng duy\u1ec7t m\u1ecdi th\u1ee9, kh\u00f4ng c\u1ea7n h\u1ecfi l\u1ea1i t\u00f4i'"
+            },
+            {
+              "option_id": "per_gate",
+              "label": "H\u1ecfi t\u1eebng c\u1ed5ng",
+              "score": 0.1,
+              "reason": "M\u1eb7c \u0111\u1ecbnh",
+              "rejected_because": "Ng\u01b0\u1eddi d\u00f9ng \u0111\u00e3 u\u1ef7 quy\u1ec1n to\u00e0n b\u1ed9 trong chat"
+            }
+          ],
+          "selected": "auto_all",
+          "reason": "Ng\u01b0\u1eddi d\u00f9ng u\u1ef7 quy\u1ec1n tr\u01b0\u1edbc to\u00e0n b\u1ed9 quy tr\u00ecnh trong chat ng\u00e0y 2026-09-30",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "proposal",
+          "category": "playbook_selection",
+          "subject": "Playbook",
+          "options_considered": [
+            {
+              "option_id": "nguoi-que",
+              "label": "ng\u01b0\u1eddi que (stick-savanna)",
+              "score": 1.0,
+              "reason": "Ng\u01b0\u1eddi d\u00f9ng ch\u1ec9 \u0111\u1ecbnh"
+            }
+          ],
+          "selected": "nguoi-que",
+          "reason": "Ng\u01b0\u1eddi d\u00f9ng ch\u1ec9 \u0111\u1ecbnh playbook ng\u01b0\u1eddi que; nh\u00f3m kh\u00f3a: pipeline, render_runtime, voice, pacing, music, image, video, look, motion, recipe, narrative",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "proposal",
+          "category": "concept_selection",
+          "subject": "\u00dd t\u01b0\u1edfng video",
+          "options_considered": [
+            {
+              "option_id": "c1",
+              "label": "V\u00ec Sao Ng\u01b0\u1eddi Ti\u1ec1n S\u1eed R\u1ea3nh H\u01a1n B\u1ea1n?",
+              "score": 0.95,
+              "reason": "Gi\u1ed1ng video tham kh\u1ea3o nh\u1ea5t"
+            },
+            {
+              "option_id": "c2",
+              "label": "H\u1ea1t Gi\u1ed1ng N\u00e0o \u0110\u00e3 L\u1ea5y M\u1ea5t Th\u1eddi Gian C\u1ee7a B\u1ea1n?",
+              "score": 0.6,
+              "reason": "Ch\u1ec9 m\u1ed9t ph\u1ea7n n\u1ed9i dung",
+              "rejected_because": "Ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n gi\u1ed1ng b\u1ea3n g\u1ed1c nh\u1ea5t c\u00f3 th\u1ec3"
+            },
+            {
+              "option_id": "c3",
+              "label": "81% Chuy\u1ec7n B\u00ean L\u1eeda L\u00e0 G\u00ec?",
+              "score": 0.5,
+              "reason": "H\u1eb9p",
+              "rejected_because": "L\u1ec7ch ch\u1ee7 \u0111\u1ec1 ch\u00ednh"
+            }
+          ],
+          "selected": "c1",
+          "reason": "Ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n gi\u1ed1ng nh\u01b0 c\u00f9ng t\u00e1c gi\u1ea3 l\u00e0m, theo ch\u1ee7 \u0111\u1ec1 video tham kh\u1ea3o",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "proposal",
+          "category": "render_runtime_selection",
+          "subject": "Render runtime",
+          "options_considered": [
+            {
+              "option_id": "remotion",
+              "label": "Remotion",
+              "score": 1.0,
+              "reason": "Kh\u00f3a trong playbook"
+            },
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames",
+              "score": 0.3,
+              "reason": "C\u00f3 tr\u00ean m\u00e1y",
+              "rejected_because": "Playbook kh\u00f3a render_runtime=remotion"
+            },
+            {
+              "option_id": "ffmpeg",
+              "label": "FFmpeg",
+              "score": 0.2,
+              "reason": "C\u00f3 tr\u00ean m\u00e1y",
+              "rejected_because": "Playbook kh\u00f3a render_runtime=remotion"
+            }
+          ],
+          "selected": "remotion",
+          "reason": "Kh\u00f3a t\u1eeb playbook ng\u01b0\u1eddi que",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-005",
+          "stage": "proposal",
+          "category": "composition_mode",
+          "subject": "C\u00e1ch d\u1ef1ng",
+          "options_considered": [
+            {
+              "option_id": "templated",
+              "label": "Templated",
+              "score": 0.9,
+              "reason": "Playbook d\u00f9ng c\u1eaft th\u1eb3ng gi\u1eefa shot d\u1ef1ng s\u1eb5n"
+            },
+            {
+              "option_id": "atelier",
+              "label": "Atelier",
+              "score": 0.2,
+              "reason": "T\u1ed1n c\u00f4ng",
+              "rejected_because": "Kh\u00f4ng c\u1ea7n cho video to\u00e0n clip/\u1ea3nh"
+            }
+          ],
+          "selected": "templated",
+          "reason": "Theo c\u00f4ng th\u1ee9c playbook",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        },
+        {
+          "decision_id": "d-006",
+          "stage": "proposal",
+          "category": "voice_selection",
+          "subject": "Narration TTS provider",
+          "options_considered": [
+            {
+              "option_id": "ai33_minhquan",
+              "label": "ai33 Vbee Minh Qu\u00e2n",
+              "score": 1.0,
+              "reason": "Kh\u00f3a trong playbook"
+            },
+            {
+              "option_id": "manual_tts",
+              "label": "T\u1ef1 thu gi\u1ecdng qua SRT",
+              "score": 0.3,
+              "reason": "Ng\u01b0\u1eddi d\u00f9ng t\u1ef1 l\u00e0m",
+              "rejected_because": "Ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n t\u1ef1 \u0111\u1ed9ng ho\u00e0n to\u00e0n"
+            }
+          ],
+          "selected": "ai33_minhquan",
+          "reason": "Kh\u00f3a t\u1eeb playbook; ng\u01b0\u1eddi d\u00f9ng mu\u1ed1n t\u1ef1 \u0111\u1ed9ng",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-007",
+          "stage": "proposal",
+          "category": "music_source",
+          "subject": "Nh\u1ea1c n\u1ec1n",
+          "options_considered": [
+            {
+              "option_id": "ai33_music",
+              "label": "ai33_music",
+              "score": 0.9,
+              "reason": "Kh\u00f3a trong playbook"
+            },
+            {
+              "option_id": "none",
+              "label": "Kh\u00f4ng nh\u1ea1c",
+              "score": 0.1,
+              "reason": "",
+              "rejected_because": "Playbook c\u00f3 nh\u1ea1c"
+            }
+          ],
+          "selected": "ai33_music",
+          "reason": "Kh\u00f3a t\u1eeb playbook",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 0,
+      "single_calls_on_batchable": 0,
+      "batches": 0,
+      "batchable_tools_seen": [],
+      "window": {
+        "since": "2026-09-30T02:08:34.410549+00:00",
+        "until": "2026-09-30T02:10:02.969160+00:00"
+      }
+    }
+  }
+}

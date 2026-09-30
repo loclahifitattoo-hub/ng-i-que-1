@@ -1,0 +1,2610 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "scene_plan",
+  "status": "completed",
+  "timestamp": "2026-09-30T02:30:07.420374+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "scene_plan": {
+      "version": "1.0",
+      "metadata": {
+        "unit_id": "g01",
+        "section_ids": [
+          "s1"
+        ],
+        "slot_ids": [
+          "b001",
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "scene_count": 57,
+        "veo_i2v_scenes": [
+          "g01-sc01",
+          "g01-sc03"
+        ],
+        "still_pan_zoom_scenes": [
+          "g01-sc02",
+          "g01-sc04"
+        ],
+        "recurring_characters": {
+          "modern_worker": "Ng\u01b0\u1eddi que hi\u1ec7n \u0111\u1ea1i ri\u00eang, kh\u00f4ng ph\u1ea3i ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n: \u0111\u1ea7u tr\u00f2n ph\u1eb3ng m\u00e0u da nh\u1ea1t, t\u00f3c \u0111en ng\u1eafn g\u1ecdn; \u0111\u1ed3 ng\u1ee7 s\u1ecdc xanh (tr\u00ean gi\u01b0\u1eddng), s\u01a1 mi tr\u1eafng v\u00e0 c\u00e0 v\u1ea1t xanh #3A7CC4 (\u0111i l\u00e0m). Ch\u01b0a c\u00f3 \u1ea3nh tham chi\u1ebfu; n\u00ean t\u1ea1o @worker n\u1ebfu s10 (b060) d\u00f9ng l\u1ea1i.",
+          "alarm_clock": "\u0110\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c hai chu\u00f4ng \u0111\u1ecf cam #F28C28, m\u1eb7t ho\u1ea1t h\u00ecnh: gi\u1eadn d\u1eef (sc01), v\u00eanh v\u00e1o (sc02), \u0111\u1eafc \u00fd (sc03). N\u00ean c\u00f3 \u1ea3nh tham chi\u1ebfu @clock \u0111\u1ec3 s10 (b060 'khi c\u00e1i m\u00e1y l\u1ea1i h\u00e9t') d\u00f9ng l\u1ea1i."
+        },
+        "notes": "4 c\u1ea3nh \u1ee9ng v\u1edbi 4 beat c\u1ee7a s1, m\u1ed7i c\u1ea3nh 2.17-3.15 s (trong d\u1ea3i 0.9-4.8 s), to\u00e0n b\u1ed9 c\u1eaft th\u1eb3ng; 2 Veo v\u00e0 2 \u1ea3nh lia/zoom; c\u1ee1 khung medium_wide, wide, medium_close, extreme_wide, kh\u00f4ng l\u1eb7p 3 l\u1ea7n li\u1ec1n. C\u1ea3nh b\u00e1o cho producer: QC narration s1 ghi FAIL t\u1ed1c \u0111\u1ed9 4.54 t\u1eeb/s, v\u00e0 transcript STT b\u1ecf m\u1ea5t c\u00e2u cu\u1ed1i 'Gi\u1edd, tua ng\u01b0\u1ee3c n\u0103m m\u01b0\u01a1i ngh\u00ecn n\u0103m' d\u00f9 words.json v\u1eabn c\u00f3 m\u1ed1c 8.24-9.64 s; n\u00ean nghe l\u1ea1i \u0111o\u1ea1n cu\u1ed1i s1 tr\u01b0\u1edbc b\u01b0\u1edbc assets.",
+        "overlays": "Kh\u00f4ng c\u00f3 overlay n\u00e0o trong g01 (ch\u1eef v\u00e0 s\u1ed1 \u0111\u1ec1u thay b\u1eb1ng k\u00fd hi\u1ec7u)."
+      },
+      "scenes": [
+        {
+          "id": "g01-sc01",
+          "type": "character_scene",
+          "description": "C\u1ea3nh m\u1edf \u0111\u1ea7u (hero, clip Veo i2v): ph\u00f2ng ng\u1ee7 hi\u1ec7n \u0111\u1ea1i l\u00fac t\u1edd m\u1edd s\u00e1ng, ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng ng\u01b0\u1eddi que ng\u1ee7 say d\u01b0\u1edbi ch\u0103n; c\u00e1i \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c \u0111\u1ecf cam c\u00f3 khu\u00f4n m\u1eb7t gi\u1eadn d\u1eef n\u1ea3y t\u01b0ng t\u01b0ng tr\u00ean t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng v\u00e0 h\u00e9t, v\u1ea1ch rung quanh chu\u00f4ng; ng\u01b0\u1eddi b\u1eadt d\u1eady ho\u1ea3ng h\u1ed1t, m\u1eaft tr\u1ee3n, t\u00f3c d\u1ef1ng \u0111\u1ee9ng. Kh\u1edbp c\u00e2u 'm\u1ed9t c\u00e1i m\u00e1y h\u00e9t v\u00e0o m\u1eb7t b\u1ea1n cho t\u1edbi khi b\u1ea1n m\u1edf m\u1eaft'. N\u1ec1n: c\u1eeda s\u1ed5 nh\u00ecn ra m\u00e1i nh\u00e0 th\u00e0nh ph\u1ed1 nh\u1ea1t m\u00e0u v\u1ebd c\u00f9ng n\u00e9t m\u1ef1c. C\u1eaft th\u1eb3ng.",
+          "start_seconds": 0.0,
+          "end_seconds": 3.15,
+          "script_section_id": "s1",
+          "narrative_role": "introduce_subject",
+          "framing": "medium_wide: gi\u01b0\u1eddng chi\u1ebfm 2/3 tr\u00e1i, \u0111\u1ed3ng h\u1ed3 tr\u00ean t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng \u1edf 1/3 ph\u1ea3i ngang t\u1ea7m m\u1eaft ng\u01b0\u1eddi n\u1eb1m; FG t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng v\u00e0 \u0111\u1ed3ng h\u1ed3, MG ng\u01b0\u1eddi tr\u00ean gi\u01b0\u1eddng, BG t\u01b0\u1eddng v\u00e0 c\u1eeda s\u1ed5",
+          "movement": "Veo i2v; m\u00e1y quay \u0111\u1ee9ng y\u00ean, ch\u1ec9 nh\u00e2n v\u1eadt v\u00e0 \u0111\u1ed3ng h\u1ed3 chuy\u1ec3n \u0111\u1ed9ng",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "character_actions": [
+            {
+              "character_id": "alarm_clock",
+              "action_sequence": [
+                "\u0111\u1ee9ng im, m\u1eb7t nh\u1eafm ng\u1ee7",
+                "b\u1eebng m\u1edf m\u1eaft gi\u1eadn d\u1eef, mi\u1ec7ng h\u00e1 to h\u00e9t",
+                "n\u1ea3y t\u01b0ng t\u01b0ng, rung l\u1eafc m\u1ea1nh tr\u00ean t\u1ee7"
+              ]
+            },
+            {
+              "character_id": "modern_worker",
+              "action_sequence": [
+                "ng\u1ee7 say, ch\u0103n k\u00e9o t\u1edbi c\u1eb1m",
+                "m\u1eaft b\u1eadt m\u1edf",
+                "b\u1eadt ng\u1ed3i d\u1eady ho\u1ea3ng h\u1ed1t, hai tay bu\u00f4ng xu\u1ed1ng ch\u0103n, t\u00f3c d\u1ef1ng \u0111\u1ee9ng"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "cool pale dawn blue"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Start frame, @style_frame reference. Hand-drawn stick-figure cartoon, modern bedroom at pale dawn: a stick-figure office worker (round flat pale-peach head, short neat black hair, blue striped pyjamas) sleeps on his back in a bed on the left two thirds of the frame, blanket pulled to his chin, eyes closed. On a small bedside table on the right third sits a round orange-red twin-bell alarm clock (#F28C28) whose face is a cartoon face, eyes closed as if asleep. Behind: plain pale wall and a window showing pale hand-drawn city rooftops in the same ink. Medium-wide, eye level with the bed, deep focus, flat muted colours, cool dawn light."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo image-to-video from the start frame, 8 s, keep the clean section after ~0.5 s. Static camera. The alarm clock's eyes snap open into a furious frown, its mouth opens wide in a shout and it bounces and shakes violently on the table with little shake lines around its bells. The sleeping man's eyes pop open and he jolts upright in panic, hair standing on end, both hands resting down on the blanket. Hand-drawn stick-figure cartoon style, wobbly ink outlines, flat colours."
+            }
+          ]
+        },
+        {
+          "id": "g01-sc02",
+          "type": "generated",
+          "description": "\u1ea2nh t\u0129nh lia ph\u1ea3i ch\u1eadm (pan-right): \u1ea9n d\u1ee5 con r\u1ed1i. C\u00e1i \u0111\u1ed3ng h\u1ed3 gi\u1eadn d\u1eef ph\u00f3ng to l\u01a1 l\u1eedng ph\u00eda tr\u00ean nh\u01b0 ng\u01b0\u1eddi \u0111i\u1ec1u khi\u1ec3n r\u1ed1i, d\u00e2y r\u1ed1i th\u1ea3 t\u1eeb hai qu\u1ea3 chu\u00f4ng xu\u1ed1ng tay ch\u00e2n ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng (gi\u1edd m\u1eb7c s\u01a1 mi tr\u1eafng, c\u00e0 v\u1ea1t xanh, c\u1ea7m c\u1eb7p) \u0111ang l\u00ea b\u01b0\u1edbc v\u1ec1 ph\u00eda to\u00e0 v\u0103n ph\u00f2ng x\u00e1m. Kh\u1edbp 'c\u1ea3 ng\u00e0y c\u1ee7a b\u1ea1n \u0111\u00e3 c\u00f3 ng\u01b0\u1eddi kh\u00e1c quy\u1ebft \u0111\u1ecbnh'. Kh\u00f4ng ch\u1eef, kh\u00f4ng s\u1ed1. C\u1eaft th\u1eb3ng.",
+          "start_seconds": 3.15,
+          "end_seconds": 5.81,
+          "script_section_id": "s1",
+          "narrative_role": "build_tension",
+          "framing": "wide: \u0111\u1ed3ng h\u1ed3 \u1edf 1/3 tr\u00ean-tr\u00e1i, ng\u01b0\u1eddi nh\u1ecf \u1edf 1/3 d\u01b0\u1edbi-gi\u1eefa, to\u00e0 v\u0103n ph\u00f2ng \u1edf m\u00e9p ph\u1ea3i; m\u00e1y quay lia t\u1eeb \u0111\u1ed3ng h\u1ed3 sang to\u00e0 nh\u00e0",
+          "movement": "pan-right ch\u1eadm tr\u00ean \u1ea3nh t\u0129nh (ken-burns)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "pan_right",
+            "lens_mm": 24,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "neutral"
+          },
+          "character_actions": [
+            {
+              "character_id": "alarm_clock",
+              "action_sequence": [
+                "l\u01a1 l\u1eedng tr\u00ean cao, m\u1eb7t v\u00eanh v\u00e1o ra l\u1ec7nh, gi\u1eadt d\u00e2y r\u1ed1i"
+              ]
+            },
+            {
+              "character_id": "modern_worker",
+              "action_sequence": [
+                "b\u01b0\u1edbc \u0111i u\u1ec3 o\u1ea3i, tay ch\u00e2n b\u1ecb d\u00e2y k\u00e9o, m\u1eb7t ch\u00e1n n\u1ea3n"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "puppet strings"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame reference. Hand-drawn stick-figure cartoon, wide shot on a pale morning street: a giant orange-red twin-bell alarm clock with a bossy, smug angry cartoon face floats in the upper-left sky like a puppeteer, thin black puppet strings hanging from its bells down to the wrists and ankles of a small stick-figure office worker (round flat pale-peach head, short neat black hair, white shirt, blue tie #3A7CC4, grey trousers, briefcase) who trudges glumly toward a plain grey office block on the right edge. Simple pale hand-drawn city street and low trees in the same ink behind. Flat muted colours, deep focus, wide 16:9 filled edge to edge."
+            }
+          ]
+        },
+        {
+          "id": "g01-sc03",
+          "type": "character_scene",
+          "description": "Clip Veo i2v, ban \u0111\u00eam: ng\u01b0\u1eddi l\u00e0m v\u0103n ph\u00f2ng m\u1eb7c \u0111\u1ed3 ng\u1ee7, m\u1eaft th\u00e2m qu\u1ea7ng, m\u1eb7t ch\u00e1n n\u1ea3n, t\u1ef1 tay v\u1eb7n n\u00fam \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c \u0111\u1ec3 \u0111\u1eb7t l\u1ea1i gi\u1edd; \u0111\u1ed3ng h\u1ed3 \u0111ang ng\u1ee7 th\u00ec he h\u00e9 m\u1ed9t m\u1eaft c\u01b0\u1eddi \u0111\u1eafc \u00fd. Ng\u01b0\u1eddi th\u1edf d\u00e0i r\u1ed3i \u0111\u1ed5 v\u1eadt xu\u1ed1ng g\u1ed1i. Nh\u1ea5n 't\u1ef1 tay'. C\u1eaft th\u1eb3ng.",
+          "start_seconds": 5.81,
+          "end_seconds": 8.09,
+          "script_section_id": "s1",
+          "narrative_role": "emotional_beat",
+          "framing": "medium_close: m\u1eb7t ng\u01b0\u1eddi \u1edf 1/3 tr\u00e1i, b\u00e0n tay v\u00e0 \u0111\u1ed3ng h\u1ed3 \u1edf 1/3 ph\u1ea3i; FG \u0111\u1ed3ng h\u1ed3 tr\u00ean t\u1ee7, MG ng\u01b0\u1eddi n\u1eeda n\u1eb1m, BG c\u1eeda s\u1ed5 \u0111\u00eam c\u00f3 tr\u0103ng tr\u00f2n v\u1ebd tay",
+          "movement": "Veo i2v; m\u00e1y quay \u0111\u1ee9ng y\u00ean",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "static",
+            "lens_mm": 50,
+            "lighting_key": "low_key",
+            "depth_of_field": "medium",
+            "color_temperature": "cool"
+          },
+          "character_actions": [
+            {
+              "character_id": "modern_worker",
+              "action_sequence": [
+                "gi\u01a1 m\u1ed9t tay v\u1eb7n n\u00fam sau \u0111\u1ed3ng h\u1ed3, tay kia bu\u00f4ng tr\u00ean ch\u0103n",
+                "th\u1edf d\u00e0i",
+                "\u0111\u1ed5 v\u1eadt ra g\u1ed1i"
+              ]
+            },
+            {
+              "character_id": "alarm_clock",
+              "action_sequence": [
+                "m\u1eaft nh\u1eafm",
+                "he h\u00e9 m\u1ed9t m\u1eaft, nh\u1ebfch m\u00e9p c\u01b0\u1eddi \u0111\u1eafc \u00fd"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted night blue",
+            "tired eyes"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Start frame, @style_frame reference. Hand-drawn stick-figure cartoon at night, medium close-up: the same stick-figure office worker (round flat pale-peach head, short neat black hair, blue striped pyjamas, dark tired rings under droopy eyes, glum flat mouth) half-lying in bed on the left third, reaching out with ONE hand to the knob on the back of the orange-red twin-bell alarm clock on the bedside table on the right third, his other arm lying down on the blanket. The clock's cartoon face is asleep. Behind: a window with a hand-drawn full moon and pale night rooftops. Flat muted dark-blue night fills, no shading."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo image-to-video from the start frame, 8 s, keep the clean section after ~0.5 s. Static camera. The man twists the knob on the clock with one hand while his other arm stays down on the blanket; the clock opens one eye and gives a smug little grin. The man lets out a heavy sigh, lets go and flops back onto his pillow. Hand-drawn stick-figure cartoon style, wobbly ink outlines, flat colours."
+            }
+          ]
+        },
+        {
+          "id": "g01-sc04",
+          "type": "transition",
+          "description": "Chuy\u1ec3n c\u1ea3nh 'tua ng\u01b0\u1ee3c n\u0103m m\u01b0\u01a1i ngh\u00ecn n\u0103m' b\u1eb1ng k\u00fd hi\u1ec7u, kh\u00f4ng ch\u1eef, kh\u00f4ng s\u1ed1: \u1ea3nh t\u0129nh zoom-in ch\u1eadm. Tr\u00e1i: c\u0103n ph\u00f2ng v\u00e0 th\u00e0nh ph\u1ed1 hi\u1ec7n \u0111\u1ea1i nh\u1ea1t d\u1ea7n; gi\u1eefa: v\u00f2ng xo\u00e1y l\u1edbn g\u1ed3m c\u00e1c m\u0169i t\u00ean cong quay ng\u01b0\u1ee3c chi\u1ec1u kim \u0111\u1ed3ng h\u1ed3 quanh m\u1ed9t m\u1eb7t \u0111\u1ed3ng h\u1ed3 kh\u00f4ng kim; ph\u1ea3i: \u0111\u1ed3ng c\u1ecf savan ti\u1ec1n s\u1eed, ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n (@narrator) \u0111\u1ee9ng nh\u00ecn ra. Zoom d\u1ea7n v\u00e0o n\u1eeda savan \u0111\u1ec3 n\u1ed1i sang s2. C\u1eaft th\u1eb3ng.",
+          "start_seconds": 8.09,
+          "end_seconds": 10.265,
+          "script_section_id": "s1",
+          "narrative_role": "transition",
+          "framing": "extreme_wide: v\u00f2ng xo\u00e1y m\u0169i t\u00ean \u1edf gi\u1eefa, th\u00e0nh ph\u1ed1 \u1edf 1/3 tr\u00e1i, savan v\u00e0 ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n \u1edf 1/3 ph\u1ea3i; zoom-in tr\u01b0\u1ee3t d\u1ea7n v\u1ec1 ph\u00eda ph\u1ea3i",
+          "movement": "zoom-in ch\u1eadm l\u1ec7ch ph\u1ea3i tr\u00ean \u1ea3nh t\u0129nh (ken-burns)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "zoom_in",
+            "lens_mm": 24,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "\u0111\u1ee9ng tr\u00ean \u0111\u1ed3ng c\u1ecf, tay bu\u00f4ng, nh\u00ecn v\u1ec1 ph\u00eda m\u00e1y quay"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "backward arrows swirl",
+            "savanna ochre"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@narrator and @style_frame references. Hand-drawn stick-figure cartoon, extreme wide panorama: on the left third a pale modern city skyline and bedroom window fading out; in the centre a big hand-drawn swirl of curved black arrows spinning counter-clockwise around a plain round clock face without hands, like time rewinding; on the right third a sunny dry savanna with low hills and an acacia tree in pale ochre ink, where the narrator (messy brown hair, round flat white face, torn brown hide tunic with zig-zag edges) stands alone, arms down, looking toward the viewer. Flat muted colours shifting from cool grey on the left to warm ochre on the right, filling the 16:9 frame edge to edge."
+            }
+          ]
+        },
+        {
+          "id": "g02-sc01",
+          "type": "animation",
+          "description": "Veo i2v (clean segment, 7 fps). Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) lying on a dry-grass mat. Motion: he opens his eyes, sits up slowly and rubs one eye; the other arm rests on his knee. Scene: open savanna at sunrise, low pale hills, a flat-topped acacia, soft pale-yellow morning light; no overlays. Framing: wide, narrator large in the left third (MG), savanna BG. Camera: eye level, locked-off, deep focus. Transition: cut in/out.",
+          "start_seconds": 10.265,
+          "end_seconds": 12.455,
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "introduce_subject",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "lies on grass mat",
+                "opens eyes",
+                "sits up slowly",
+                "rubs one eye, other arm resting on knee"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; start frame (nano_banana_2, refs @narrator @style_frame): the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) lying on a dry-grass mat on a pale savanna at sunrise, low hills and one acacia behind; then veo_31_fast i2v: he opens his eyes and sits up slowly, rubbing one eye while the other arm rests on his knee; locked-off camera.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g02-sc02",
+          "type": "generated",
+          "description": "Still, slow pan-right. Subject: symbol pair - a hand-drawn ticking clock and a page-grid calendar, each struck by a big red X, floating beside the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) who shrugs contentedly. Motion: pan-right reveals clock then calendar. Scene: plain pale savanna backdrop (#F6E7C8), morning; no text, symbols only (red X allowed). Framing: insert-style, symbols center-right MG, narrator half-body at left edge. Camera: N/A still - ken-burns pan_right.",
+          "start_seconds": 12.455,
+          "end_seconds": 14.134,
+          "shot_language": {
+            "shot_size": "insert",
+            "camera_movement": "pan_right",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "stands at frame left",
+                "shrugs relaxed, both arms low"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; refs @narrator @style_frame: a simple ink-drawn round clock and a blank calendar grid, each crossed out by a big red X, floating over a pale savanna morning; the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) half-body at left edge, relaxed shrug; nothing written.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g02-sc03",
+          "type": "animation",
+          "description": "Veo i2v (clean segment, 7 fps). Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) standing beside a small smoking campfire, his wooden spear planted upright in the ground next to him. Motion: he raises both arms high in a big lazy stretch, then lowers them. Scene: savanna morning, thin smoke curl, pale hills; no overlays. Framing: medium-wide, narrator off-center right MG, campfire FG-left, spear MG. Camera: eye level, slight slow push in.",
+          "start_seconds": 14.134,
+          "end_seconds": 15.215,
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "dolly_in",
+            "lens_mm": 35,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "introduce_subject",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "stands by campfire",
+                "raises both arms in a big stretch",
+                "lowers arms"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; start frame (refs @narrator @style_frame): the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) standing by a small campfire with thin smoke, wooden spear planted upright in the ground beside him, pale savanna morning; veo_31_fast i2v: he stretches both arms high overhead, yawns, then lowers them; slow push in.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g02-sc04",
+          "type": "generated",
+          "description": "Still, slow zoom-out. Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) turns toward the viewer, one finger raised thoughtfully to his chin, the other arm hanging down; spear and campfire behind him. Motion: ken-burns zoom_out from face to half-body, setting up the question. Scene: savanna morning, empty open sky (room above head); no overlays. Framing: medium, narrator right-of-center, campfire BG-left. Camera: N/A still - slow zoom_out.",
+          "start_seconds": 15.215,
+          "end_seconds": 17.525,
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "zoom_out",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "faces viewer",
+                "raises one finger to chin, other arm down",
+                "looks up thinking"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; refs @narrator @style_frame: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) half-body facing viewer, one finger to his chin, other arm hanging down, eyes looking up in thought; campfire and upright spear behind on a pale savanna morning; empty sky above his head.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g02-sc05",
+          "type": "animation",
+          "description": "HERO MOMENT. Veo i2v (clean segment, 7 fps). Subject: close-up of the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) face, eyes wide and curious. Motion: a big hand-drawn black ink question mark pops up above his head and wobbles; he tilts his head. Scene: pale savanna sky BG; the hand-drawn '?' is baked into the clip (playbook-allowed exception), no other text; lands on the emphasised phrase 'hom nay minh lam gi nhi'. Framing: close-up, face lower-left third, '?' upper-right. Camera: eye level, locked-off.",
+          "start_seconds": 17.525,
+          "end_seconds": 19.095,
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "deliver_payload",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "looks curious",
+                "tilts head",
+                "hand-drawn question mark pops above head and wobbles"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; start frame (refs @narrator @style_frame): close-up of the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) face with wide curious eyes against a pale morning sky, empty space above his head; veo_31_fast i2v: a big hand-drawn black ink question mark pops up above his head and wobbles while he tilts his head.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g02-sc06",
+          "type": "generated",
+          "description": "Still, slow ken-burns zoom-in. Subject: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) freezes mid-thought, one eyebrow raised, side-eyeing a harsh stretch of savanna: cracked dry ground and a distant bleached skull under a glaring sun. Motion: zoom_in onto his doubtful face - the 'wasn't prehistoric life hard?' doubt beat. Scene: same savanna, now slightly harsher and drier, late-morning; no overlays. Framing: medium-close, narrator left third FG/MG, harsh ground BG-right. Camera: N/A still - slow zoom_in.",
+          "start_seconds": 19.095,
+          "end_seconds": 21.94,
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "zoom_in",
+            "lens_mm": 35,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "neutral"
+          },
+          "narrative_role": "build_tension",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "freezes",
+                "raises one eyebrow",
+                "side-eyes the harsh landscape"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink",
+            "flat muted fills",
+            "pale savanna background"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines, flat muted fills, no gradients; refs @narrator @style_frame: the narrator (@narrator: messy brown hair, round flat white face, torn brown hide tunic with zigzag hem) at left, one eyebrow raised in doubt, glancing sideways at cracked dry savanna ground with a distant bleached animal skull under a glaring sun; muted pale background.",
+              "source": "generate"
+            }
+          ]
+        },
+        {
+          "id": "g03-sc01",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "character_scene",
+          "start_seconds": 21.94,
+          "end_seconds": 24.37,
+          "description": "Veo i2v: hai nh\u00e0 kh\u1ea3o c\u1ed5 ng\u01b0\u1eddi que \u0111\u1ed9i m\u0169 r\u1ed9ng v\u00e0nh \u0111ang \u0111\u00e0o h\u1ed1 tr\u00ean \u0111\u1ed3ng c\u1ecf kh\u00f4, g\u1ea1t l\u1edbp \u0111\u1ea5t v\u00e0 l\u1ed9 ra hai b\u1ed9 x\u01b0\u01a1ng n\u1eb1m c\u1ea1nh nhau (m\u1ed9t cao x\u01b0\u01a1ng d\u00e0y, m\u1ed9t th\u1ea5p c\u1ed9t s\u1ed1ng cong). Kh\u1edbp c\u00e2u \"\u0111\u00e0o l\u00ean hai b\u1ed9 x\u01b0\u01a1ng c\u00f9ng m\u1ed9t v\u00f9ng\".",
+          "framing": "wide; h\u1ed1 \u0111\u00e0o \u1edf gi\u1eefa-d\u01b0\u1edbi khung, hai nh\u00e0 kh\u1ea3o c\u1ed5 l\u1ec7ch tr\u00e1i (MG), \u0111\u1ed3i th\u1ea5p nh\u1ea1t \u1edf BG",
+          "movement": "Veo: nh\u00e2n v\u1eadt g\u1ea1t \u0111\u1ea5t b\u1eb1ng b\u00e0n ch\u1ea3i, \u0111\u1ea5t tr\u01b0\u1ee3t \u0111i l\u1ed9 x\u01b0\u01a1ng; m\u00e1y quay \u0111\u1ee9ng y\u00ean",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "introduce_subject",
+          "shot_intent": "M\u1edf ch\u01b0\u01a1ng: \u0111\u1eb7t hai b\u1ed9 x\u01b0\u01a1ng l\u00ean m\u00e0n h\u00ecnh c\u00f9ng l\u00fac \u0111\u1ec3 kh\u00e1n gi\u1ea3 so s\u00e1nh ngay.",
+          "information_role": "Kh\u1ea3o c\u1ed5 t\u00ecm \u0111\u01b0\u1ee3c hai b\u1ed9 x\u01b0\u01a1ng c\u00f9ng m\u1ed9t v\u00f9ng.",
+          "character_actions": [
+            {
+              "character_id": "archaeologist",
+              "action_sequence": [
+                "qu\u1ef3 b\u00ean m\u00e9p h\u1ed1",
+                "g\u1ea1t \u0111\u1ea5t b\u1eb1ng b\u00e0n ch\u1ea3i",
+                "l\u00f9i l\u1ea1i nh\u00ecn hai b\u1ed9 x\u01b0\u01a1ng"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "dusty ochre"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; two stick-figure archaeologists with round flat white heads, wide-brim khaki hats and khaki shirts at the edge of an open excavation pit in dry pale-ochre earth on a low grassy plain, one kneeling and brushing soil away; inside the pit lie a tall skeleton with thick heavy bones and a full row of strong white teeth and, beside it, a shorter skeleton with a hunched, worn, curved spine and gappy dark-spotted teeth, both on their backs side by side. Wide shot, pit lower centre, archaeologists off-centre left, low pale hills behind. Refs: @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the kneeling archaeologist sweeps a small brush across the soil and loose earth slides aside, revealing more of the two skeletons; the standing archaeologist leans in with one hand on a knee and the other arm hanging down. Camera static. Keep the flat hand-drawn ink style; nothing written."
+            }
+          ]
+        },
+        {
+          "id": "g03-sc02",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "generated",
+          "start_seconds": 24.37,
+          "end_seconds": 26.65,
+          "description": "\u1ea2nh t\u0129nh zoom ch\u1eadm v\u00e0o b\u1ed9 x\u01b0\u01a1ng cao: x\u01b0\u01a1ng \u0111\u00f9i d\u00e0y, l\u1ed3ng ng\u1ef1c r\u1ed9ng, h\u00e0m r\u0103ng \u0111\u1ec1u v\u00e0 ch\u1eafc. Kh\u1edbp \"M\u1ed9t b\u1ed9 cao, x\u01b0\u01a1ng d\u00e0y, r\u0103ng ch\u1eafc\".",
+          "framing": "close_up nh\u00ecn t\u1eeb tr\u00ean xu\u1ed1ng; b\u1ed9 x\u01b0\u01a1ng cao chi\u1ebfm 2/3 khung l\u1ec7ch ph\u1ea3i, m\u00e9p h\u1ed1 \u0111\u1ea5t \u1edf vi\u1ec1n",
+          "movement": "ken-burns-slow-zoom (zoom_in ch\u1eadm v\u1ec1 ph\u00eda h\u00e0m r\u0103ng)",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef.",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "zoom_in",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "medium",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "shot_intent": "Cho th\u1ea5y r\u00f5 \u0111\u1eb7c \u0111i\u1ec3m kh\u1ecfe m\u1ea1nh c\u1ee7a b\u1ed9 x\u01b0\u01a1ng th\u1ee9 nh\u1ea5t.",
+          "information_role": "B\u1ed9 x\u01b0\u01a1ng n\u00e0y cao, x\u01b0\u01a1ng d\u00e0y, r\u0103ng ch\u1eafc.",
+          "texture_keywords": [
+            "wobbly ink",
+            "bone white",
+            "ochre soil"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; top-down close-up of a tall skeleton with thick heavy bones and a full row of strong white teeth, long thick thigh bones and a broad ribcage, lying in pale-ochre excavated earth, the skeleton off-centre right filling two thirds of the frame, a small brush resting beside it. Refs: @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g03-sc03",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "generated",
+          "start_seconds": 26.65,
+          "end_seconds": 29.25,
+          "description": "\u1ea2nh t\u0129nh lia ngang sang b\u1ed9 x\u01b0\u01a1ng th\u1ea5p: c\u1ed9t s\u1ed1ng cong m\u00f2n, r\u0103ng s\u00e2u s\u1ee9t, x\u01b0\u01a1ng m\u1ea3nh y\u1ebfu. Kh\u1edbp \"B\u1ed9 kia r\u0103ng s\u00e2u, c\u1ed9t s\u1ed1ng m\u00f2n, ch\u1ebft s\u1edbm\".",
+          "framing": "medium_close; b\u1ed9 x\u01b0\u01a1ng th\u1ea5p l\u1ec7ch tr\u00e1i, c\u1ed9t s\u1ed1ng cong n\u1ed5i b\u1eadt \u1edf gi\u1eefa khung",
+          "movement": "pan-right ch\u1eadm d\u1ecdc theo c\u1ed9t s\u1ed1ng",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "pan_right",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "medium",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "comparison",
+          "shot_intent": "T\u01b0\u01a1ng ph\u1ea3n tr\u1ef1c ti\u1ebfp v\u1edbi b\u1ed9 x\u01b0\u01a1ng kh\u1ecfe \u1edf c\u1ea3nh tr\u01b0\u1edbc.",
+          "information_role": "B\u1ed9 x\u01b0\u01a1ng kia y\u1ebfu: r\u0103ng s\u00e2u, c\u1ed9t s\u1ed1ng m\u00f2n, ch\u1ebft s\u1edbm.",
+          "texture_keywords": [
+            "wobbly ink",
+            "bone white",
+            "ochre soil"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; medium close-up of a shorter skeleton with a hunched, worn, curved spine and gappy dark-spotted teeth, the spine visibly bent into a curve, several teeth missing, thin fragile limb bones, lying in pale-ochre excavated earth, the skeleton off-centre left. Refs: @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g03-sc04",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "character_scene",
+          "start_seconds": 29.25,
+          "end_seconds": 30.91,
+          "description": "Veo i2v: m\u1ed9t nh\u00e0 kh\u1ea3o c\u1ed5 ng\u01b0\u1eddi que \u0111\u1ee9ng gi\u1eefa hai b\u1ed9 x\u01b0\u01a1ng, nh\u00ecn tr\u00e1i r\u1ed3i ph\u1ea3i r\u1ed3i g\u00e3i \u0111\u1ea7u; d\u1ea5u ? v\u1ebd tay l\u01a1 l\u1eedng tr\u00ean \u0111\u1ea7u. Nh\u1ecbp \"\u0110o\u00e1n xem ai l\u00e0 ng\u01b0\u1eddi ti\u1ec1n s\u1eed?\" \u2014 h\u01b0\u1edbng c\u00e2u h\u1ecfi ra kh\u00e1n gi\u1ea3.",
+          "framing": "medium_wide; nh\u00e0 kh\u1ea3o c\u1ed5 \u1edf gi\u1eefa h\u01a1i l\u1ec7ch ph\u1ea3i, hai b\u1ed9 x\u01b0\u01a1ng hai b\u00ean ph\u00eda d\u01b0\u1edbi khung",
+          "movement": "Veo: m\u1ed9t tay g\u00e3i \u0111\u1ea7u, tay kia bu\u00f4ng xu\u1ed1ng, quay \u0111\u1ea7u qua l\u1ea1i; m\u00e1y quay \u0111\u1ee9ng y\u00ean",
+          "overlay_notes": "D\u1ea5u ? v\u1ebd tay n\u1eb1m trong \u1ea3nh (ngo\u1ea1i l\u1ec7 \u0111\u01b0\u1ee3c ph\u00e9p); kh\u00f4ng th\u00eam ch\u1eef.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "shot_intent": "Beat \"\u0111o\u00e1n xem\": m\u1eddi kh\u00e1n gi\u1ea3 t\u1ef1 \u0111o\u00e1n tr\u01b0\u1edbc khi l\u1ed9 \u0111\u00e1p \u00e1n.",
+          "information_role": "C\u00e2u h\u1ecfi: b\u1ed9 n\u00e0o l\u00e0 ng\u01b0\u1eddi ti\u1ec1n s\u1eed?",
+          "character_actions": [
+            {
+              "character_id": "archaeologist",
+              "action_sequence": [
+                "nh\u00ecn b\u1ed9 x\u01b0\u01a1ng b\u00ean tr\u00e1i",
+                "nh\u00ecn b\u1ed9 x\u01b0\u01a1ng b\u00ean ph\u1ea3i",
+                "g\u00e3i \u0111\u1ea7u, d\u1ea5u ? rung nh\u1eb9"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; a stick-figure archaeologist with a round flat white head, a wide-brim khaki hat and a khaki shirt stands in an open excavation pit in dry pale-ochre earth on a low grassy plain between a tall skeleton with thick heavy bones and a full row of strong white teeth on the left and a shorter skeleton with a hunched, worn, curved spine and gappy dark-spotted teeth on the right, a big hand-drawn black question mark floating above the head. Medium-wide shot, character centre-right. Refs: @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the archaeologist looks at the left skeleton, then at the right skeleton, then scratches the top of the head with one hand while the other arm hangs down; the question mark wobbles gently. Camera static. Keep the flat hand-drawn ink style; nothing written."
+            }
+          ]
+        },
+        {
+          "id": "g03-sc05",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "character_scene",
+          "start_seconds": 30.91,
+          "end_seconds": 34.13,
+          "hero_moment": true,
+          "description": "HERO \u2014 Veo i2v: \u0111\u00e1p \u00e1n. D\u1ea5u tick xanh l\u00e1 v\u1ebd tay b\u1eadt l\u00ean tr\u00ean b\u1ed9 x\u01b0\u01a1ng cao kh\u1ecfe (ng\u01b0\u1eddi s\u0103n b\u1eaft), r\u1ed3i d\u1ea5u X \u0111\u1ecf v\u1ebd tay b\u1eadt l\u00ean tr\u00ean b\u1ed9 x\u01b0\u01a1ng th\u1ea5p c\u00f2ng (ng\u01b0\u1eddi n\u00f4ng d\u00e2n). Kh\u1edbp \"B\u1ed9 x\u01b0\u01a1ng kh\u1ecfe l\u00e0 ng\u01b0\u1eddi s\u0103n b\u1eaft. B\u1ed9 x\u01b0\u01a1ng t\u00e0n t\u1ea1 l\u00e0 ng\u01b0\u1eddi n\u00f4ng d\u00e2n,\" \u2014 tick r\u01a1i v\u00e0o \"s\u0103n b\u1eaft\", X r\u01a1i v\u00e0o \"n\u00f4ng d\u00e2n\".",
+          "framing": "medium; hai b\u1ed9 x\u01b0\u01a1ng c\u1ea1nh nhau tr\u1ea3i ngang khung, tick xanh ph\u00eda tr\u00ean b\u1ed9 tr\u00e1i, X \u0111\u1ecf ph\u00eda tr\u00ean b\u1ed9 ph\u1ea3i",
+          "movement": "Veo: tick xanh t\u1ef1 v\u1ebd m\u1ed9t n\u00e9t v\u00e0 n\u1ea3y nh\u1eb9, sau \u0111\u00f3 X \u0111\u1ecf t\u1ef1 v\u1ebd hai n\u00e9t v\u00e0 rung; m\u00e1y quay \u0111\u1ee9ng y\u00ean",
+          "overlay_notes": "Tick xanh v\u00e0 X \u0111\u1ecf v\u1ebd tay n\u1eb1m trong \u1ea3nh (k\u00fd hi\u1ec7u \u0111\u01b0\u1ee3c ph\u00e9p); kh\u00f4ng c\u00f3 ch\u1eef.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "deliver_payload",
+          "shot_intent": "Kho\u1ea3nh kh\u1eafc l\u1ed9 \u0111\u00e1p \u00e1n b\u1ea5t ng\u1edd: b\u1ed9 kh\u1ecfe l\u00e0 ng\u01b0\u1eddi s\u0103n b\u1eaft ti\u1ec1n s\u1eed, b\u1ed9 y\u1ebfu l\u00e0 ng\u01b0\u1eddi n\u00f4ng d\u00e2n.",
+          "information_role": "Ng\u01b0\u1eddi s\u0103n b\u1eaft kh\u1ecfe h\u01a1n ng\u01b0\u1eddi n\u00f4ng d\u00e2n.",
+          "texture_keywords": [
+            "wobbly ink",
+            "bold green tick",
+            "bold red cross"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; a tall skeleton with thick heavy bones and a full row of strong white teeth lies on the left and a shorter skeleton with a hunched, worn, curved spine and gappy dark-spotted teeth lies on the right, side by side in an open excavation pit in dry pale-ochre earth on a low grassy plain; above the left skeleton a big hand-drawn bright green tick mark, above the right skeleton a big hand-drawn red X mark. Medium shot, both skeletons spanning the frame. Refs: @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video from the keyframe above, 8 s clip, use a clean slice after the first ~0.5 s. Motion: the green tick above the left skeleton draws itself in one stroke and bounces once; a beat later the red X above the right skeleton draws itself in two strokes and shakes. The skeletons stay still. Camera static. Keep the flat hand-drawn ink style; nothing written."
+            }
+          ]
+        },
+        {
+          "id": "g03-sc06",
+          "script_section_id": "s3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "type": "generated",
+          "start_seconds": 34.13,
+          "end_seconds": 36.07,
+          "description": "\u1ea2nh t\u0129nh zoom-out, m\u1ec9a mai: ng\u01b0\u1eddi n\u00f4ng d\u00e2n ti\u1ec1n s\u1eed c\u00f2ng l\u01b0ng cu\u1ed1c \u0111\u1ea5t kh\u00f4 d\u01b0\u1edbi n\u1eafng, m\u1ed3 h\u00f4i v\u0103ng, m\u1eb7t tr\u1eddi tr\u00f2n tr\u01a1n kh\u00f4ng m\u1eb7t chi\u1ebfu g\u1eaft \u1edf g\u00f3c tr\u00ean. Kh\u1edbp \"th\u1eddi \u0111\u1ea1i ta g\u1ecdi l\u00e0 ti\u1ebfn b\u1ed9\" \u2014 nh\u1ea5n \"ti\u1ebfn b\u1ed9\".",
+          "framing": "wide; ng\u01b0\u1eddi n\u00f4ng d\u00e2n l\u1ec7ch tr\u00e1i \u1edf MG, ru\u1ed9ng kh\u00f4 n\u1ee9t n\u1ebb tr\u1ea3i ra, m\u1eb7t tr\u1eddi tr\u00f2n tr\u01a1n \u1edf g\u00f3c tr\u00ean ph\u1ea3i",
+          "movement": "zoom-out ch\u1eadm \u0111\u1ec3 l\u1ed9 c\u00e1nh \u0111\u1ed3ng m\u00eanh m\u00f4ng",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef; nh\u1ea5n \"ti\u1ebfn b\u1ed9\" (n\u1ebfu c\u00f3) do edit x\u1eed l\u00fd.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "zoom_out",
+            "lens_mm": 24,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "emotional_beat",
+          "shot_intent": "Ch\u1ed1t h\u00e0i kh\u00f4: c\u00e1i g\u1ecdi l\u00e0 \"ti\u1ebfn b\u1ed9\" th\u1ef1c ra l\u00e0 lao \u0111\u1ed9ng kh\u1ed5 s\u1edf.",
+          "information_role": "N\u00f4ng nghi\u1ec7p \u0111\u01b0\u1ee3c g\u1ecdi l\u00e0 ti\u1ebfn b\u1ed9 nh\u01b0ng l\u00e0m c\u01a1 th\u1ec3 con ng\u01b0\u1eddi t\u1ec7 \u0111i.",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "c\u00f2ng l\u01b0ng cu\u1ed1c \u0111\u1ea5t",
+                "m\u1ed3 h\u00f4i v\u0103ng"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "dry cracked field",
+            "harsh sun"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly black ink outlines of even thickness, round flat heads, thin single-line limbs, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink; a hunched stick-figure prehistoric farmer with dark brown skin, curly black hair and a torn brown hide tunic, bent over swinging a stone hoe into a dry cracked field, sweat drops flying; a plain round blazing sun with no face in the top right corner. Wide shot, farmer off-centre left, flat dry field stretching to low hills. Refs: @tribe, @style_frame. Nothing is written anywhere in the picture; the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g04-sc01",
+          "type": "generated",
+          "description": "Still, slow zoom-in (ken-burns-slow-zoom). A San tribesman sits cross-legged under a lone acacia tree on pale Kalahari sand, shrugging with both palms up; a single hand-drawn black question mark floats above his head. Subject: one San man, off-centre left. Scene: midday desert, sparse dry grass, pale dunes behind. Framing: medium close, eye level, FG man, BG acacia and dunes. Camera: static lens, slow push-in 5%.",
+          "start_seconds": 36.07,
+          "end_seconds": 37.58,
+          "script_section_id": "s4",
+          "framing": "medium close, subject off-centre left, eye level",
+          "movement": "slow zoom in",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "zoom_in",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "transition",
+          "information_role": "\u0110\u1eb7t c\u00e2u h\u1ecfi: ng\u01b0\u1eddi s\u0103n b\u1eaft h\u00e1i l\u01b0\u1ee3m l\u00e0m g\u00ec c\u1ea3 ng\u00e0y?",
+          "hero_moment": false,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, pale muted hand-drawn landscape background, nothing written anywhere, fills the 16:9 frame. San tribe members: dark brown skin and faces, short curly black hair, ragged brown animal-hide clothing. One San man sits cross-legged under a lone flat-topped acacia tree on pale sandy Kalahari ground, shrugging with both palms turned up, puzzled face; one hand-drawn black question mark floats above his head. Pale dunes and dry grass tufts behind. Refs: @tribe, @style_frame."
+            }
+          ]
+        },
+        {
+          "id": "g04-sc02",
+          "type": "character_scene",
+          "description": "Veo i2v. Anthropologist Richard Lee (new character) strides into frame from the right on a sandy track and lifts his safari hat in greeting with his right hand while the left hand holds his notebook down at his side; the stopwatch swings on his chest. A boxy vintage safari jeep parked behind him hints at the 1960s. Framing: medium, subject on right third, eye level. Camera: static.",
+          "start_seconds": 37.58,
+          "end_seconds": 39.88,
+          "script_section_id": "s4",
+          "framing": "medium, subject on right third, eye level, FG Lee, BG jeep and dunes",
+          "movement": "character walks in and tips hat",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "introduce_subject",
+          "information_role": "Gi\u1edbi thi\u1ec7u nh\u00e0 nh\u00e2n h\u1ecdc Richard Lee, th\u1eadp ni\u00ean 60 (kh\u00f4ng ghi n\u0103m).",
+          "hero_moment": false,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, pale muted hand-drawn landscape background, nothing written anywhere, fills the 16:9 frame. Richard Lee: thin white stick figure with round flat white face, khaki safari pith hat, small round glasses, khaki shirt with rolled sleeves, notebook in one hand, stopwatch on a cord around his neck. He stands on the right third of the frame on a sandy desert track, lifting his hat with his right hand, left hand holding the notebook down at his side, friendly grin. A boxy vintage safari jeep parked behind him, pale red dunes and a few thorn bushes. Refs: @lee (new reference to create), @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still: the man walks two steps forward and raises his hat once in greeting with his right hand while his left arm with the notebook stays down at his side; the stopwatch on his chest swings gently; background stays still. Hand-drawn stick-figure cartoon style kept, no camera move."
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "richard_lee",
+              "action_sequence": [
+                "walks in from right",
+                "lifts hat with right hand",
+                "smiles at camera"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g04-sc03",
+          "type": "character_scene",
+          "description": "HERO. Veo i2v, wide Kalahari desert. Three San tribe members walk left-to-right across red dunes carrying digging sticks and a hide bag; Richard Lee trails close behind them, stopwatch raised in one hand, scribbling in his notebook with the other, hurrying to keep up. Framing: wide, figures in lower third moving right, eye level, FG sand ridge, MG procession, BG dunes and big pale sky. Camera: slow tracking right.",
+          "start_seconds": 39.88,
+          "end_seconds": 42.98,
+          "script_section_id": "s4",
+          "framing": "wide, procession across lower third, eye level, depth FG ridge / MG figures / BG dunes",
+          "movement": "slow tracking right with procession",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "tracking_right",
+            "lens_mm": 24,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "information_role": "Kho\u1ea3nh kh\u1eafc ch\u1ee7 \u0111\u1ea1o: Lee b\u00e1m theo ng\u01b0\u1eddi San tr\u00ean sa m\u1ea1c Kalahari v\u1edbi s\u1ed5 tay v\u00e0 \u0111\u1ed3ng h\u1ed3.",
+          "hero_moment": true,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, pale muted hand-drawn landscape background, nothing written anywhere, fills the 16:9 frame. Wide shot of the Kalahari desert with rolling pale red dunes and a few camelthorn trees. San tribe members: dark brown skin and faces, short curly black hair, ragged brown animal-hide clothing; three of them walk left-to-right in a line carrying long digging sticks and a hide bag. Behind them follows Richard Lee: thin white stick figure with round flat white face, khaki safari pith hat, small round glasses, khaki shirt with rolled sleeves, notebook in one hand, stopwatch on a cord around his neck, holding the stopwatch up in one hand and writing in the notebook with the other, leaning forward in a hurry. Figures sit in the lower third, big pale sky above. Refs: @tribe, @lee, @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v: the three tribespeople walk steadily to the right; the man in the safari hat hurries behind, glancing between the stopwatch in his raised hand and the notebook he writes in; sand puffs at their feet; camera tracks slowly right with them. Hand-drawn stick-figure cartoon style kept."
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "walk right in a line",
+                "carry digging sticks"
+              ]
+            },
+            {
+              "character_id": "richard_lee",
+              "action_sequence": [
+                "trails behind",
+                "checks stopwatch",
+                "scribbles in notebook",
+                "hurries to keep up"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g04-sc04",
+          "type": "generated",
+          "description": "Still, slow pan right. Over Richard Lee's shoulder: his open notebook in the foreground filled with hand-drawn tally marks, while in the background a San woman digs up a tuber with a stick and a San man gathers nuts from a bush. Framing: over-shoulder, notebook FG left, workers MG right. Camera: static lens, lateral pan right ~8%.",
+          "start_seconds": 42.98,
+          "end_seconds": 44.86,
+          "script_section_id": "s4",
+          "framing": "over-shoulder, notebook FG left, San workers MG right",
+          "movement": "slow pan right",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "over_shoulder",
+            "camera_movement": "pan_right",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "medium",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "information_role": "Lee ghi l\u1ea1i t\u1eebng gi\u1edd l\u00e0m vi\u1ec7c (ki\u1ebfm \u0103n) c\u1ee7a ng\u01b0\u1eddi San.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, pale muted hand-drawn landscape background, nothing written anywhere, fills the 16:9 frame. Over-the-shoulder view from behind a stick figure in a khaki safari pith hat: his open notebook in the left foreground shows rows of simple hand-drawn tally marks (short vertical strokes only). In the right midground San tribe members: dark brown skin and faces, short curly black hair, ragged brown animal-hide clothing: a woman digs a tuber out of the sand with a stick and a man picks nuts from a low bush. Pale dunes behind. Refs: @lee, @tribe, @style_frame."
+            }
+          ]
+        },
+        {
+          "id": "g04-sc05",
+          "type": "character_scene",
+          "description": "Veo i2v. Close-up reaction: Richard Lee stares at the stopwatch held up in his left hand (plain blank face, one hand), eyebrows shoot up, jaw drops, glasses slide down his nose, the pencil falls from his right hand. Framing: close-up, face off-centre right, eye level, pale dune background. Camera: static, tiny push-in.",
+          "start_seconds": 44.86,
+          "end_seconds": 47.08,
+          "script_section_id": "s4",
+          "framing": "close-up, face off-centre right, eye level",
+          "movement": "reaction, slight push-in",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "zoom_in",
+            "lens_mm": 85,
+            "lighting_key": "natural",
+            "depth_of_field": "shallow",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "deliver_payload",
+          "information_role": "K\u1ebft qu\u1ea3 g\u00e2y s\u1ed1c: ch\u1ec9 kho\u1ea3ng 17 gi\u1edd ki\u1ebfm \u0103n (kh\u00f4ng hi\u1ec3n th\u1ecb s\u1ed1).",
+          "hero_moment": false,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, pale muted hand-drawn landscape background, nothing written anywhere, fills the 16:9 frame. Close-up of Richard Lee: thin white stick figure with round flat white face, khaki safari pith hat, small round glasses, khaki shirt with rolled sleeves, notebook in one hand, stopwatch on a cord around his neck, face off-centre right, holding up a round stopwatch with a plain blank face and a single hand in his left hand, pencil in his right hand, curious expression. Soft pale dunes behind. Refs: @lee, @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v: the man looks at the stopwatch in his raised left hand, his eyebrows shoot up and his mouth drops open in surprise, his glasses slide down his nose, and the pencil slips from his right hand and falls out of frame; the right arm then hangs down. Hand-drawn stick-figure cartoon style kept, very slight push-in."
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "richard_lee",
+              "action_sequence": [
+                "stares at stopwatch",
+                "eyebrows shoot up",
+                "jaw drops",
+                "pencil falls"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g04-sc06",
+          "type": "diagram",
+          "description": "Still, slow zoom-out. Result beat: a hand-drawn row of seven sun symbols representing a week, laid out left to right on a plain paper-coloured background; only the first two and a half suns are filled yellow, the remaining four and a half are empty ink outlines. No digits, no day labels. Framing: insert, row centred. Camera: static lens, slow zoom out ~6%.",
+          "start_seconds": 47.08,
+          "end_seconds": 49.261,
+          "script_section_id": "s4",
+          "framing": "insert, row of seven suns centred, plain background (diagram exception)",
+          "movement": "slow zoom out",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 overlay; ch\u1eef v\u00e0 s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u theo playbook.",
+          "shot_language": {
+            "shot_size": "insert",
+            "camera_movement": "zoom_out",
+            "lens_mm": 50,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "neutral"
+          },
+          "narrative_role": "resolution",
+          "information_role": "Kh\u00f4ng ph\u1ea3i m\u1ed7i ng\u00e0y m\u00e0 c\u1ea3 tu\u1ea7n: ch\u1ec9 hai ng\u00e0y r\u01b0\u1ee1i trong b\u1ea3y ng\u00e0y l\u00e0 l\u00e0m vi\u1ec7c.",
+          "hero_moment": false,
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "clean"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn diagram in wobbly even black ink with flat muted fills and no gradients: a single horizontal row of seven identical simple sun symbols (circle with short rays) spaced evenly across a plain warm paper-coloured #F6E7C8 background. The first two suns are filled bright yellow #FFE600, the third sun is filled yellow only on its left half, and the last four suns are empty ink outlines. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame. Refs: @style_frame."
+            }
+          ]
+        },
+        {
+          "id": "g05-sc01",
+          "type": "character_scene",
+          "start_seconds": 49.261,
+          "end_seconds": 50.551,
+          "script_section_id": "s5",
+          "description": "Veo i2v. Nh\u1ecbp nghi ng\u1edd 'Ch\u1ec9 l\u00e0 m\u1ed9t nh\u00f3m may m\u1eafn?': c\u1eadn m\u1eb7t ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n (@narrator) nheo m\u1ed9t m\u1eaft, nh\u01b0\u1edbng m\u1ed9t b\u00ean m\u00e0y, tay ph\u1ea3i \u0111\u01b0a l\u00ean g\u00e3i c\u1eb1m, tay tr\u00e1i bu\u00f4ng xu\u1ed1ng; m\u1ed9t d\u1ea5u ? v\u1ebd tay b\u1eadt ra c\u1ea1nh \u0111\u1ea7u. Subject: ng\u01b0\u1eddi d\u1eabn chuy\u1ec7n t\u00f3c n\u00e2u b\u00f9 x\u00f9, m\u1eb7t tr\u00f2n tr\u1eafng ph\u1eb3ng, \u00e1o da th\u00fa n\u00e2u r\u00e1ch m\u00e9p r\u0103ng c\u01b0a. Scene: n\u1ec1n savan kh\u00f4 nh\u1ea1t, tr\u01b0a n\u1eafng. Framing: close_up, m\u1eb7t l\u1ec7ch tr\u00e1i 1/3, d\u1ea5u ? \u1edf 1/3 ph\u1ea3i; FG nh\u00e2n v\u1eadt, BG \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 50 mm ngang t\u1ea7m m\u1eaft, t\u0129nh tr\u00ean ch\u00e2n m\u00e1y, \u0111\u1ea9y v\u00e0o r\u1ea5t nh\u1eb9.",
+          "framing": "close_up, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i, d\u1ea5u ? b\u00ean ph\u1ea3i",
+          "movement": "Veo i2v: nheo m\u1eaft + g\u00e3i c\u1eb1m; camera \u0111\u1ea9y v\u00e0o r\u1ea5t nh\u1eb9",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay (d\u1ea5u ? v\u1ebd tay n\u1eb1m trong h\u00ecnh).",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "dolly_in",
+            "lens_mm": 50,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "shot_intent": "\u0110\u1eb7t c\u00e2u h\u1ecfi ho\u00e0i nghi tr\u01b0\u1edbc khi \u0111\u01b0a b\u1eb1ng ch\u1ee9ng l\u1eb7p l\u1ea1i.",
+          "information_role": "Ng\u01b0\u1eddi xem c\u00f9ng nghi ng\u1edd: c\u00f3 ph\u1ea3i ch\u1ec9 l\u00e0 tr\u01b0\u1eddng h\u1ee3p \u0111\u1eb7c bi\u1ec7t?",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "nheo m\u1ed9t m\u1eaft, nh\u01b0\u1edbng m\u00e0y",
+                "tay ph\u1ea3i \u0111\u01b0a l\u00ean g\u00e3i c\u1eb1m, tay tr\u00e1i bu\u00f4ng xu\u00f4i",
+                "d\u1ea5u ? v\u1ebd tay b\u1eadt ra c\u1ea1nh \u0111\u1ea7u"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink outline",
+            "flat muted fills",
+            "hand-drawn",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Start frame, refs @narrator @style_frame. Close-up of the brown-haired stick-figure narrator with a flat round white face and ragged brown hide tunic, one eye squinting and one eyebrow raised in doubt, right hand at his chin, left arm hanging down, a single hand-drawn question mark beside his head; pale dry savanna and low hills behind, noon light; narrator off-centre left."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the start frame: he squints one eye harder and scratches his chin with his right hand while his left arm stays hanging down; the hand-drawn question mark pops beside his head with a small wobble; very slight camera push-in. Use the clean ~1.3 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g05-sc02",
+          "type": "generated",
+          "start_seconds": 50.551,
+          "end_seconds": 52.451,
+          "script_section_id": "s5",
+          "description": "\u1ea2nh t\u0129nh ken-burns-slow-zoom v\u00e0o. 'C\u00e1c nh\u00e0 khoa h\u1ecdc \u0111\u1ebfm l\u1ea1i \u1edf Tanzania': m\u1ed9t nh\u00e0 khoa h\u1ecdc ng\u01b0\u1eddi que (\u0111\u1ed9i m\u0169 v\u00e0nh, c\u1ea7m s\u1ed5 v\u00e0 b\u00fat ch\u00ec) ng\u1ed3i x\u1ed5m b\u00ean ph\u1ea3i, \u0111\u00e1nh d\u1ea5u tick xanh v\u00e0o s\u1ed5, nh\u00ecn sang m\u1ed9t nh\u00f3m ng\u01b0\u1eddi b\u1ed9 t\u1ed9c (@tribe) n\u1eb1m ngh\u1ec9 d\u01b0\u1edbi b\u00f3ng c\u00e2y keo; savan \u0110\u00f4ng Phi kh\u00f4, c\u1ecf v\u00e0ng. Framing: medium_wide, nh\u00e0 khoa h\u1ecdc 1/3 ph\u1ea3i \u1edf MG, nh\u00f3m n\u1eb1m ngh\u1ec9 1/3 tr\u00e1i d\u01b0\u1edbi t\u00e1n c\u00e2y, BG \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: \u1ea3nh t\u0129nh, zoom ch\u1eadm v\u00e0o nh\u00e0 khoa h\u1ecdc.",
+          "framing": "medium_wide, nh\u00e0 khoa h\u1ecdc b\u00ean ph\u1ea3i, nh\u00f3m ngh\u1ec9 b\u00ean tr\u00e1i d\u01b0\u1edbi c\u00e2y keo",
+          "movement": "ken-burns-slow-zoom v\u00e0o",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay, kh\u00f4ng nh\u00e3n qu\u1ed1c gia.",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "zoom_in",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "shot_intent": "B\u1eb1ng ch\u1ee9ng th\u1ee9 nh\u1ea5t: kh\u1ea3o s\u00e1t \u0111\u01b0\u1ee3c l\u00e0m l\u1ea1i t\u1ea1i th\u1ef1c \u0111\u1ecba.",
+          "information_role": "C\u00f3 ng\u01b0\u1eddi \u0111o \u0111\u1ea1c th\u1eadt, \u1edf ch\u00e2u Phi.",
+          "texture_keywords": [
+            "wobbly black ink outline",
+            "flat muted fills",
+            "hand-drawn",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Refs @tribe @style_frame. A stick-figure scientist in a wide-brim hat squatting on the right holding a notebook and pencil, marking a green tick, looking over at three dark-brown-skinned curly-haired tribespeople in ragged hide tunics lying relaxed in the shade of a flat-topped acacia tree on the left; dry golden East African savanna, pale low hills, midday. Medium-wide shot."
+            }
+          ]
+        },
+        {
+          "id": "g05-sc03",
+          "type": "diagram",
+          "hero_moment": true,
+          "start_seconds": 52.451,
+          "end_seconds": 54.171,
+          "script_section_id": "s5",
+          "description": "HERO. \u1ea2nh t\u0129nh zoom-out. 'Paraguay, r\u1ed3i n\u01b0\u1edbc \u00dac': b\u1ea3n \u0111\u1ed3 th\u1ebf gi\u1edbi v\u1ebd tay tr\u00ean n\u1ec1n be tr\u01a1n (#F6E7C8), l\u1ee5c \u0111\u1ecba t\u00f4 nh\u1ea1t; ba \u0111i\u1ec3m s\u00e1ng v\u00e0ng (#FFE600) \u1edf Tanzania (\u0110\u00f4ng Phi), Paraguay (Nam M\u1ef9) v\u00e0 \u00dac; c\u1ea1nh m\u1ed7i \u0111i\u1ec3m m\u1ed9t vignette nh\u1ecf ng\u01b0\u1eddi que n\u1eb1m th\u01b0 gi\u00e3n d\u01b0\u1edbi b\u00f3ng c\u00e2y (c\u00e2y keo \u1edf Phi, c\u00e2y r\u1eebng \u1edf Nam M\u1ef9, c\u00e2y b\u1ea1ch \u0111\u00e0n \u1edf \u00dac), tay g\u1ed1i \u0111\u1ea7u. Camera zoom-out t\u1eeb Nam M\u1ef9 \u0111\u1ec3 l\u1ed9 c\u1ea3 ba \u0111i\u1ec3m. B\u1ea3n \u0111\u1ed3 \u0111\u01b0\u1ee3c ph\u00e9p n\u1ec1n tr\u01a1n; kh\u00f4ng ch\u1eef, kh\u00f4ng nh\u00e3n.",
+          "framing": "extreme_wide, to\u00e0n b\u1ea3n \u0111\u1ed3 ch\u1ea1m m\u00e9p 16:9, ba \u0111i\u1ec3m s\u00e1ng tr\u1ea3i tr\u00e1i-gi\u1eefa-ph\u1ea3i",
+          "movement": "zoom-out ch\u1eadm t\u1eeb Nam M\u1ef9 ra to\u00e0n b\u1ea3n \u0111\u1ed3",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Tu\u1ef3 ch\u1ecdn trong edit: nh\u1ecbp s\u00e1ng l\u1ea7n l\u01b0\u1ee3t \u1edf Paraguay r\u1ed3i \u00dac kh\u1edbp t\u1eeb \u0111\u1ecdc; kh\u00f4ng ch\u1eef.",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "zoom_out",
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "shot_intent": "Kho\u1ea3nh kh\u1eafc \u0111\u1ec9nh: c\u00f9ng m\u1ed9t k\u1ebft qu\u1ea3 tr\u00ean ba l\u1ee5c \u0111\u1ecba.",
+          "information_role": "Kh\u00f4ng ph\u1ea3i m\u1ed9t nh\u00f3m: ba x\u00e3 h\u1ed9i s\u0103n b\u1eaft h\u00e1i l\u01b0\u1ee3m \u1edf ba ch\u00e2u l\u1ee5c \u0111\u1ec1u nh\u00e0n.",
+          "texture_keywords": [
+            "wobbly black ink outline",
+            "flat muted fills",
+            "hand-drawn map",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Ref @style_frame. A hand-drawn world map in wobbly black ink on a plain warm beige background, continents in pale muted green-brown flat fills, pale blue oceans; three glowing yellow dots in East Africa, central South America and Australia; beside each dot a tiny vignette of two stick figures lying relaxed with hands behind their heads in the shade of a tree (acacia in Africa, broad jungle tree in South America, eucalyptus in Australia). The map fills the whole wide frame."
+            }
+          ]
+        },
+        {
+          "id": "g05-sc04",
+          "type": "character_scene",
+          "start_seconds": 54.171,
+          "end_seconds": 56.491,
+          "script_section_id": "s5",
+          "description": "Veo i2v. 'L\u1ea7n n\u00e0o c\u0169ng ra m\u01b0\u1eddi l\u0103m \u0111\u1ebfn hai m\u01b0\u01a1i gi\u1edd m\u1ed9t tu\u1ea7n' (nh\u1ea5n 'l\u1ea7n n\u00e0o c\u0169ng'): m\u1ed9t ng\u01b0\u1eddi b\u1ed9 t\u1ed9c (@tribe) x\u00e1ch gi\u1ecf nh\u1ecf v\u00e0i c\u1ee7 v\u00e0 qu\u1ea3 v\u00e0o tr\u1ea1i, \u0111\u1eb7t xu\u1ed1ng, r\u1ed3i ng\u1ea3 l\u01b0ng n\u1eb1m d\u01b0\u1edbi b\u00f3ng c\u00e2y, hai tay g\u1ed1i \u0111\u1ea7u; d\u1ea5u tick xanh b\u1eadt ra tr\u00ean \u0111\u1ea7u. \u00dd: l\u00e0m \u00edt, ngh\u1ec9 nhi\u1ec1u; con s\u1ed1 thay b\u1eb1ng k\u00fd hi\u1ec7u. Scene: tr\u1ea1i c\u1ea1nh c\u00e2y keo, savan \u0111\u1ea7u gi\u1edd chi\u1ec1u. Framing: medium, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i, c\u00e2y \u1edf ph\u1ea3i, \u0111\u1ed3i \u1edf BG. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, 35 mm ngang t\u1ea7m m\u1eaft, t\u0129nh, lia nh\u1eb9 theo nh\u00e2n v\u1eadt.",
+          "framing": "medium, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i",
+          "movement": "Veo i2v: \u0111\u1eb7t gi\u1ecf xu\u1ed1ng r\u1ed3i n\u1eb1m g\u1ed1i \u0111\u1ea7u; camera lia nh\u1eb9 theo",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng ch\u1eef/s\u1ed1 tr\u00ean h\u00ecnh; tick xanh n\u1eb1m trong clip.",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "pan_right",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "deliver_payload",
+          "shot_intent": "Ch\u1ed1t k\u1ebft qu\u1ea3 l\u1eb7p l\u1ea1i: c\u00f4ng vi\u1ec7c \u00edt \u1ecfi, r\u1ed3i ngh\u1ec9.",
+          "information_role": "M\u1ed7i l\u1ea7n \u0111o \u0111\u1ec1u ch\u1ec9 kho\u1ea3ng 15-20 gi\u1edd lao \u0111\u1ed9ng m\u1ed7i tu\u1ea7n.",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "x\u00e1ch gi\u1ecf nh\u1ecf b\u01b0\u1edbc v\u00e0o",
+                "\u0111\u1eb7t gi\u1ecf xu\u1ed1ng \u0111\u1ea5t",
+                "ng\u1ea3 l\u01b0ng n\u1eb1m d\u01b0\u1edbi b\u00f3ng c\u00e2y, hai tay g\u1ed1i \u0111\u1ea7u",
+                "tick xanh b\u1eadt ra tr\u00ean \u0111\u1ea7u"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink outline",
+            "flat muted fills",
+            "hand-drawn",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Start frame, refs @tribe @style_frame. A dark-brown-skinned curly-haired tribesman in a ragged hide tunic walking into a small camp carrying a small woven basket with a few tubers and fruits, a shady acacia tree on the right, dry savanna and pale low hills, early afternoon; medium shot, figure right of centre."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v: he sets the small basket down, then lies back in the tree's shade with both hands behind his head, content; a green tick mark pops above him; the camera pans gently to follow him. Use the clean ~2.3 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g05-sc05",
+          "type": "character_scene",
+          "start_seconds": 56.491,
+          "end_seconds": 58.309,
+          "script_section_id": "s5",
+          "description": "Veo i2v. C\u00e2u h\u1ecfi 'V\u1eady th\u1eddi gian c\u00f2n l\u1ea1i \u0111i \u0111\u00e2u?': to\u00e0n c\u1ea3nh savan r\u1ed9ng d\u01b0\u1edbi b\u1ea7u tr\u1eddi bao la; nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n (@narrator) n\u1eb1m b\u1eaft ch\u00e9o ch\u00e2n d\u01b0\u1edbi b\u00f3ng c\u00e2y nh\u1ecf \u1edf g\u00f3c tr\u00e1i d\u01b0\u1edbi, ng\u1ea9ng nh\u00ecn tr\u1eddi, m\u1ed9t d\u1ea5u ? v\u1ebd tay hi\u1ec7n l\u00ean ph\u00eda tr\u00ean \u0111\u1ea7u. Kho\u1ea3ng tr\u1eddi tr\u1ed1ng g\u1ee3i th\u1eddi gian d\u01b0; m\u1edf c\u00e2u h\u1ecfi d\u1eabn sang s6.",
+          "framing": "wide, nh\u00e2n v\u1eadt nh\u1ecf tr\u00e1i d\u01b0\u1edbi, kho\u1ea3ng tr\u1eddi tr\u1ed1ng ph\u00eda tr\u00ean ph\u1ea3i",
+          "movement": "Veo i2v: d\u1ea5u ? v\u1ebd tay hi\u1ec7n d\u1ea7n, nh\u00e2n v\u1eadt ch\u1edbp m\u1eaft; camera tilt l\u00ean nh\u1eb9",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay.",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "tilt_up",
+            "lens_mm": 24,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "transition",
+          "shot_intent": "M\u1edf c\u00e2u h\u1ecfi d\u1eabn sang ph\u1ea7n sau.",
+          "information_role": "N\u1ebfu l\u00e0m \u00edt v\u1eady, ph\u1ea7n l\u1edbn th\u1eddi gian c\u1ee7a h\u1ecd d\u00e0nh cho vi\u1ec7c g\u00ec?",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "n\u1eb1m d\u01b0\u1edbi b\u00f3ng c\u00e2y, b\u1eaft ch\u00e9o ch\u00e2n",
+                "ng\u1ea9ng nh\u00ecn tr\u1eddi, ch\u1edbp m\u1eaft"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly black ink outline",
+            "flat muted fills",
+            "hand-drawn",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Start frame, refs @narrator @style_frame. Wide shot of a vast pale dry savanna under a big open empty sky: the @narrator lies on his back with crossed legs in the shade of a small tree in the lower left, looking up at the sky, one hand behind his head and the other arm resting on his chest; a single hand-drawn question mark floats above him; pale low hills on the horizon."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v: the hand-drawn question mark above the resting man wobbles gently, the man blinks and keeps lying still with crossed legs; clouds drift slowly; the camera tilts up slightly toward the empty sky. Use the clean ~1.8 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g06-sc01",
+          "type": "generated",
+          "description": "\u1ea2nh lia ch\u1eadm sang ph\u1ea3i: bu\u1ed5i chi\u1ec1u l\u01b0\u1eddi tr\u00ean savan, c\u1ea3 b\u1ed9 t\u1ed9c ng\u01b0\u1eddi que (4-5 ng\u01b0\u1eddi) ng\u1ed3i t\u00fam t\u1ee5m d\u01b0\u1edbi b\u00f3ng m\u1ed9t c\u00e2y keo l\u1edbn, d\u00e1ng th\u1ea3 l\u1ecfng, c\u00f3 ng\u01b0\u1eddi n\u1eb1m d\u1ef1a g\u1ed1c c\u00e2y. Ch\u1ee7 th\u1ec3: nh\u00f3m b\u1ed9 t\u1ed9c l\u1ec7ch tr\u00e1i; ti\u1ec1n c\u1ea3nh c\u1ecf kh\u00f4, trung c\u1ea3nh g\u1ed1c c\u00e2y v\u00e0 nh\u00f3m ng\u01b0\u1eddi, h\u1eadu c\u1ea3nh \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Camera: ngang t\u1ea7m m\u1eaft, pan-right ch\u1eadm, kh\u00f4ng rung.",
+          "start_seconds": 58.309,
+          "end_seconds": 60.279,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "pan_right",
+            "lighting_key": "golden_hour",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "establish_context",
+          "information_role": "Ng\u01b0\u1eddi ti\u1ec1n s\u1eed c\u00f3 c\u1ea3 bu\u1ed5i chi\u1ec1u r\u1ea3nh, ch\u1ec9 ng\u1ed3i ngh\u1ec9 d\u01b0\u1edbi b\u00f3ng c\u00e2y.",
+          "shot_intent": "M\u1edf nh\u1ecbp ch\u1eadm, th\u01b0 gi\u00e3n c\u1ee7a ch\u01b0\u01a1ng bu\u1ed5i chi\u1ec1u.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame + @tribe. Wide shot, lazy afternoon on a dry savanna: four or five prehistoric tribe stick figures (dark brown skin, curly black hair, ragged brown hide clothes) sit relaxed in the wide shade of a big flat-topped acacia tree, one leaning back against the trunk with eyes half closed; group placed left of centre, dry grass in the foreground, low pale hills behind, warm late-afternoon light."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd."
+        },
+        {
+          "id": "g06-sc02",
+          "type": "animation",
+          "description": "Clip Veo: c\u1eadn trung hai ng\u01b0\u1eddi b\u1ed9 t\u1ed9c ng\u1ed3i d\u01b0\u1edbi b\u00f3ng c\u00e2y; ng\u01b0\u1eddi sau d\u00f9ng ng\u00f3n tay r\u1ebd t\u00f3c xo\u0103n ng\u01b0\u1eddi tr\u01b0\u1edbc, nh\u00f3n b\u1eaft ch\u1ea5y, b\u00fang \u0111i; ng\u01b0\u1eddi tr\u01b0\u1edbc c\u01b0\u1eddi n\u00f3i, tay khua nh\u1eb9 k\u1ec3 chuy\u1ec7n. Ti\u1ec1n c\u1ea3nh hai nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i, h\u1eadu c\u1ea3nh g\u1ed1c c\u00e2y v\u00e0 savan nh\u1ea1t. Camera: ngang t\u1ea7m m\u1eaft, g\u1ea7n nh\u01b0 t\u0129nh, \u0111\u1ea9y v\u00e0o r\u1ea5t nh\u1eb9; l\u1ea5y \u0111o\u1ea1n s\u1ea1ch sau 0.5 s.",
+          "start_seconds": 60.279,
+          "end_seconds": 61.899,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "dolly_in",
+            "lighting_key": "golden_hour",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "introduce_subject",
+          "information_role": "T\u00e1n chuy\u1ec7n v\u00e0 b\u1eaft ch\u1ea5y cho nhau: ho\u1ea1t \u0111\u1ed9ng x\u00e3 h\u1ed9i thu\u1ea7n t\u00fay.",
+          "shot_intent": "H\u00e0i kh\u00f4: b\u1eaft ch\u1ea5y l\u00e0 chi ti\u1ebft \u0111\u1eddi th\u01b0\u1eddng g\u1ea7n g\u0169i.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame + @tribe. Medium shot: two tribe stick figures sit one behind the other in tree shade; the one behind parts the curly black hair of the one in front with both hands, the one in front smiles mid-chat with one hand raised in a small gesture, the other hand resting on the knee; pair right of centre, tree trunk and pale savanna behind."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still: the figure behind picks through the curly hair, pinches something tiny and flicks it away with a satisfied nod; the front figure keeps chatting, head bobbing, one hand gesturing while the other stays down on the knee. Static eye-level camera with a very slight push-in. No text."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd.",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "r\u1ebd t\u00f3c",
+                "nh\u00f3n b\u1eaft ch\u1ea5y",
+                "b\u00fang \u0111i",
+                "g\u1eadt g\u00f9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g06-sc03",
+          "type": "animation",
+          "description": "Clip Veo: c\u1eadn c\u1ea3nh \u0111\u00f4i tay ng\u01b0\u1eddi b\u1ed9 t\u1ed9c c\u1ea7m m\u0169i \u0111\u00e1 nh\u1ecdn xoay khoan l\u1ed7 tr\u00ean m\u1ed9t v\u1ecf \u1ed1c bi\u1ec3n nh\u1ecf, b\u00ean c\u1ea1nh l\u00e0 v\u00e0i v\u1ecf \u1ed1c \u0111\u00e3 khoan l\u1ed7 x\u00e2u tr\u00ean s\u1ee3i d\u00e2y th\u1edb c\u00e2y. Ch\u1ee7 th\u1ec3 tay + v\u1ecf \u1ed1c gi\u1eefa khung; n\u1ec1n \u0111\u1ea5t v\u00e0 \u0111\u1ea7u g\u1ed1i nh\u00e2n v\u1eadt nh\u1ea1t ph\u00eda sau. Camera: g\u00f3c cao nh\u1eb9 nh\u00ecn xu\u1ed1ng, t\u0129nh.",
+          "start_seconds": 61.899,
+          "end_seconds": 63.439,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "static",
+            "lighting_key": "golden_hour",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "evidence",
+          "information_role": "C\u00f3 ng\u01b0\u1eddi t\u1ec9 m\u1ec9 khoan v\u1ecf \u1ed1c \u0111\u1ec3 l\u00e0m \u0111\u1ed3 trang s\u1ee9c, kh\u00f4ng ph\u1ea3i \u0111\u1ec3 s\u1ed1ng s\u00f3t.",
+          "shot_intent": "H\u00e0nh \u0111\u1ed9ng c\u1ee5 th\u1ec3 d\u1eabn v\u00e0o c\u1eadn c\u1ea3nh v\u00f2ng c\u1ed5.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame + @tribe. Close-up from slightly above: a tribe stick figure's dark brown hands hold a small sea-snail shell and press a pointed stone tip into it; beside them on the ground lie a few shells already pierced and threaded on a thin plant-fibre cord; knees and pale earth softly behind."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still: the hands twist the pointed stone back and forth, tiny flakes fall, a small hole opens in the shell; the hands then slide the shell onto the cord next to the others. Static slightly high camera. No text."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd.",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "xoay m\u0169i \u0111\u00e1 khoan",
+                "th\u1ed5i b\u1ee5i",
+                "x\u00e2u v\u1ecf \u1ed1c v\u00e0o d\u00e2y"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g06-sc04",
+          "type": "generated",
+          "description": "\u1ea2nh zoom ch\u1eadm v\u00e0o (ken-burns-slow-zoom): c\u1eadn c\u1ea3nh chu\u1ed7i v\u00f2ng c\u1ed5 h\u1ea1t v\u1ecf \u1ed1c n\u00e2u nh\u1ea1t x\u00e2u d\u00e2y th\u1edb, \u0111\u1eb7t tr\u00ean t\u1ea3ng \u0111\u00e1 ven bi\u1ec3n c\u1ea1nh mi\u1ec7ng hang v\u00e1ch \u0111\u00e1 (g\u1ee3i hang ven bi\u1ec3n Nam Phi), bi\u1ec3n xanh nh\u1ea1t ph\u00eda sau. Ch\u1ee7 th\u1ec3 v\u00f2ng c\u1ed5 gi\u1eefa khung h\u01a1i l\u1ec7ch tr\u00e1i; ti\u1ec1n c\u1ea3nh \u0111\u00e1, h\u1eadu c\u1ea3nh bi\u1ec3n v\u00e0 v\u00e1ch \u0111\u00e1 nh\u1ea1t. Kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef: \u0111\u1ed9 c\u1ed5 g\u1ee3i b\u1eb1ng l\u1edbp b\u1ee5i \u0111\u1ea5t v\u00e0 v\u1ebft m\u00f2n tr\u00ean h\u1ea1t.",
+          "start_seconds": 63.439,
+          "end_seconds": 66.159,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "extreme_close_up",
+            "camera_movement": "zoom_in",
+            "lighting_key": "golden_hour",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "evidence",
+          "information_role": "Chu\u1ed7i h\u1ea1t v\u1ecf \u1ed1c th\u1eadt t\u00ecm th\u1ea5y \u1edf Nam Phi, r\u1ea5t c\u1ed5.",
+          "shot_intent": "T\u00e2m \u0111i\u1ec3m hi\u1ec7n v\u1eadt c\u1ee7a ch\u01b0\u01a1ng; nh\u1ea5n 'b\u1ea3y m\u01b0\u01a1i l\u0103m ngh\u00ecn n\u0103m' b\u1eb1ng c\u1ea3nh gi\u1eef l\u00e2u nh\u1ea5t c\u1ee7a Nam Phi.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame. Extreme close-up: a necklace of small pale-brown pierced sea-snail shell beads strung on a worn plant-fibre cord, lying curled on a flat coastal rock dusted with a little earth, beads slightly worn; just behind, the dark mouth of a sea-cliff cave and a pale blue sea; necklace centred slightly left, warm light."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd."
+        },
+        {
+          "id": "g06-sc05",
+          "type": "generated",
+          "description": "\u1ea2nh lia ch\u1eadm sang tr\u00e1i: v\u00f9ng \u0111\u1ed3i tuy\u1ebft th\u1eddi b\u0103ng h\u00e0 (g\u1ee3i n\u01b0\u1edbc \u0110\u1ee9c), m\u1ed9t con k\u1ec1n k\u1ec1n to \u0111\u1eadu tr\u00ean t\u1ea3ng \u0111\u00e1 c\u1ea1nh mi\u1ec7ng hang, ti\u1ec1n c\u1ea3nh l\u00e0 c\u00e2y s\u00e1o x\u01b0\u01a1ng m\u1ea3nh c\u00f3 m\u1ea5y l\u1ed7 \u0111\u1eb7t tr\u00ean phi\u1ebfn \u0111\u00e1 ph\u1eb3ng. Ti\u1ec1n c\u1ea3nh s\u00e1o, trung c\u1ea3nh k\u1ec1n k\u1ec1n v\u00e0 mi\u1ec7ng hang, h\u1eadu c\u1ea3nh \u0111\u1ed3i tuy\u1ebft nh\u1ea1t. Camera ngang t\u1ea7m, pan-left. G\u1ed9p 2 beat (b034 ch\u1ec9 1.2 s).",
+          "start_seconds": 66.159,
+          "end_seconds": 69.279,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "pan_left",
+            "lighting_key": "overcast_soft",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "evidence",
+          "information_role": "C\u00e2y s\u00e1o l\u00e0m t\u1eeb x\u01b0\u01a1ng k\u1ec1n k\u1ec1n, t\u00ecm th\u1ea5y \u1edf \u0110\u1ee9c, c\u0169ng r\u1ea5t c\u1ed5.",
+          "shot_intent": "Chuy\u1ec3n b\u1ed1i c\u1ea3nh sang ch\u00e2u \u00c2u b\u0103ng gi\u00e1; v\u1eadt ch\u1ee9ng th\u1ee9 hai.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame. Medium-wide shot of an ice-age landscape of low snowy hills: a big scruffy vulture perches on a boulder beside a dark cave mouth, looking sideways with a grumpy expression; in the foreground a thin pale bone flute with a row of finger holes lies on a flat stone; pale grey-blue snowy hills behind, soft cold daylight."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd."
+        },
+        {
+          "id": "g06-sc06",
+          "type": "animation",
+          "description": "HERO \u2013 Clip Veo: m\u1ed9t ng\u01b0\u1eddi b\u1ed9 t\u1ed9c ng\u1ed3i tr\u00ean t\u1ea3ng \u0111\u00e1 tr\u01b0\u1edbc mi\u1ec7ng hang tuy\u1ebft, ph\u1ed3ng m\u00e1 th\u1ed5i c\u00e2y s\u00e1o x\u01b0\u01a1ng r\u1ea5t nghi\u00eam t\u00fac nh\u01b0ng ng\u00f3n tay l\u00f3ng ng\u00f3ng; b\u00ean c\u1ea1nh m\u1ed9t ng\u01b0\u1eddi kh\u00e1c b\u1ecbt tai nh\u0103n m\u1eb7t, m\u1ed9t con chim nh\u1ecf v\u1ed7 c\u00e1nh bay \u0111i. Ch\u1ee7 th\u1ec3 l\u1ec7ch ph\u1ea3i, ng\u01b0\u1eddi b\u1ecbt tai l\u1ec7ch tr\u00e1i trung c\u1ea3nh, h\u1eadu c\u1ea3nh \u0111\u1ed3i tuy\u1ebft nh\u1ea1t. Camera: ngang t\u1ea7m, \u0111\u1ea9y v\u00e0o nh\u1eb9 v\u00e0o m\u1eb7t ng\u01b0\u1eddi th\u1ed5i s\u00e1o \u1edf cu\u1ed1i.",
+          "start_seconds": 69.279,
+          "end_seconds": 71.63,
+          "script_section_id": "s6",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "dolly_in",
+            "lighting_key": "overcast_soft",
+            "color_temperature": "warm",
+            "depth_of_field": "deep"
+          },
+          "narrative_role": "deliver_payload",
+          "information_role": "Punchline: c\u00f3 ng\u01b0\u1eddi \u0111\u1ee7 r\u1ea3nh \u0111\u1ec3 t\u1eadp th\u1ed5i s\u00e1o \u2014 th\u1eddi gian r\u1ea3nh l\u00e0 c\u00f3 th\u1eadt.",
+          "shot_intent": "Kho\u1ea3nh kh\u1eafc h\u00e0i c\u1ee7a ch\u01b0\u01a1ng, ch\u1ed1t \u00fd \u0111\u1ee7 r\u1ea3nh \u0111\u1ec3 t\u1eadp th\u1ed5i s\u00e1o.",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fills",
+            "hand-drawn"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale hand-drawn landscape background; refs @style_frame + @tribe. Medium shot in front of a snowy cave mouth: a tribe stick figure sits on a rock right of centre holding a thin pale bone flute to the lips with both hands, cheeks puffed, eyes squeezed in concentration; left of centre another tribe figure presses both hands over the ears with a pained grimace; a small bird perched on a nearby rock; pale snowy hills behind."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still: the flute player blows hard, cheeks puffing in and out, fingers fumbling over the holes; the listener winces and hunches lower with both hands over the ears; the small bird startles and flaps away out of frame; slow gentle push-in toward the flute player's face. No text."
+            }
+          ],
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef hay s\u1ed1 tr\u00ean h\u00ecnh; ph\u1ee5 \u0111\u1ec1 do edit x\u1eed l\u00fd.",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "ph\u1ed3ng m\u00e1 th\u1ed5i s\u00e1o",
+                "ng\u00f3n tay l\u00f3ng ng\u00f3ng",
+                "ng\u01b0\u1eddi b\u00ean c\u1ea1nh b\u1ecbt tai nh\u0103n m\u1eb7t"
+              ]
+            }
+          ],
+          "hero_moment": true
+        },
+        {
+          "id": "g07-sc01",
+          "type": "animation",
+          "start_seconds": 71.63,
+          "end_seconds": 73.18,
+          "script_section_id": "s7",
+          "description": "Veo i2v. Gi\u1edd r\u1ea3nh kh\u00f4ng ph\u00ed: @narrator ng\u1ed3i quanh \u0111\u1ed1ng l\u1eeda tr\u1ea1i v\u1edbi 3 ng\u01b0\u1eddi @tribe d\u01b0\u1edbi b\u00f3ng c\u00e2y keo, anh vung m\u1ed9t tay k\u1ec3 chuy\u1ec7n (tay kia \u0111\u1eb7t tr\u00ean g\u1ed1i), c\u1ea3 nh\u00f3m c\u01b0\u1eddi ng\u1ea3 nghi\u00eang. Khung trung-r\u1ed9ng, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i, \u0111\u1ed1ng l\u1eeda ti\u1ec1n c\u1ea3nh gi\u1eefa, savan nh\u1ea1t ph\u00eda sau, chi\u1ec1u mu\u1ed9n.",
+          "framing": "medium_wide, nh\u00f3m l\u1ec7ch tr\u00e1i 1/3, l\u1eeda MG, c\u00e2y keo + savan BG",
+          "movement": "Veo: nh\u00e2n v\u1eadt c\u01b0\u1eddi, l\u1eeda lay; m\u00e1y \u0111\u1ee9ng y\u00ean, h\u1ea1 7 fps",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "kh\u00f4ng overlay",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "static",
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "M\u1edf ch\u01b0\u01a1ng: t\u00e1n g\u1eabu kh\u00f4ng ph\u1ea3i l\u00e3ng ph\u00ed th\u1eddi gian",
+          "narrative_role": "transition",
+          "information_role": "Gi\u1edd r\u1ea3nh \u0111\u01b0\u1ee3c d\u00f9ng \u0111\u1ec3 g\u1eafn k\u1ebft",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "raises one hand while telling a story, other hand rests on knee",
+                "laughs"
+              ]
+            },
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "lean back laughing",
+                "one slaps his own knee"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fill"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame hand-drawn stick-figure look, wobbly black ink, flat muted fills, pale dry savanna background. First frame: @narrator (messy brown hair, round flat white face, torn brown hide tunic) sits cross-legged at a small campfire with three @tribe hunter-gatherers (dark brown faces, curly black hair, torn hide tunics) under an acacia tree, late afternoon; narrator raises one hand mid-story, other hand on his knee; the group grins. Group off-centre left, fire in midground. Wide 16:9, reaches every edge, nothing written."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast i2v 8 s from the first frame: the storyteller keeps one hand raised and gestures while his other hand stays on his knee, the three listeners burst out laughing and rock back, one slaps his knee, flames flicker; locked-off camera. Use the clean ~1.5 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g07-sc02",
+          "type": "generated",
+          "start_seconds": 73.18,
+          "end_seconds": 75.12,
+          "script_section_id": "s7",
+          "description": "\u1ea2nh lia/zoom. Th\u1ebf gi\u1edbi kh\u00f4ng ti\u1ec1n, kh\u00f4ng b\u1ea3o hi\u1ec3m: c\u1eadn trung @narrator \u0111\u1ee9ng tr\u00ean savan tr\u1ed1ng, hai tay l\u1ed9n ng\u01b0\u1ee3c chi\u1ebfc t\u00fai da th\u00fa r\u1ed7ng, nh\u00fan vai ng\u01a1 ng\u00e1c; d\u1ea5u X \u0111\u1ecf v\u1ebd tay l\u01a1 l\u1eedng c\u1ea1nh t\u00fai. Kh\u00f4ng v\u1ebd ti\u1ec1n hay gi\u1ea5y t\u1edd.",
+          "framing": "medium_close, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i, d\u1ea5u X \u0111\u1ecf b\u00ean tr\u00e1i t\u00fai, savan tr\u1ed1ng BG",
+          "movement": "zoom-out ch\u1eadm (ken-burns)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "kh\u00f4ng overlay; d\u1ea5u X \u0111\u1ecf n\u1eb1m trong \u1ea3nh",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "zoom_out",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "K\u00fd hi\u1ec7u h\u00f3a 'kh\u00f4ng c\u00f3 l\u01b0\u1edbi an to\u00e0n'",
+          "narrative_role": "build_tension",
+          "information_role": "Th\u1eddi ti\u1ec1n s\u1eed kh\u00f4ng c\u00f3 ti\u1ec1n hay b\u1ea3o hi\u1ec3m \u0111\u1ec3 d\u1ef1a v\u00e0o",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fill"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame hand-drawn stick-figure look, wobbly black ink, flat muted fills, pale dry savanna background. Medium close-up: @narrator (messy brown hair, round flat white face, torn brown hide tunic) stands on an empty dry savanna, holding a small hide pouch turned inside out with both hands, shrugging with a puzzled flat face; a big hand-drawn red X floats beside the empty pouch. Character off-centre right. Wide 16:9, reaches every edge, nothing written."
+            }
+          ]
+        },
+        {
+          "id": "g07-sc03",
+          "type": "animation",
+          "start_seconds": 75.12,
+          "end_seconds": 77.92,
+          "script_section_id": "s7",
+          "hero_moment": true,
+          "description": "Veo i2v, C\u1ea2NH \u0110\u1ec8NH. @narrator g\u00e3y ch\u00e2n n\u1eb1m c\u1ea1nh \u0111\u1ed1ng l\u1eeda, c\u1eb3ng ch\u00e2n n\u1eb9p que g\u1ed7 bu\u1ed9c d\u00e2y da; ba ng\u01b0\u1eddi @tribe qu\u1ef3 quanh, m\u1ed9t ng\u01b0\u1eddi \u0111\u01b0a xi\u00ean th\u1ecbt n\u01b0\u1edbng t\u1edbi mi\u1ec7ng anh, ng\u01b0\u1eddi kh\u00e1c \u0111\u1eb7t th\u00eam mi\u1ebfng th\u1ecbt b\u00ean c\u1ea1nh; anh nhai, m\u1eb7t r\u01b0ng r\u01b0ng c\u1ea3m \u0111\u1ed9ng. Khung r\u1ed9ng th\u1ea5p, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i.",
+          "framing": "wide, ng\u01b0\u1eddi n\u1eb1m l\u1ec7ch tr\u00e1i FG-MG, l\u1eeda ph\u1ea3i, b\u1ed9 t\u1ed9c qu\u1ef3 v\u00f2ng quanh, savan chi\u1ec1u BG",
+          "movement": "Veo: \u0111\u01b0a th\u1ecbt, nhai; m\u00e1y \u0111\u1ea9y v\u00e0o ch\u1eadm, h\u1ea1 7 fps",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "kh\u00f4ng overlay",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "dolly_in",
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "B\u1eb1ng ch\u1ee9ng b\u1eb1ng h\u00ecnh: ng\u01b0\u1eddi kh\u00e1c ch\u00ednh l\u00e0 b\u1ea3o hi\u1ec3m",
+          "narrative_role": "deliver_payload",
+          "information_role": "Khi b\u1ecb th\u01b0\u01a1ng, s\u1ed1ng s\u00f3t nh\u1edd ng\u01b0\u1eddi kh\u00e1c nu\u00f4i",
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "lies on his back by the fire, splinted leg straight",
+                "opens mouth, takes a bite of meat",
+                "chews, eyes watery with gratitude"
+              ]
+            },
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "one kneels and holds a roasted meat skewer to his mouth",
+                "another sets a second piece of meat beside him",
+                "third pats his shoulder"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fill",
+            "warm"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame hand-drawn stick-figure look, wobbly black ink, flat muted fills, pale dry savanna background. First frame: @narrator (messy brown hair, round flat white face, torn brown hide tunic) lies on his back beside a campfire, one lower leg splinted with straight sticks tied with hide strips; three @tribe hunter-gatherers (dark brown faces, curly black hair, torn hide tunics) kneel around him, one holds a roasted meat skewer toward his mouth. Low wide shot, narrator off-centre left, golden late-afternoon savanna behind. Wide 16:9, reaches every edge, nothing written."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast i2v 8 s: the kneeling hunter feeds the lying man a bite from the skewer, he chews with watery grateful eyes, a second hunter sets another piece of roasted meat next to him, the third gently pats his shoulder; the splinted leg stays still; slow push-in. Use ~2.8 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g07-sc04",
+          "type": "generated",
+          "start_seconds": 77.92,
+          "end_seconds": 80.16,
+          "script_section_id": "s7",
+          "description": "\u1ea2nh chia \u0111\u00f4i, lia ph\u1ea3i. Tr\u00e1i (c\u00e2u '\u0110\u01b0\u1ee3c qu\u00fd th\u00ec c\u00f3 \u0103n'): m\u1ed9t ng\u01b0\u1eddi @tribe c\u01b0\u1eddi t\u01b0\u01a1i ng\u1ed3i gi\u1eefa v\u00f2ng b\u1ea1n b\u00e8, \u00f4m \u0111\u00f9i th\u1ecbt l\u1edbn, d\u1ea5u tick xanh b\u00ean c\u1ea1nh. Ph\u1ea3i (c\u00e2u 'B\u1ecb gh\u00e9t th\u00ec nh\u1ecbn', m\u00e1y lia sang \u0111\u00fang m\u1ed1c 79.10 s): m\u1ed9t ng\u01b0\u1eddi @tribe kh\u00e1c ng\u1ed3i m\u1ed9t m\u00ecnh tr\u00ean t\u1ea3ng \u0111\u00e1 gi\u1eefa b\u00e3i tr\u1ed1ng l\u1ed9ng gi\u00f3, b\u1ee5ng l\u00e9p, nh\u00ecn b\u00e0n tay r\u1ed7ng, d\u1ea5u X \u0111\u1ecf. V\u1ea1ch m\u1ef1c d\u1ecdc chia \u0111\u00f4i khung.",
+          "framing": "wide, chia \u0111\u00f4i b\u1eb1ng v\u1ea1ch m\u1ef1c d\u1ecdc; m\u1ed7i n\u1eeda m\u1ed9t nh\u00e2n v\u1eadt, tr\u00e1i \u0111\u00f4ng vui \u1ea5m, ph\u1ea3i tr\u1ed1ng l\u1ea1nh",
+          "movement": "pan-right t\u1eeb n\u1eeda tr\u00e1i sang n\u1eeda ph\u1ea3i, sang v\u00e0o m\u1ed1c beat 79.10 s",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "kh\u00f4ng overlay; tick xanh / X \u0111\u1ecf n\u1eb1m trong \u1ea3nh",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "pan_right",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "mixed"
+          },
+          "shot_intent": "So s\u00e1nh tr\u1ef1c quan \u0111\u01b0\u1ee3c qu\u00fd v\u00e0 b\u1ecb gh\u00e9t",
+          "narrative_role": "comparison",
+          "information_role": "\u0110\u01b0\u1ee3c qu\u00fd th\u00ec c\u00f3 \u0103n, b\u1ecb gh\u00e9t th\u00ec \u0111\u00f3i",
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fill",
+            "split frame"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame hand-drawn stick-figure look, wobbly black ink, flat muted fills, pale dry savanna background. Split-frame picture divided by one vertical hand-drawn ink line. Left half: a smiling @tribe hunter-gatherer (dark brown face, curly black hair, torn hide tunic) sits among friends by a warm fire hugging a big roasted leg of meat, a green tick mark beside him. Right half: another @tribe man sits all alone on a rock in a bare windy patch of savanna, thin belly, staring sadly at his empty open hand, a red X beside him. Wide 16:9, reaches every edge, nothing written."
+            }
+          ]
+        },
+        {
+          "id": "g07-sc05",
+          "type": "animation",
+          "start_seconds": 80.16,
+          "end_seconds": 82.26,
+          "script_section_id": "s7",
+          "description": "Veo i2v. C\u00e2u ch\u1ed1t 'T\u00e1n g\u1eabu ch\u00ednh l\u00e0 qu\u1ef9 l\u01b0\u01a1ng h\u01b0u': c\u1eadn @narrator v\u00e0 m\u1ed9t ph\u1ee5 n\u1eef @tribe ch\u1ee5m \u0111\u1ea7u b\u00ean \u0111\u1ed1ng l\u1eeda; ch\u1ecb khum m\u1ed9t tay c\u1ea1nh mi\u1ec7ng th\u00ec th\u1ea7m v\u00e0o tai anh (tay kia bu\u00f4ng tr\u00ean g\u1ed1i), anh tr\u00f2n m\u1eaft r\u1ed3i c\u01b0\u1eddi kho\u00e1i ch\u00ed, ti\u1ec7n tay nh\u1eadn th\u00eam mi\u1ebfng th\u1ecbt. H\u00e0i kh\u00f4.",
+          "framing": "close_up hai khu\u00f4n m\u1eb7t, l\u1ec7ch ph\u1ea3i, l\u1eeda m\u1edd BG tr\u00e1i",
+          "movement": "Veo: th\u00ec th\u1ea7m, ph\u1ea3n \u1ee9ng; m\u00e1y \u0111\u1ee9ng y\u00ean, h\u1ea1 7 fps",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "kh\u00f4ng overlay",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "static",
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Ch\u1ed1t \u00fd: bu\u00f4n chuy\u1ec7n l\u00e0 \u0111\u1ea7u t\u01b0 v\u00e0o quan h\u1ec7 \u0111\u1ec3 \u0111\u01b0\u1ee3c nu\u00f4i sau n\u00e0y",
+          "narrative_role": "resolution",
+          "information_role": "T\u00e1n g\u1eabu x\u00e2y quan h\u1ec7, v\u00e0 quan h\u1ec7 l\u00e0 l\u01b0\u01a1ng h\u01b0u",
+          "character_actions": [
+            {
+              "character_id": "tribe",
+              "action_sequence": [
+                "cups one hand beside her mouth, other hand rests on her knee",
+                "whispers into his ear",
+                "passes him a piece of meat"
+              ]
+            },
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "eyes widen",
+                "grins slyly",
+                "takes the meat"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink",
+            "flat muted fill"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "@style_frame hand-drawn stick-figure look, wobbly black ink, flat muted fills, pale dry savanna background. First frame close-up: @narrator (messy brown hair, round flat white face, torn brown hide tunic) and a @tribe woman (dark brown face, curly black hair, torn hide tunic) lean their heads together by a campfire; she cups one hand beside her mouth to whisper into his ear, her other hand resting on her knee. Two faces off-centre right, fire soft on the left background. Wide 16:9, reaches every edge, nothing written."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast i2v 8 s: the woman whispers into his ear with one cupped hand while her other hand stays down on her knee, his eyes go wide then he grins slyly, she hands him a small piece of roasted meat and he takes it; locked-off camera. Use ~2.1 s after the first 0.5 s."
+            }
+          ]
+        },
+        {
+          "id": "g08-sc01",
+          "type": "generated",
+          "description": "M\u1eb7t tr\u1eddi l\u1eb7n tr\u00ean savan: m\u1eb7t tr\u1eddi tr\u00f2n cam tr\u01a1n (kh\u00f4ng m\u1eb7t, kh\u00f4ng ph\u1ea3i nh\u00e2n v\u1eadt) ch\u00ecm sau \u0111\u1ed3i th\u1ea5p, tr\u1eddi cam nh\u1ea1t chuy\u1ec3n t\u00edm, b\u00f3ng c\u00e2y keo \u0111en; \u1ea3nh t\u0129nh zoom-out ch\u1eadm.",
+          "start_seconds": 82.26,
+          "end_seconds": 83.41,
+          "script_section_id": "s8",
+          "framing": "extreme wide, horizon on lower third, sun right of centre, acacia silhouettes left",
+          "movement": "ken-burns zoom-out ch\u1eadm",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh (kh\u00f4ng s\u1ed1, kh\u00f4ng nh\u00e3n).",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "zoom_out",
+            "lens_mm": 24,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Chuy\u1ec3n t\u1eeb ng\u00e0y sang \u0111\u00eam trong 1 beat ng\u1eafn",
+          "narrative_role": "transition",
+          "information_role": "M\u1ed9t ng\u00e0y k\u1ebft th\u00fac, s\u1eafp sang ph\u1ea7n \u0111\u00eam",
+          "hero_moment": false,
+          "character_actions": [],
+          "texture_keywords": [
+            "wobbly ink outline",
+            "flat muted fills",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink. Extreme wide savanna at sunset: a plain round orange sun with NO face sinking behind low rolling hills, pale orange sky fading to muted purple at the top, two flat black acacia tree shapes on the left, dry grass foreground. No people. Refs: @style_frame. Motion in edit: slow zoom-out."
+            }
+          ]
+        },
+        {
+          "id": "g08-sc02",
+          "type": "animation",
+          "description": "Ban ng\u00e0y: @narrator ng\u1ed3i x\u1ed5m ch\u1ec9 v\u00e0o d\u1ea5u ch\u00e2n th\u00fa tr\u00ean \u0111\u1ea5t, hai ng\u01b0\u1eddi @tribe ph\u00eda sau gh\u00e9 tai th\u00ec th\u1ea7m n\u00f3i x\u1ea5u, li\u1ebfc nhau c\u01b0\u1eddi ranh m\u00e3nh; clip Veo i2v.",
+          "start_seconds": 83.41,
+          "end_seconds": 85.89,
+          "script_section_id": "s8",
+          "framing": "medium, narrator crouching left third pointing at tracks, two tribe members whispering right third, midday savanna behind",
+          "movement": "Veo i2v: tay ch\u1ec9 d\u1ea5u ch\u00e2n, hai ng\u01b0\u1eddi ph\u00eda sau th\u00ec th\u1ea7m",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh (kh\u00f4ng s\u1ed1, kh\u00f4ng nh\u00e3n).",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "static",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "medium",
+            "color_temperature": "neutral"
+          },
+          "shot_intent": "Minh h\u1ecda hai ch\u1ee7 \u0111\u1ec1 n\u00f3i chuy\u1ec7n ban ng\u00e0y: s\u0103n b\u1eafn v\u00e0 bu\u00f4n chuy\u1ec7n",
+          "narrative_role": "deliver_payload",
+          "information_role": "Ban ng\u00e0y h\u1ecd b\u00e0n chuy\u1ec7n s\u0103n b\u1eafn v\u00e0 n\u00f3i x\u1ea5u nhau",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "emotion": "focused",
+              "action_sequence": [
+                "crouches",
+                "points at hoof prints",
+                "taps the dust"
+              ]
+            },
+            {
+              "character_id": "tribe",
+              "emotion": "mischievous",
+              "action_sequence": [
+                "lean together",
+                "cup hand to ear",
+                "glance sideways and snicker"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink outline",
+            "flat muted fills",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink. Midday dry savanna. Left: @narrator (messy brown hair, round flat white face, torn brown hide tunic) crouching and pointing down with one hand at a line of animal hoof prints in the dust, his other hand resting on his knee. Right: two @tribe hunter-gatherers (dark brown faces, curly black hair, torn hide tunics) leaning together, one cupping a hand beside the other's ear, sly grins. Refs: @narrator, @tribe, @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still, keep the drawing style: the crouching man taps the hoof prints with one finger while his other hand stays on his knee; behind him the two men whisper, one cups a hand to the other's ear, both glance sideways and snicker. Locked camera."
+            }
+          ]
+        },
+        {
+          "id": "g08-sc03",
+          "type": "animation",
+          "description": "C\u1ea2NH \u0110\u1ec8NH: \u0111\u00eam b\u00ean \u0111\u1ed1ng l\u1eeda, b\u1ed9 t\u1ed9c ng\u1ed3i v\u00f2ng tr\u00f2n, @narrator \u0111\u1ee9ng k\u1ec3 chuy\u1ec7n vung tay; trong c\u1ed9t kh\u00f3i hi\u1ec7n h\u00ecnh th\u1ea7n tho\u1ea1i n\u00e9t m\u1ef1c (linh d\u01b0\u01a1ng kh\u1ed5ng l\u1ed3, b\u00f3ng t\u1ed5 ti\u00ean) r\u1ed3i tan; ng\u01b0\u1eddi nghe h\u00e1 mi\u1ec7ng r\u1ed3i ph\u00e1 l\u00ean c\u01b0\u1eddi. Ph\u1ee7 2 beat 't\u00e1m m\u01b0\u01a1i m\u1ed1t ph\u1ea7n tr\u0103m l\u00e0 k\u1ec3 chuy\u1ec7n: th\u1ea7n linh, t\u1ed5 ti\u00ean, chuy\u1ec7n c\u01b0\u1eddi'.",
+          "start_seconds": 85.89,
+          "end_seconds": 90.51,
+          "script_section_id": "s8",
+          "framing": "wide, fire centre-left, narrator standing right of fire with arm raised, tribe circle around fire, smoke column rising into the upper half",
+          "movement": "Veo i2v: vung tay k\u1ec3 chuy\u1ec7n, kh\u00f3i bi\u1ebfn h\u00ecnh th\u1ea7n tho\u1ea1i, ng\u01b0\u1eddi nghe c\u01b0\u1eddi; \u0111\u1ea9y m\u00e1y ch\u1eadm",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh (kh\u00f4ng s\u1ed1, kh\u00f4ng nh\u00e3n).",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "dolly_in",
+            "lens_mm": 35,
+            "lighting_key": "low_key",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Kho\u1ea3nh kh\u1eafc \u0111\u1ec9nh: \u0111\u00eam l\u00e0 th\u1eddi gian k\u1ec3 chuy\u1ec7n",
+          "narrative_role": "emotional_beat",
+          "information_role": "\u0110\u00eam b\u00ean l\u1eeda ph\u1ea7n l\u1edbn l\u00e0 k\u1ec3 chuy\u1ec7n: th\u1ea7n linh, t\u1ed5 ti\u00ean, chuy\u1ec7n c\u01b0\u1eddi",
+          "hero_moment": true,
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "emotion": "theatrical",
+              "action_sequence": [
+                "raises one arm",
+                "sweeps it across the sky",
+                "leans toward listeners with a grin"
+              ]
+            },
+            {
+              "character_id": "tribe",
+              "emotion": "spellbound then amused",
+              "action_sequence": [
+                "lean in wide-eyed",
+                "mouths open",
+                "burst out laughing"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink outline",
+            "flat muted fills",
+            "warm firelight on faces",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink. Night on the savanna, muted dark blue sky with a few stars. A campfire centre-left with flat orange flames and a tall pale grey smoke column rising into the upper half of the frame. @narrator stands right of the fire telling a story, one arm raised high in a sweeping gesture, the other arm hanging down at his side. Five @tribe hunter-gatherers sit cross-legged in a circle around the fire, faces lit warm orange, listening wide-eyed. Inside the smoke, faint hand-drawn ink shapes: a giant antelope with long horns and a tall ancestor figure. Refs: @narrator, @tribe, @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still, keep the drawing style: the storyteller sweeps his raised arm across the sky while his other arm stays down; the smoke swirls, the ink antelope gallops then melts into the tall ancestor shape; the listeners lean in with mouths open, then burst out laughing; flames flicker. Very slow push-in."
+            }
+          ]
+        },
+        {
+          "id": "g08-sc04",
+          "type": "generated",
+          "description": "Ng\u1ee7 hai gi\u1ea5c: n\u1eeda \u0111\u00eam, b\u1ed9 t\u1ed9c ng\u1ee7 quanh than h\u1ed3ng, @narrator ng\u1ed3i d\u1eady thong th\u1ea3 \u00f4m g\u1ed1i, ng\u01b0\u1edbc nh\u00ecn tr\u1eddi \u0111\u1ea7y sao, c\u01b0\u1eddi m\u00e3n nguy\u1ec7n; \u1ea3nh t\u0129nh lia ph\u1ea3i ch\u1eadm.",
+          "start_seconds": 90.51,
+          "end_seconds": 92.73,
+          "script_section_id": "s8",
+          "framing": "medium wide, sleepers along the bottom, narrator sitting up on the left third, starry sky filling the upper two thirds",
+          "movement": "ken-burns lia ph\u1ea3i ch\u1eadm",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh (kh\u00f4ng s\u1ed1, kh\u00f4ng nh\u00e3n).",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "pan_right",
+            "lens_mm": 35,
+            "lighting_key": "blue_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "V\u1ebf ti\u1ec1n s\u1eed c\u1ee7a ph\u00e9p so s\u00e1nh: th\u1ee9c gi\u1eefa \u0111\u00eam l\u00e0 chuy\u1ec7n b\u00ecnh th\u01b0\u1eddng, th\u01b0 th\u00e1i",
+          "narrative_role": "comparison",
+          "information_role": "H\u1ecd ng\u1ee7 hai gi\u1ea5c, th\u1ee9c gi\u1eefa \u0111\u00eam m\u1ed9t l\u00fac m\u00e0 kh\u00f4ng lo l\u1eafng",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "emotion": "calm, content",
+              "action_sequence": [
+                "sits up from sleep",
+                "hugs knees",
+                "gazes at the stars"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink outline",
+            "flat muted fills",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink. Midnight on the savanna under a sky full of small pale yellow stars and a thin crescent moon. Along the bottom of the frame three @tribe hunter-gatherers sleep curled on hide mats around low glowing red embers. On the left third @narrator sits up calmly, arms loosely around his knees, gazing up at the stars with a relaxed, contented smile. Muted dark blue night palette. Refs: @narrator, @tribe, @style_frame. Motion in edit: slow pan right."
+            }
+          ]
+        },
+        {
+          "id": "g08-sc05",
+          "type": "animation",
+          "description": "@worker n\u1eb1m ng\u1eeda tr\u00ean gi\u01b0\u1eddng trong ph\u00f2ng t\u1ed1i, m\u1eaft tr\u1ee3n tr\u00f2n nh\u00ecn tr\u1ea7n, \u0111\u1ed3ng h\u1ed3 \u0111\u1ea7u gi\u01b0\u1eddng m\u1eb7t tr\u1ed1ng kim ch\u1ec9 g\u1ea7n hai gi\u1edd; tr\u1edf m\u00ecnh, tr\u00f9m ch\u0103n r\u1ed3i l\u00f3 ra tr\u1ee3n m\u1eaft; clip Veo i2v. Nh\u1ea5n 'm\u1ea5t ng\u1ee7'.",
+          "start_seconds": 92.73,
+          "end_seconds": 95.607,
+          "script_section_id": "s8",
+          "framing": "close-up, worker face on pillow right of centre, bedside clock left, dark bedroom",
+          "movement": "Veo i2v: m\u1eaft tr\u1ee3n, tr\u1edf m\u00ecnh, tr\u00f9m ch\u0103n r\u1ed3i l\u00f3 ra",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng c\u00f3 ch\u1eef tr\u00ean h\u00ecnh (kh\u00f4ng s\u1ed1, kh\u00f4ng nh\u00e3n).",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "static",
+            "lens_mm": 50,
+            "lighting_key": "low_key",
+            "depth_of_field": "shallow",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "V\u1ebf hi\u1ec7n \u0111\u1ea1i c\u1ee7a ph\u00e9p so s\u00e1nh, ch\u1ed1t c\u00e2u \u0111\u00f9a 'g\u1ecdi \u0111\u00f3 l\u00e0 m\u1ea5t ng\u1ee7'",
+          "narrative_role": "resolution",
+          "information_role": "C\u00f9ng vi\u1ec7c th\u1ee9c gi\u1eefa \u0111\u00eam, ng\u01b0\u1eddi hi\u1ec7n \u0111\u1ea1i coi l\u00e0 b\u1ec7nh m\u1ea5t ng\u1ee7",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "worker",
+              "emotion": "anxious, exhausted",
+              "action_sequence": [
+                "stares at ceiling",
+                "rolls over",
+                "pulls blanket over head",
+                "peeks out wide-eyed"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "wobbly ink outline",
+            "flat muted fills",
+            "no gradients"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, no gradients, no shading, pale hand-drawn landscape background in the same ink. Dark modern bedroom at night, muted blue-grey palette, faint moonlight from a window. Close-up: @worker (modern office worker) lying on his back in bed, blanket pulled up to his chin, eyes wide open and bloodshot, staring at the ceiling, stressed. On the bedside table at left, a round analog clock with a blank face and two hands, the short hand near the two o'clock position. Refs: @worker, @style_frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo i2v from the still, keep the drawing style: the man stares wide-eyed at the ceiling, blinks slowly, rolls onto his side, pulls the blanket over his head, then peeks out again with the same wide stare. Locked camera."
+            }
+          ]
+        },
+        {
+          "id": "g09-sc01",
+          "type": "animation",
+          "description": "Kho\u1ea3nh kh\u1eafc ch\u1ee7 \u0111\u1ea1o: c\u1eadn c\u1ea3nh m\u1ed9t b\u00e0n tay n\u00e2u s\u1eabm \u1ea5n m\u1ed9t h\u1ea1t gi\u1ed1ng v\u00e0o \u0111\u1ea5t x\u1edbi, m\u1ea7m xanh nh\u00fa l\u00ean \u0111\u00fang l\u00fac l\u1eddi \u0111\u1ecdc nh\u1ea5n 'h\u1ea1t gi\u1ed1ng'. Veo i2v, c\u1eaft \u0111o\u1ea1n s\u1ea1ch.",
+          "start_seconds": 95.607,
+          "end_seconds": 98.117,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "extreme_close_up",
+            "camera_movement": "static",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "introduce_subject",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Extreme close-up: a single dark-brown stick-figure hand presses one small seed into a shallow hole in dry tan soil, the fingers lift away, and a tiny green sprout pokes up from the soil. Low camera at ground level, locked-off, deep focus, pale savanna horizon behind. Refs: @tribe, @style_frame. Veo 3.1 fast i2v from a still of the hand above the soil.",
+              "source": "generate",
+              "motion_mode": "veo_i2v"
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "@tribe",
+              "action_sequence": [
+                "b\u00e0n tay h\u1ea1 xu\u1ed1ng \u0111\u1ea5t",
+                "\u1ea5n h\u1ea1t gi\u1ed1ng v\u00e0o l\u1ed7",
+                "nh\u1ea5c tay l\u00ean",
+                "m\u1ea7m xanh nh\u00fa l\u00ean"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g09-sc02",
+          "type": "animation",
+          "description": "L\u00faa m\u00ec m\u1ecdc v\u1ee5t th\u00e0nh ru\u1ed9ng v\u00e0ng; hai ng\u01b0\u1eddi que @tribe \u00f4m b\u00f3 l\u00faa, quanh ch\u00e2n h\u1ecd l\u1ea7n l\u01b0\u1ee3t xu\u1ea5t hi\u1ec7n nhi\u1ec1u em b\u00e9 ng\u01b0\u1eddi que (nhi\u1ec1u l\u01b0\u01a1ng th\u1ef1c, nhi\u1ec1u em b\u00e9 s\u1ed1ng s\u00f3t).",
+          "start_seconds": 98.117,
+          "end_seconds": 99.977,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "static",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Wide shot of a field on the savanna: rows of short green shoots rise quickly into tall golden wheat stalks; two @tribe stick figures stand in the wheat holding wheat bundles in both arms, and several tiny stick-figure babies toddle out one by one around their feet. Eye-level, locked-off, deep focus. Refs: @tribe, @style_frame. Veo 3.1 fast i2v.",
+              "source": "generate",
+              "motion_mode": "veo_i2v"
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "@tribe",
+              "action_sequence": [
+                "\u0111\u1ee9ng gi\u1eefa ru\u1ed9ng l\u00faa \u0111ang m\u1ecdc",
+                "\u00f4m b\u00f3 l\u00faa",
+                "em b\u00e9 l\u1ea7n l\u01b0\u1ee3t xu\u1ea5t hi\u1ec7n quanh ch\u00e2n"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g09-sc03",
+          "type": "diagram",
+          "description": "V\u00f2ng xo\u00e1y v\u1ebd tay ch\u1ec9 b\u1eb1ng k\u00fd hi\u1ec7u: b\u00f3 l\u00faa -> em b\u00e9 -> \u0111\u00e1m \u0111\u00f4ng ng\u01b0\u1eddi que -> ru\u1ed9ng -> ng\u01b0\u1eddi que c\u1ea7m cu\u1ed1c \u0111\u1ed5 m\u1ed3 h\u00f4i -> quay v\u1ec1 b\u00f3 l\u00faa; m\u0169i t\u00ean v\u1ebd tay n\u1ed1i th\u00e0nh v\u00f2ng, kh\u1edbp 'nhi\u1ec1u ng\u01b0\u1eddi... nhi\u1ec1u ru\u1ed9ng... nhi\u1ec1u vi\u1ec7c'. \u1ea2nh t\u0129nh zoom ch\u1eadm v\u00e0o t\u00e2m v\u00f2ng. S\u01a1 \u0111\u1ed3 \u0111\u01b0\u1ee3c ph\u00e9p n\u1ec1n tr\u01a1n.",
+          "start_seconds": 99.977,
+          "end_seconds": 102.677,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "zoom_in",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "deliver_payload",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. A hand-drawn circular loop diagram on a plain pale sand background: five ink symbols evenly spaced around a circle and joined by thick curved hand-drawn arrows running clockwise: a golden wheat sheaf, a tiny stick-figure baby, a small crowd of stick figures, a patch of ploughed field rows, a stick figure with a hoe dripping sweat drops, and the last arrow returns to the wheat sheaf. Symbols only. Refs: @style_frame. Slow zoom-in still.",
+              "source": "generate",
+              "motion_mode": "still_zoom"
+            }
+          ]
+        },
+        {
+          "id": "g09-sc04",
+          "type": "animation",
+          "description": "B\u1ed9 t\u1ed9c \u0111\u00f4ng ngh\u1eb9t trong l\u00e0ng ru\u1ed9ng; c\u00e1nh c\u1ed5ng g\u1ed7 th\u00f4 \u0111\u00f3ng s\u1eadp tr\u01b0\u1edbc kho\u1ea3ng savan r\u1ed9ng c\u00f3 \u0111\u00e0n linh d\u01b0\u01a1ng ch\u1ea1y xa - \u0111\u1eddi s\u0103n b\u1eaft c\u0169 b\u1ecb kho\u00e1 l\u1ea1i, kh\u1edbp ch\u1eef '\u0111\u00f3ng s\u1eadp'.",
+          "start_seconds": 102.677,
+          "end_seconds": 105.597,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "static",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "emotional_beat",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Wide shot from inside a crowded farming village packed with many @tribe stick figures: in the middle of the frame a crude wooden log gate stands open onto the open savanna, where a few gazelles run far away; the gate swings shut hard, dust puffs up, and the crowd stays standing still with arms hanging down. Eye-level, locked-off, deep focus. Refs: @tribe, @style_frame. Veo 3.1 fast i2v.",
+              "source": "generate",
+              "motion_mode": "veo_i2v"
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "@tribe",
+              "action_sequence": [
+                "\u0111\u1ee9ng chen ch\u00fac trong l\u00e0ng",
+                "c\u1ed5ng g\u1ed7 \u0111\u00f3ng s\u1eadp",
+                "b\u1ee5i tung l\u00ean"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g09-sc05",
+          "type": "animation",
+          "description": "N\u00f4ng d\u00e2n c\u00f2ng l\u01b0ng c\u00e0y v\u00e0 g\u1eb7t; @narrator \u0111i \u0111\u1ea7u \u0111\u1ea9y c\u00e0y, l\u01b0ng c\u00f2ng, kh\u00f4ng ng\u1eebng; n\u1ec1n \u0111\u1ed5i m\u00f9a nhanh xanh - v\u00e0ng - xanh \u0111\u1ec3 n\u00f3i 'n\u0103m n\u00e0y qua n\u0103m kh\u00e1c'.",
+          "start_seconds": 105.597,
+          "end_seconds": 108.217,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "static",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "build_tension",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Medium shot, three hunched stick-figure farmers in a row in a dry field: the front one is @narrator (messy brown hair, round flat white face, torn brown hide tunic) pushing a crude wooden plough with a bent back, the two @tribe farmers behind him bend low cutting wheat with curved stone sickles; they keep working as the crops around them switch quickly from green to golden stubble and back to green. Eye-level, locked-off, deep focus. Refs: @narrator, @tribe, @style_frame. Veo 3.1 fast i2v.",
+              "source": "generate",
+              "motion_mode": "veo_i2v"
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "@narrator",
+              "action_sequence": [
+                "c\u00f2ng l\u01b0ng \u0111\u1ea9y c\u00e0y",
+                "b\u01b0\u1edbc ch\u1eadm t\u1eebng b\u01b0\u1edbc"
+              ]
+            },
+            {
+              "character_id": "@tribe",
+              "action_sequence": [
+                "c\u00fai g\u1eb7t l\u00faa",
+                "\u0111\u1ee9ng d\u1eady xoa l\u01b0ng r\u1ed3i c\u00fai ti\u1ebfp"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g09-sc06",
+          "type": "generated",
+          "description": "G\u1ecdi l\u1ea1i b\u1ed9 x\u01b0\u01a1ng n\u00f4ng d\u00e2n h\u01b0 h\u1ea1i \u1edf ph\u1ea7n tr\u01b0\u1edbc: x\u01b0\u01a1ng s\u1ed1ng cong, r\u0103ng s\u00e2u \u0111en, kh\u1edbp g\u1ed1i m\u00f2n, n\u1eb1m trong l\u1edbp \u0111\u1ea5t c\u1ea1nh chi\u1ebfc cu\u1ed1c \u0111\u00e1. \u1ea2nh t\u0129nh, lia ph\u1ea3i ch\u1eadm.",
+          "start_seconds": 108.217,
+          "end_seconds": 110.537,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "pan_right",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "evidence",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Close-up of an ink-drawn skeleton of an early farmer lying in a cross-section of tan soil: a strongly curved spine, several teeth with black cavity holes, worn swollen knee joints, a small stone hoe resting beside the bony hand; pale soil layers above. Deep focus. Keep the skeleton design consistent with the earlier damaged-farmer skeleton scene. Refs: @style_frame. Slow pan-right still.",
+              "source": "generate",
+              "motion_mode": "still_pan"
+            }
+          ]
+        },
+        {
+          "id": "g09-sc07",
+          "type": "generated",
+          "description": "'Kh\u00f4ng b\u1ecb c\u01b0\u1edbp': t\u00ean tr\u1ed9m ng\u01b0\u1eddi que \u0111eo m\u1eb7t n\u1ea1 \u00f4m chi\u1ebfc \u0111\u1ed3ng h\u1ed3 c\u00e1t l\u00e9n ch\u1ea1y \u0111i, b\u1ecb g\u1ea1ch b\u1eb1ng d\u1ea5u X \u0111\u1ecf v\u1ebd tay. \u1ea2nh t\u0129nh, zoom ra ch\u1eadm.",
+          "start_seconds": 110.537,
+          "end_seconds": 112.297,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "zoom_out",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "comparison",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Medium shot on a pale savanna: a sneaky stick-figure thief with a black eye-mask tiptoes away hugging a large sand hourglass; a big hand-drawn red X is scrawled over the whole thief. Eye-level, deep focus. Symbols only. Refs: @style_frame. Slow zoom-out still.",
+              "source": "generate",
+              "motion_mode": "still_zoom"
+            }
+          ]
+        },
+        {
+          "id": "g09-sc08",
+          "type": "animation",
+          "description": "H\u00ecnh \u1ea3nh '\u0111\u1ed5i d\u1ea7n, t\u1eebng th\u1ebf h\u1ec7 m\u1ed9t': h\u00e0ng d\u00e0i c\u00e1c th\u1ebf h\u1ec7 ng\u01b0\u1eddi que t\u1eeb th\u1ee3 s\u0103n \u0111\u1ee9ng th\u1eb3ng, qua n\u00f4ng d\u00e2n m\u1ed7i ng\u01b0\u1eddi m\u1ed9t c\u00f2ng h\u01a1n, t\u1edbi @worker hi\u1ec7n \u0111\u1ea1i ng\u1ed3i b\u00e0n gi\u1ea5y cu\u1ed1i h\u00e0ng; m\u1ed7i ng\u01b0\u1eddi trao chi\u1ebfc \u0111\u1ed3ng h\u1ed3 c\u00e1t nh\u1ecf d\u1ea7n cho ng\u01b0\u1eddi k\u1ebf. Veo i2v, m\u00e1y lia theo h\u00e0ng.",
+          "start_seconds": 112.297,
+          "end_seconds": 114.623,
+          "script_section_id": "s9",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "tracking_right",
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "narrative_role": "resolution",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "texture_keywords": [
+            "wobbly ink line",
+            "flat muted fill",
+            "hand-drawn savanna"
+          ],
+          "required_assets": [
+            {
+              "type": "video",
+              "description": "hand-drawn stick-figure cartoon, wobbly even black ink outlines, flat muted fills, pale ink landscape background, nothing written anywhere. Wide side view of a long line of stick figures standing left to right across a landscape that turns from savanna into ploughed fields and then a plain office floor: at the far left an upright @tribe hunter, then @tribe farmers each more hunched than the last, and at the far right the @worker modern office worker at a small desk. Each figure hands a small sand hourglass to the next with one hand while the other hand hangs down, and the hourglass shrinks at each handoff until the @worker receives a tiny one. Camera tracks slowly right along the line, eye-level, deep focus. Refs: @tribe, @worker, @style_frame. Veo 3.1 fast i2v.",
+              "source": "generate",
+              "motion_mode": "veo_i2v"
+            }
+          ],
+          "character_actions": [
+            {
+              "character_id": "@tribe",
+              "action_sequence": [
+                "trao \u0111\u1ed3ng h\u1ed3 c\u00e1t cho ng\u01b0\u1eddi k\u1ebf",
+                "l\u01b0ng m\u1ed7i ng\u01b0\u1eddi m\u1ed9t c\u00f2ng h\u01a1n"
+              ]
+            },
+            {
+              "character_id": "@worker",
+              "action_sequence": [
+                "ng\u1ed3i b\u00e0n gi\u1ea5y",
+                "nh\u1eadn chi\u1ebfc \u0111\u1ed3ng h\u1ed3 c\u00e1t t\u00ed hon"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g10-sc01",
+          "type": "generated",
+          "description": "\u1ea2nh t\u0129nh zoom-out ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng nh\u1ecf x\u00edu c\u00fai g\u1eadp \u1edf b\u00e0n l\u00e0m vi\u1ec7c d\u01b0\u1edbi ch\u00e2n m\u1ed9t N\u00daI gi\u1ea5y t\u1edd v\u00e0 b\u00eca h\u1ed3 s\u01a1 ch\u1ed3ng ch\u1ea5t cao ch\u1ea1m m\u00e9p tr\u00ean khung, gi\u1eefa \u0111\u1ed3ng c\u1ecf kh\u00f4 nh\u1ea1t \u2014 n\u00fai vi\u1ec7c c\u1ea3 \u0111\u1eddi. Ch\u1ee7 th\u1ec3: @worker + n\u00fai vi\u1ec7c. Chuy\u1ec3n \u0111\u1ed9ng: zoom-out l\u1ed9 d\u1ea7n chi\u1ec1u cao n\u00fai. B\u1ed1i c\u1ea3nh: \u0111\u1ed3ng c\u1ecf kh\u00f4, ban ng\u00e0y, POV ngang t\u1ea7m m\u1eaft. Khung: extreme wide, ng\u01b0\u1eddi g\u00f3c d\u01b0\u1edbi tr\u00e1i (FG), n\u00fai gi\u1ea5y gi\u1eefa-ph\u1ea3i (MG), \u0111\u1ed3i th\u1ea5p nh\u1ea1t (BG). Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-out ch\u1eadm.",
+          "start_seconds": 114.623,
+          "end_seconds": 116.513,
+          "script_section_id": "s10",
+          "framing": "extreme wide, worker lower-left third, paper mountain center-right to top edge",
+          "movement": "ken-burns zoom-out ch\u1eadm (\u1ea3nh t\u0129nh)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "extreme_wide",
+            "camera_movement": "zoom_out",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "neutral"
+          },
+          "shot_intent": "Bi\u1ebfn 'ch\u00edn m\u01b0\u01a1i ngh\u00ecn gi\u1edd' th\u00e0nh h\u00ecnh: n\u00fai vi\u1ec7c c\u1ea3 \u0111\u1eddi \u0111\u00e8 l\u00ean m\u1ed9t ng\u01b0\u1eddi nh\u1ecf b\u00e9.",
+          "narrative_role": "evidence",
+          "information_role": "C\u1ea3 \u0111\u1eddi l\u00e0m vi\u1ec7c l\u00e0 m\u1ed9t kh\u1ed1i kh\u1ed5ng l\u1ed3.",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "worker",
+              "action_sequence": [
+                "c\u00fai g\u1eadp tr\u00ean b\u00e0n",
+                "ng\u01b0\u1edbc nh\u00ecn n\u00fai gi\u1ea5y"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. A tiny the modern office worker (@worker), a stick figure in a white shirt and dark tie sits hunched at a small desk in the lower-left, dwarfed by a towering mountain of stacked paper sheets and folders that rises to the top edge of the frame, standing on a pale dry grassland with low hills behind. Refs: @worker, @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g10-sc02",
+          "type": "generated",
+          "description": "\u1ea2nh t\u0129nh lia ph\u1ea3i ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng \u0111\u00e3 gi\u00e0 (t\u00f3c b\u1ea1c, l\u01b0ng c\u00f2ng, ch\u1ed1ng g\u1eady) ng\u1ed3i tr\u00ean gh\u1ebf c\u00f4ng vi\u00ean, hai tay n\u00e2ng \u0111\u1ed3ng h\u1ed3 c\u00e1t g\u1ea7n c\u1ea1n, nh\u00ecn n\u00f3 mong m\u1ecfi \u2014 ngh\u1ec9 h\u01b0u m\u1edbi mong c\u00f3 l\u1ea1i th\u1eddi gian. Khung: medium close, nh\u00e2n v\u1eadt l\u1ec7ch ph\u1ea3i (MG), \u0111\u1ed3ng h\u1ed3 c\u00e1t FG tr\u00e1i, \u0111\u1ed3i th\u1ea5p BG. B\u1ed1i c\u1ea3nh: b\u00e3i c\u1ecf chi\u1ec1u mu\u1ed9n. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, pan-right ch\u1eadm t\u1eeb \u0111\u1ed3ng h\u1ed3 c\u00e1t sang g\u01b0\u01a1ng m\u1eb7t.",
+          "start_seconds": 116.513,
+          "end_seconds": 118.133,
+          "script_section_id": "s10",
+          "framing": "medium close, old worker right third, hourglass left foreground",
+          "movement": "ken-burns pan-right ch\u1eadm (\u1ea3nh t\u0129nh)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "medium_close",
+            "camera_movement": "pan_right",
+            "lens_mm": 35,
+            "lighting_key": "golden_hour",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "'Mong ngh\u1ec9 h\u01b0u \u0111\u1ec3 c\u00f3 l\u1ea1i th\u1eddi gian' \u2014 th\u1eddi gian l\u1ea5y l\u1ea1i khi \u0111\u00e3 g\u1ea7n c\u1ea1n.",
+          "narrative_role": "emotional_beat",
+          "information_role": "Ngh\u1ec9 h\u01b0u ch\u1ec9 tr\u1ea3 l\u1ea1i ch\u00fat th\u1eddi gian c\u00f2n s\u00f3t.",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "worker",
+              "action_sequence": [
+                "n\u00e2ng \u0111\u1ed3ng h\u1ed3 c\u00e1t",
+                "nh\u00ecn \u0111\u0103m \u0111\u0103m"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. Medium close shot: the same office worker (@worker, white shirt, dark tie), now elderly with grey hair, a bent back and a walking stick, sits on a simple park bench in late-afternoon light, holding up an hourglass with only a few grains of sand left in the top, gazing at it wistfully; pale low hills behind. Refs: @worker, @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g10-sc03",
+          "type": "animation",
+          "description": "HERO \u2014 clip Veo i2v (~7 h\u00ecnh/gi\u00e2y, c\u1eaft 6% m\u00e9p): nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n n\u1eb1m th\u01b0 th\u00e1i tr\u00ean c\u1ecf ngay sau m\u1ed9t v\u1ea1ch \u0111\u00edch v\u1ebd tay (d\u1ea3i b\u0103ng c\u0103ng gi\u1eefa hai c\u1ecdc g\u1ed7), tay g\u1ed1i \u0111\u1ea7u, ng\u1eadm c\u1ecdng c\u1ecf, nh\u00ecn ng\u01b0\u1eddi v\u0103n ph\u00f2ng m\u1ed3 h\u00f4i nh\u1ec5 nh\u1ea1i, c\u00e0 v\u1ea1t bay, \u00f4m c\u1eb7p, ch\u1ea1y l\u1ea3o \u0111\u1ea3o t\u1eeb xa v\u1ec1 ph\u00eda v\u1ea1ch. Nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n \u0111\u1ea1i di\u1ec7n cho 'h\u1ecd' \u2014 ng\u01b0\u1eddi ti\u1ec1n s\u1eed sinh ra \u0111\u00e3 \u1edf v\u1ea1ch \u0111\u00edch. B\u1ed1i c\u1ea3nh: savan v\u00e0ng nh\u1ea1t, c\u00e2y keo, ban ng\u00e0y. Khung: wide; narrator FG ph\u1ea3i, v\u1ea1ch \u0111\u00edch MG, ng\u01b0\u1eddi ch\u1ea1y BG tr\u00e1i ti\u1ebfn d\u1ea7n l\u1ea1i. Camera: t\u1ed1c \u0111\u1ed9 th\u01b0\u1eddng, \u1ed1ng 35mm, th\u1ea5p ngang c\u1ecf, v\u1eefng, dolly-in r\u1ea5t nh\u1eb9.",
+          "start_seconds": 118.133,
+          "end_seconds": 120.113,
+          "script_section_id": "s10",
+          "framing": "wide, narrator lounging right foreground past the finish line, worker running far left background",
+          "movement": "Veo i2v, dolly-in nh\u1eb9; worker ch\u1ea1y v\u1ec1 ph\u00eda v\u1ea1ch",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "wide",
+            "camera_movement": "dolly_in",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Kho\u1ea3nh kh\u1eafc \u0111\u1ec9nh: c\u00e1i \u0111\u00edch ng\u01b0\u1eddi hi\u1ec7n \u0111\u1ea1i ch\u1ea1y c\u1ea3 \u0111\u1eddi, ng\u01b0\u1eddi ti\u1ec1n s\u1eed \u0111\u00e3 n\u1eb1m s\u1eb5n \u1edf \u0111\u00f3.",
+          "narrative_role": "deliver_payload",
+          "information_role": "T\u1ed5 ti\u00ean sinh ra \u0111\u00e3 c\u00f3 th\u1ee9 ta ch\u1ea1y c\u1ea3 \u0111\u1eddi \u0111\u1ec3 c\u00f3.",
+          "hero_moment": true,
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "n\u1eb1m g\u1ed1i \u0111\u1ea7u",
+                "ng\u1eadm c\u1ecdng c\u1ecf",
+                "v\u1eaby tay l\u01b0\u1eddi"
+              ]
+            },
+            {
+              "character_id": "worker",
+              "action_sequence": [
+                "ch\u1ea1y l\u1ea3o \u0111\u1ea3o",
+                "th\u1edf h\u1ed5n h\u1ec3n"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. Wide shot on a pale yellow savanna with an acacia tree: in the right foreground the narrator (@narrator) with messy brown hair, a round flat white face and a torn brown hide tunic with a zigzag hem lies relaxed on the grass just past a hand-drawn finish line (a plain ribbon stretched between two wooden stakes), hands behind his head, a grass stalk in his mouth. Far away on the left, the modern office worker (@worker), a stick figure in a white shirt and dark tie, sweaty and exhausted, runs toward the line clutching a briefcase. Refs: @narrator, @worker, @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: the stick-figure office worker runs wobbly and exhausted toward the ribbon, tie flapping, briefcase swinging; the lounging brown-haired man in the foreground calmly chews his grass stalk and gives a slow lazy wave with one hand while his other hand stays behind his head. Very gentle push-in, steady camera, hand-drawn cartoon look kept, no new objects appear."
+            }
+          ]
+        },
+        {
+          "id": "g10-sc04",
+          "type": "animation",
+          "description": "Clip Veo i2v callback b\u00e1o th\u1ee9c: c\u1eadn c\u1ea3nh \u0111\u1ed3ng h\u1ed3 b\u00e1o th\u1ee9c hai chu\u00f4ng m\u1eb7t tr\u01a1n (kh\u00f4ng s\u1ed1) tr\u00ean t\u1ee7 \u0111\u1ea7u gi\u01b0\u1eddng rung b\u1ea7n b\u1eadt, n\u1ea3y kh\u1ecfi m\u1eb7t t\u1ee7, \u0111\u01b0\u1eddng rung v\u1ebd tay t\u1ecfa ra \u2014 'c\u00e1i m\u00e1y l\u1ea1i h\u00e9t' nh\u01b0 c\u1ea3nh m\u1edf \u0111\u1ea7u. B\u1ed1i c\u1ea3nh: ph\u00f2ng ng\u1ee7 s\u00e1ng s\u1edbm, c\u1eeda s\u1ed5 nh\u00ecn ra \u0111\u1ed3i th\u1ea5p nh\u1ea1t. Khung: close up, \u0111\u1ed3ng h\u1ed3 gi\u1eefa-tr\u00e1i (FG), c\u1eeda s\u1ed5 BG ph\u1ea3i. Camera: \u1ed1ng 50mm, ngang m\u1eb7t t\u1ee7, rung nh\u1eb9 theo chu\u00f4ng.",
+          "start_seconds": 120.113,
+          "end_seconds": 121.993,
+          "script_section_id": "s10",
+          "framing": "close up, clock center-left, window background right",
+          "movement": "Veo i2v, \u0111\u1ed3ng h\u1ed3 rung n\u1ea3y",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "close_up",
+            "camera_movement": "handheld",
+            "lens_mm": 50,
+            "lighting_key": "high_key",
+            "depth_of_field": "deep",
+            "color_temperature": "cool"
+          },
+          "shot_intent": "G\u1ecdi l\u1ea1i c\u1ea3nh m\u1edf \u0111\u1ea7u: s\u00e1ng mai c\u00e1i m\u00e1y l\u1ea1i h\u00e9t.",
+          "narrative_role": "transition",
+          "information_role": "V\u00f2ng l\u1eb7p l\u1ea1i b\u1eaft \u0111\u1ea7u.",
+          "hero_moment": false,
+          "character_actions": [],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. Close-up of a round twin-bell alarm clock with a blank plain face and two simple hands, on a bedside table in an early-morning bedroom; a window behind on the right shows pale low hills at dawn. Refs: @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: the alarm clock rings furiously, shaking and hopping on the table, hand-drawn vibration lines bursting around its bells; slight handheld jitter, hand-drawn cartoon look kept, no new objects appear."
+            }
+          ]
+        },
+        {
+          "id": "g10-sc05",
+          "type": "generated",
+          "description": "\u1ea2nh t\u0129nh zoom-in ch\u1eadm: ng\u01b0\u1eddi v\u0103n ph\u00f2ng ng\u1ed3i d\u1eady ch\u1eadm r\u00e3i tr\u00ean gi\u01b0\u1eddng, t\u00f3c r\u1ed1i, quay nh\u00ecn ra c\u1eeda s\u1ed5 \u00e1nh b\u00ecnh minh; m\u1ed9t d\u1ea5u ? v\u1ebd tay l\u01a1 l\u1eedng tr\u00ean \u0111\u1ea7u \u2014 'b\u1ea1n s\u1ebd h\u1ecfi m\u00ecnh c\u00e2u g\u00ec?'. Khung: medium, nh\u00e2n v\u1eadt l\u1ec7ch tr\u00e1i (MG), c\u1eeda s\u1ed5 BG ph\u1ea3i v\u1edbi \u0111\u1ed3i th\u1ea5p. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-in ch\u1eadm.",
+          "start_seconds": 121.993,
+          "end_seconds": 123.313,
+          "script_section_id": "s10",
+          "framing": "medium, worker left third, window right",
+          "movement": "ken-burns zoom-in ch\u1eadm (\u1ea3nh t\u0129nh)",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "medium",
+            "camera_movement": "zoom_in",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "C\u00e2u h\u1ecfi \u0111\u1ecdng l\u1ea1i: ng\u01b0\u1eddi xem th\u1ea5y ch\u00ednh m\u00ecnh trong nh\u00e2n v\u1eadt.",
+          "narrative_role": "resolution",
+          "information_role": "Kh\u00e1n gi\u1ea3 \u0111\u01b0\u1ee3c m\u1eddi t\u1ef1 h\u1ecfi m\u00ecnh.",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "worker",
+              "action_sequence": [
+                "ng\u1ed3i d\u1eady ch\u1eadm",
+                "nh\u00ecn ra c\u1eeda s\u1ed5"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. Medium shot of the office worker (@worker, white shirt, loosened dark tie, messy sleepy hair) sitting up slowly in bed, turning to look out of a window on the right filled with soft dawn light over pale low hills; a single hand-drawn question mark floats above his head. Refs: @worker, @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            }
+          ]
+        },
+        {
+          "id": "g10-sc06",
+          "type": "animation",
+          "description": "Clip Veo i2v ch\u1ea1y su\u1ed1t c\u00e2u CTA (kh\u00f4ng end card): tr\u00ean savan bu\u1ed5i s\u00e1ng, nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n v\u00e0 ng\u01b0\u1eddi v\u0103n ph\u00f2ng \u0111\u1ee9ng c\u1ea1nh nhau, c\u00f9ng v\u01b0\u01a1n vai y h\u1ec7t m\u1ed9t \u0111\u1ed9ng t\u00e1c \u2014 c\u01a1 th\u1ec3 hi\u1ec7n \u0111\u1ea1i v\u1eabn gi\u1eef c\u00e1i c\u1ee7a t\u1ed5 ti\u00ean; r\u1ed3i nh\u00e2n v\u1eadt d\u1eabn chuy\u1ec7n quay ra c\u01b0\u1eddi v\u00e0 v\u1eaby tay v\u1edbi ng\u01b0\u1eddi xem. Khung: medium wide, hai nh\u00e2n v\u1eadt gi\u1eefa-l\u1ec7ch tr\u00e1i (MG), c\u00e2y keo v\u00e0 \u0111\u1ed3i th\u1ea5p BG. Camera: \u1ed1ng 35mm, ngang t\u1ea7m, v\u1eefng, zoom-out r\u1ea5t ch\u1eadm.",
+          "start_seconds": 123.313,
+          "end_seconds": 126.366,
+          "script_section_id": "s10",
+          "framing": "medium wide, both figures center-left, savanna background",
+          "movement": "Veo i2v, zoom-out r\u1ea5t ch\u1eadm, h\u00ecnh ch\u1ea1y li\u00ean t\u1ee5c t\u1edbi h\u1ebft",
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "overlay_notes": "Kh\u00f4ng overlay trong h\u00ecnh; kh\u00f4ng s\u1ed1, kh\u00f4ng ch\u1eef (ch\u1ec9 d\u1ea5u ? v\u1ebd tay khi c\u00f3 ghi).",
+          "shot_language": {
+            "shot_size": "medium_wide",
+            "camera_movement": "zoom_out",
+            "lens_mm": 35,
+            "lighting_key": "natural",
+            "depth_of_field": "deep",
+            "color_temperature": "warm"
+          },
+          "shot_intent": "Ch\u1ed1t CTA b\u1eb1ng h\u00ecnh \u1ea3nh s\u1ed1ng: hai th\u1eddi \u0111\u1ea1i, m\u1ed9t c\u01a1 th\u1ec3.",
+          "narrative_role": "call_to_action",
+          "information_role": "C\u01a1 th\u1ec3 ta c\u00f2n mang d\u1ea5u t\u1ed5 ti\u00ean \u2014 \u0111\u0103ng k\u00fd \u0111\u1ec3 xem ti\u1ebfp.",
+          "hero_moment": false,
+          "character_actions": [
+            {
+              "character_id": "narrator",
+              "action_sequence": [
+                "v\u01b0\u01a1n vai",
+                "quay ra c\u01b0\u1eddi",
+                "v\u1eaby tay"
+              ]
+            },
+            {
+              "character_id": "worker",
+              "action_sequence": [
+                "v\u01b0\u01a1n vai c\u00f9ng nh\u1ecbp",
+                "h\u1ea1 tay",
+                "li\u1ebfc sang"
+              ]
+            }
+          ],
+          "texture_keywords": [
+            "n\u00e9t m\u1ef1c run",
+            "m\u00e0u ph\u1eb3ng tr\u1ea7m",
+            "kh\u00f4ng gradient"
+          ],
+          "required_assets": [
+            {
+              "type": "image",
+              "source": "generate",
+              "description": "Hand-drawn stick-figure cartoon, wobbly even black ink outlines, round flat heads, thin single-line limbs, flat muted fills, no gradients or shading, simple pale hand-drawn landscape background in the same ink. Medium wide shot on a pale morning savanna with an acacia tree and low hills: the narrator (@narrator) with messy brown hair, a round flat white face and a torn brown hide tunic with a zigzag hem stands side by side with the modern office worker (@worker), a stick figure in a white shirt and dark tie; both are mid-stretch with arms raised in exactly the same pose. Refs: @narrator, @worker, @style_frame. Nothing is written anywhere in the picture, and the picture reaches every edge of the wide 16:9 frame."
+            },
+            {
+              "type": "video",
+              "source": "generate",
+              "description": "Veo 3.1 fast image-to-video, 8 s, keep the clean part: both stick figures finish the same big stretch in unison, then the brown-haired man in the hide tunic turns to the viewer, smiles and waves with one hand while his other arm hangs down at his side; the office worker lowers his arms and glances at him. Very slow pull-back, steady camera, hand-drawn cartoon look kept, no new objects appear."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 4,
+      "single_calls_on_batchable": 0,
+      "batches": 4,
+      "batchable_tools_seen": [
+        "glabs_image",
+        "media_basic_qc"
+      ],
+      "window": {
+        "since": "2026-09-30T02:22:03.799378+00:00",
+        "until": "2026-09-30T02:28:39.375743+00:00"
+      }
+    }
+  }
+}

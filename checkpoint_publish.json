@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "publish",
+  "status": "completed",
+  "timestamp": "2026-09-30T03:22:29.718579+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "publish_log": {
+      "version": "1.0",
+      "entries": [
+        {
+          "platform": "local",
+          "status": "exported",
+          "export_path": "D:\\OM\\projects\\ancient-free-time\\exports",
+          "timestamp": "2026-09-30T03:22:28.816706+00:00",
+          "metadata_used": {
+            "title": "V\u00ec Sao Ng\u01b0\u1eddi Ti\u1ec1n S\u1eed R\u1ea3nh H\u01a1n B\u1ea1n?",
+            "description": "Nam mi\u1ec1n B\u1eafc, k\u1ec3 chuy\u1ec7n t\u1ef1 nhi\u00ean, h\u01a1i nhanh, gi\u1ecdng h\u00e0i kh\u00f4\n\n0:00 - M\u1edf \u0111\u1ea7u: c\u00e1i m\u00e1y h\u00e9t\n0:10 - Ng\u01b0\u1eddi ti\u1ec1n s\u1eed th\u1ee9c d\u1eady\n0:22 - Hai b\u1ed9 x\u01b0\u01a1ng\n0:36 - Richard Lee \u0111\u1ebfm gi\u1edd\n0:49 - Kh\u00f4ng ph\u1ea3i may m\u1eafn\n0:58 - Bu\u1ed5i chi\u1ec1u l\u00e0m \u0111\u1eb9p\n1:12 - B\u1ea3o hi\u1ec3m l\u00e0 b\u1ea1n b\u00e8\n1:22 - \u0110\u00eam b\u00ean l\u1eeda v\u00e0 hai gi\u1ea5c ng\u1ee7\n1:36 - C\u00e1i b\u1eaby n\u00f4ng nghi\u1ec7p\n1:55 - K\u1ebft: c\u00e2u h\u1ecfi",
+            "tags": [
+              "ng\u01b0\u1eddi",
+              "ti\u1ec1n",
+              "r\u1ea3nh",
+              "b\u1ea1n"
+            ],
+            "hashtags": [],
+            "chapters": [
+              {
+                "start_seconds": 0.0,
+                "title": "M\u1edf \u0111\u1ea7u: c\u00e1i m\u00e1y h\u00e9t"
+              },
+              {
+                "start_seconds": 10.265,
+                "title": "Ng\u01b0\u1eddi ti\u1ec1n s\u1eed th\u1ee9c d\u1eady"
+              },
+              {
+                "start_seconds": 21.94,
+                "title": "Hai b\u1ed9 x\u01b0\u01a1ng"
+              },
+              {
+                "start_seconds": 36.07,
+                "title": "Richard Lee \u0111\u1ebfm gi\u1edd"
+              },
+              {
+                "start_seconds": 49.261,
+                "title": "Kh\u00f4ng ph\u1ea3i may m\u1eafn"
+              },
+              {
+                "start_seconds": 58.309,
+                "title": "Bu\u1ed5i chi\u1ec1u l\u00e0m \u0111\u1eb9p"
+              },
+              {
+                "start_seconds": 71.63,
+                "title": "B\u1ea3o hi\u1ec3m l\u00e0 b\u1ea1n b\u00e8"
+              },
+              {
+                "start_seconds": 82.26,
+                "title": "\u0110\u00eam b\u00ean l\u1eeda v\u00e0 hai gi\u1ea5c ng\u1ee7"
+              },
+              {
+                "start_seconds": 95.607,
+                "title": "C\u00e1i b\u1eaby n\u00f4ng nghi\u1ec7p"
+              },
+              {
+                "start_seconds": 114.623,
+                "title": "K\u1ebft: c\u00e2u h\u1ecfi"
+              }
+            ]
+          },
+          "visibility": "private"
+        }
+      ],
+      "metadata": {
+        "loudness": {
+          "integrated_lufs": -14.0,
+          "loudness_range_lu": 3.4,
+          "true_peak_dbfs": -3.2,
+          "corrected_from_lufs": -12.3
+        },
+        "subtitles_burned": false
+      }
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 7,
+      "single_calls_on_batchable": 5,
+      "batches": 1,
+      "batchable_tools_seen": [
+        "audio_mixer",
+        "glabs_image",
+        "thumbnail_compose",
+        "video_compose"
+      ],
+      "window": {
+        "since": "2026-09-30T03:19:42.878645+00:00",
+        "until": "2026-09-30T03:22:29.670569+00:00"
+      },
+      "warnings": [
+        "5 of 6 calls on batchable tools were single calls (83% > 20%); call them once with requests[] instead."
+      ]
+    }
+  }
+}

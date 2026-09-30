@@ -1,0 +1,1071 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-09-30T03:02:32.317049+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "render_runtime": "remotion",
+      "renderer_family": "animation-first",
+      "cuts": [
+        {
+          "id": "cut-g01-sc01",
+          "source": "assets/video/g01-sc01.mp4",
+          "in_seconds": 0.0,
+          "out_seconds": 3.15,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g01-sc02",
+          "source": "assets/images/g01-sc02.png",
+          "in_seconds": 3.15,
+          "out_seconds": 5.81,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g01-sc03",
+          "source": "assets/video/g01-sc03.mp4",
+          "in_seconds": 5.81,
+          "out_seconds": 8.09,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g01-sc04",
+          "source": "assets/images/g01-sc04.png",
+          "in_seconds": 8.09,
+          "out_seconds": 10.265,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc01",
+          "source": "assets/images/g02-sc01.png",
+          "in_seconds": 10.265,
+          "out_seconds": 12.455,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc02",
+          "source": "assets/images/g02-sc02.png",
+          "in_seconds": 12.455,
+          "out_seconds": 14.134,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc03",
+          "source": "assets/images/g02-sc03.png",
+          "in_seconds": 14.134,
+          "out_seconds": 15.215,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc04",
+          "source": "assets/images/g02-sc04.png",
+          "in_seconds": 15.215,
+          "out_seconds": 17.525,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc05",
+          "source": "assets/images/g02-sc05.png",
+          "in_seconds": 17.525,
+          "out_seconds": 19.095,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g02-sc06",
+          "source": "assets/images/g02-sc06.png",
+          "in_seconds": 19.095,
+          "out_seconds": 21.94,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc01",
+          "source": "assets/video/g03-sc01.mp4",
+          "in_seconds": 21.94,
+          "out_seconds": 24.37,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc02",
+          "source": "assets/images/g03-sc02.png",
+          "in_seconds": 24.37,
+          "out_seconds": 26.65,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc03",
+          "source": "assets/images/g03-sc03.png",
+          "in_seconds": 26.65,
+          "out_seconds": 29.25,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc04",
+          "source": "assets/video/g03-sc04.mp4",
+          "in_seconds": 29.25,
+          "out_seconds": 30.91,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc05",
+          "source": "assets/video/g03-sc05.mp4",
+          "in_seconds": 30.91,
+          "out_seconds": 34.13,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g03-sc06",
+          "source": "assets/images/g03-sc06.png",
+          "in_seconds": 34.13,
+          "out_seconds": 36.07,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc01",
+          "source": "assets/images/g04-sc01.png",
+          "in_seconds": 36.07,
+          "out_seconds": 37.58,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc02",
+          "source": "assets/video/g04-sc02.mp4",
+          "in_seconds": 37.58,
+          "out_seconds": 39.88,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc03",
+          "source": "assets/video/g04-sc03.mp4",
+          "in_seconds": 39.88,
+          "out_seconds": 42.98,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc04",
+          "source": "assets/images/g04-sc04.png",
+          "in_seconds": 42.98,
+          "out_seconds": 44.86,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc05",
+          "source": "assets/video/g04-sc05.mp4",
+          "in_seconds": 44.86,
+          "out_seconds": 47.08,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g04-sc06",
+          "source": "assets/images/g04-sc06.png",
+          "in_seconds": 47.08,
+          "out_seconds": 49.261,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g05-sc01",
+          "source": "assets/video/g05-sc01.mp4",
+          "in_seconds": 49.261,
+          "out_seconds": 50.551,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g05-sc02",
+          "source": "assets/images/g05-sc02.png",
+          "in_seconds": 50.551,
+          "out_seconds": 52.451,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g05-sc03",
+          "source": "assets/images/g05-sc03.png",
+          "in_seconds": 52.451,
+          "out_seconds": 54.171,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g05-sc04",
+          "source": "assets/video/g05-sc04.mp4",
+          "in_seconds": 54.171,
+          "out_seconds": 56.491,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g05-sc05",
+          "source": "assets/video/g05-sc05.mp4",
+          "in_seconds": 56.491,
+          "out_seconds": 58.309,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc01",
+          "source": "assets/images/g06-sc01.png",
+          "in_seconds": 58.309,
+          "out_seconds": 60.279,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc02",
+          "source": "assets/video/g06-sc02.mp4",
+          "in_seconds": 60.279,
+          "out_seconds": 61.899,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc03",
+          "source": "assets/video/g06-sc03.mp4",
+          "in_seconds": 61.899,
+          "out_seconds": 63.439,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc04",
+          "source": "assets/images/g06-sc04.png",
+          "in_seconds": 63.439,
+          "out_seconds": 66.159,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc05",
+          "source": "assets/images/g06-sc05.png",
+          "in_seconds": 66.159,
+          "out_seconds": 69.279,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g06-sc06",
+          "source": "assets/video/g06-sc06.mp4",
+          "in_seconds": 69.279,
+          "out_seconds": 71.63,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g07-sc01",
+          "source": "assets/video/g07-sc01.mp4",
+          "in_seconds": 71.63,
+          "out_seconds": 73.18,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g07-sc02",
+          "source": "assets/images/g07-sc02.png",
+          "in_seconds": 73.18,
+          "out_seconds": 75.12,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g07-sc03",
+          "source": "assets/video/g07-sc03.mp4",
+          "in_seconds": 75.12,
+          "out_seconds": 77.92,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g07-sc04",
+          "source": "assets/images/g07-sc04.png",
+          "in_seconds": 77.92,
+          "out_seconds": 80.16,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g07-sc05",
+          "source": "assets/video/g07-sc05.mp4",
+          "in_seconds": 80.16,
+          "out_seconds": 82.26,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g08-sc01",
+          "source": "assets/images/g08-sc01.png",
+          "in_seconds": 82.26,
+          "out_seconds": 83.41,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g08-sc02",
+          "source": "assets/video/g08-sc02.mp4",
+          "in_seconds": 83.41,
+          "out_seconds": 85.89,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g08-sc03",
+          "source": "assets/video/g08-sc03.mp4",
+          "in_seconds": 85.89,
+          "out_seconds": 90.51,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g08-sc04",
+          "source": "assets/images/g08-sc04.png",
+          "in_seconds": 90.51,
+          "out_seconds": 92.73,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g08-sc05",
+          "source": "assets/video/g08-sc05.mp4",
+          "in_seconds": 92.73,
+          "out_seconds": 95.607,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc01",
+          "source": "assets/images/g09-sc01.png",
+          "in_seconds": 95.607,
+          "out_seconds": 98.117,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc02",
+          "source": "assets/images/g09-sc02.png",
+          "in_seconds": 98.117,
+          "out_seconds": 99.977,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc03",
+          "source": "assets/images/g09-sc03.png",
+          "in_seconds": 99.977,
+          "out_seconds": 102.677,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc04",
+          "source": "assets/images/g09-sc04.png",
+          "in_seconds": 102.677,
+          "out_seconds": 105.597,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc05",
+          "source": "assets/images/g09-sc05.png",
+          "in_seconds": 105.597,
+          "out_seconds": 108.217,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc06",
+          "source": "assets/images/g09-sc06.png",
+          "in_seconds": 108.217,
+          "out_seconds": 110.537,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc07",
+          "source": "assets/images/g09-sc07.png",
+          "in_seconds": 110.537,
+          "out_seconds": 112.297,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g09-sc08",
+          "source": "assets/images/g09-sc08.png",
+          "in_seconds": 112.297,
+          "out_seconds": 114.623,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc01",
+          "source": "assets/images/g10-sc01.png",
+          "in_seconds": 114.623,
+          "out_seconds": 116.513,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc02",
+          "source": "assets/images/g10-sc02.png",
+          "in_seconds": 116.513,
+          "out_seconds": 118.133,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc03",
+          "source": "assets/video/g10-sc03.mp4",
+          "in_seconds": 118.133,
+          "out_seconds": 120.113,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc04",
+          "source": "assets/video/g10-sc04.mp4",
+          "in_seconds": 120.113,
+          "out_seconds": 121.993,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc05",
+          "source": "assets/images/g10-sc05.png",
+          "in_seconds": 121.993,
+          "out_seconds": 123.313,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "ken-burns-slow-zoom"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        },
+        {
+          "id": "cut-g10-sc06",
+          "source": "assets/video/g10-sc06.mp4",
+          "in_seconds": 123.313,
+          "out_seconds": 126.366,
+          "layer": "primary",
+          "transform": {
+            "scale": 1.0,
+            "position": "center",
+            "fit": "cover",
+            "animation": "static"
+          },
+          "transition_in": "cut",
+          "transition_out": "cut",
+          "look": "natural",
+          "backgroundColor": "#F6E7C8"
+        }
+      ],
+      "audio": {
+        "narration": {
+          "segments": [
+            {
+              "asset_id": "narration-s1",
+              "start_seconds": 0.0,
+              "end_seconds": 9.915
+            },
+            {
+              "asset_id": "narration-s2",
+              "start_seconds": 10.265,
+              "end_seconds": 21.59
+            },
+            {
+              "asset_id": "narration-s3",
+              "start_seconds": 21.94,
+              "end_seconds": 35.721
+            },
+            {
+              "asset_id": "narration-s4",
+              "start_seconds": 36.07,
+              "end_seconds": 48.91
+            },
+            {
+              "asset_id": "narration-s5",
+              "start_seconds": 49.261,
+              "end_seconds": 57.96
+            },
+            {
+              "asset_id": "narration-s6",
+              "start_seconds": 58.309,
+              "end_seconds": 71.28
+            },
+            {
+              "asset_id": "narration-s7",
+              "start_seconds": 71.63,
+              "end_seconds": 81.91
+            },
+            {
+              "asset_id": "narration-s8",
+              "start_seconds": 82.26,
+              "end_seconds": 95.257
+            },
+            {
+              "asset_id": "narration-s9",
+              "start_seconds": 95.607,
+              "end_seconds": 114.273
+            },
+            {
+              "asset_id": "narration-s10",
+              "start_seconds": 114.623,
+              "end_seconds": 126.366
+            }
+          ]
+        },
+        "music": {
+          "volume": 0.0,
+          "ducking": false
+        }
+      },
+      "subtitles": {
+        "enabled": false
+      },
+      "metadata": {
+        "playbook": "ng\u01b0\u1eddi que",
+        "total_cuts": 57,
+        "total_duration_seconds": 126.366
+      }
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 0,
+      "single_calls_on_batchable": 0,
+      "batches": 0,
+      "batchable_tools_seen": [],
+      "window": {
+        "since": "2026-09-30T03:02:30.569639+00:00",
+        "until": "2026-09-30T03:02:32.278449+00:00"
+      }
+    }
+  }
+}

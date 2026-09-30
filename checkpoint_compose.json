@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "project_id": "ancient-free-time",
+  "pipeline_type": "animated-explainer",
+  "stage": "compose",
+  "status": "completed",
+  "timestamp": "2026-09-30T03:19:42.878645+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "render_report": {
+      "version": "1.0",
+      "outputs": [
+        {
+          "path": "renders/silent.mp4",
+          "format": "mp4",
+          "resolution": "1920x1080",
+          "duration_seconds": 184.099
+        }
+      ],
+      "render_grammar": "explainer-teacher"
+    },
+    "final_review": {
+      "version": "1.0",
+      "output_path": "renders/silent.mp4",
+      "status": "pass",
+      "checks": {
+        "technical_probe": {
+          "valid_container": true,
+          "duration_seconds": 184.099,
+          "resolution": "1920x1080",
+          "has_audio": false
+        },
+        "visual_spotcheck": {
+          "note": "mechanical run: no vision judge"
+        },
+        "audio_spotcheck": {
+          "note": "silent render; narration+music mixed at publish"
+        },
+        "promise_preservation": {
+          "note": "not applicable: no reference video"
+        },
+        "subtitle_check": {
+          "note": "subtitles not burned in this run"
+        }
+      }
+    }
+  },
+  "style_playbook": "ng\u01b0\u1eddi que",
+  "metadata": {
+    "partial_progress": {
+      "units": {
+        "g03": {
+          "status": "done",
+          "artifact": "artifacts/groups/g03/render_report.json",
+          "output": "renders/groups/g03.mp4"
+        },
+        "g04": {
+          "status": "done",
+          "artifact": "artifacts/groups/g04/render_report.json",
+          "output": "renders/groups/g04.mp4"
+        },
+        "g01": {
+          "status": "done",
+          "artifact": "artifacts/groups/g01/render_report.json",
+          "output": "renders/groups/g01.mp4"
+        },
+        "g07": {
+          "status": "done",
+          "artifact": "artifacts/groups/g07/render_report.json",
+          "output": "renders/groups/g07.mp4"
+        }
+      }
+    },
+    "harness": {
+      "calls_main": 0,
+      "calls_worker": 58,
+      "single_calls_on_batchable": 57,
+      "batches": 0,
+      "batchable_tools_seen": [
+        "video_compose"
+      ],
+      "window": {
+        "since": "2026-09-30T03:02:32.317049+00:00",
+        "until": "2026-09-30T03:19:42.847646+00:00"
+      },
+      "warnings": [
+        "57 of 57 calls on batchable tools were single calls (100% > 20%); call them once with requests[] instead."
+      ]
+    }
+  }
+}
